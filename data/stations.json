@@ -1,1 +1,3394 @@
-[]
+[
+  {
+    "id": "GULF1",
+    "name": "4 SW Gulf Hammock",
+    "latitude": 29.2039,
+    "longitude": -82.7692,
+    "elevation": 9.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "ASCN4",
+    "name": "Absecon Creek  AT Absecon",
+    "latitude": 39.4226,
+    "longitude": -74.4997,
+    "elevation": 7.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "ABSN4",
+    "name": "Absecon Creek  AT Absecon",
+    "latitude": 39.2548,
+    "longitude": -74.3115,
+    "elevation": 0.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "ACFS1",
+    "name": "Adams Run - Ace Basin",
+    "latitude": 32.6358,
+    "longitude": -80.3656,
+    "elevation": 0.26,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "AMEM3",
+    "name": "AMELIA EARHART DAM",
+    "latitude": 42.3956,
+    "longitude": -71.0756,
+    "elevation": 5.0,
+    "network": "MA_DCP"
+  },
+  {
+    "id": "FRDF1",
+    "name": "AMELIA RIVER  AT FERNADINA BEACH TIDE",
+    "latitude": 30.6717,
+    "longitude": -81.465,
+    "elevation": 3.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "AMRL1",
+    "name": "Amerada Pass",
+    "latitude": 29.45,
+    "longitude": -91.338,
+    "elevation": 5.96,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "MAUL1",
+    "name": "Amite River  AT Maurepas",
+    "latitude": 30.3092,
+    "longitude": -90.6103,
+    "elevation": 11.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "APAM2",
+    "name": "Anapolis -  8575512",
+    "latitude": 38.983,
+    "longitude": -76.479,
+    "elevation": -0.38,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "AWRT2",
+    "name": "Aransas Wildlife Refuge -  8774230",
+    "latitude": 28.227,
+    "longitude": -96.796,
+    "elevation": 2.42,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "ASPS1",
+    "name": "ASHLEY RIVER AT I-526 PIERPOINT",
+    "latitude": 32.8344,
+    "longitude": -80.0239,
+    "elevation": -1.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "SOCS1",
+    "name": "AT Aiw At Hwy 544 At Socastee",
+    "latitude": 33.6869,
+    "longitude": -79.005,
+    "elevation": -8.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "BFTN7",
+    "name": "AT Beaufort Marine Lab",
+    "latitude": 34.7172,
+    "longitude": -76.6672,
+    "elevation": 2.77,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "CAPN4",
+    "name": "AT Cape May Harbor",
+    "latitude": 38.9486,
+    "longitude": -74.8206,
+    "elevation": 0.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "SMML1",
+    "name": "Atchafalaya River 1 E Simmesport",
+    "latitude": 30.9825,
+    "longitude": -91.7983,
+    "elevation": 19.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "MLVL1",
+    "name": "Atchafalaya River 1 SE Melville",
+    "latitude": 30.6906,
+    "longitude": -91.7361,
+    "elevation": -1.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "BLRL1",
+    "name": "Atchafalaya River  AT Butte La Rose",
+    "latitude": 30.2814,
+    "longitude": -91.6867,
+    "elevation": 10.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "KRZL1",
+    "name": "Atchafalaya River  AT Krotz Springs",
+    "latitude": 30.5688,
+    "longitude": -91.7615,
+    "elevation": 11.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "MCGL1",
+    "name": "Atchafalaya River  AT Morgan City",
+    "latitude": 29.6964,
+    "longitude": -91.2108,
+    "elevation": 8.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "GNDL1",
+    "name": "Atchafalaya River  AT Myette Point",
+    "latitude": 29.8925,
+    "longitude": -91.4456,
+    "elevation": 8.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "HCGN7",
+    "name": "AT Coast Guard Hatteras",
+    "latitude": 35.208,
+    "longitude": -75.703,
+    "elevation": -2.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "KSBN4",
+    "name": "AT Keansburg",
+    "latitude": 40.4489,
+    "longitude": -74.1478,
+    "elevation": 3.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "OCIM2",
+    "name": "Atlantic  AT Ocean City Inlet",
+    "latitude": 38.328,
+    "longitude": -75.092,
+    "elevation": 0.0,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "WAHV2",
+    "name": "Atlantic  AT Wachapreague",
+    "latitude": 37.61,
+    "longitude": -75.67,
+    "elevation": -2.25,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "CCHV2",
+    "name": "Atlantic Basin 5 ENE Anheuser Busch Coastal Research Center",
+    "latitude": 37.2908,
+    "longitude": -75.9272,
+    "elevation": 9.0,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "RKWN6",
+    "name": "Atlantic Beach  AT East Rockaway Inlet",
+    "latitude": 40.593,
+    "longitude": -73.7377,
+    "elevation": 4.0,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "ACYN4",
+    "name": "Atlantic City - 8534720",
+    "latitude": 39.355,
+    "longitude": -74.418,
+    "elevation": -0.45,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "NIXS1",
+    "name": "ATLANTIC INTRACOATAL WATERWAY  AT Aiw At Nixons Crossroads",
+    "latitude": 33.8514,
+    "longitude": -78.6561,
+    "elevation": 0.87,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "ATLN4",
+    "name": "Atlantic Ocean  AT Atlantic City Marina",
+    "latitude": 39.3781,
+    "longitude": -74.4228,
+    "elevation": 0.37,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "CSAG1",
+    "name": "Atlantic Ocean  AT Cumberland Sound at Sea Camp Dock Near St. Ma",
+    "latitude": 30.7644,
+    "longitude": -81.4714,
+    "elevation": 8.48,
+    "network": "GA_DCP"
+  },
+  {
+    "id": "IWDN6",
+    "name": "Atlantic Ocean  AT Inwood",
+    "latitude": 40.6172,
+    "longitude": -73.7583,
+    "elevation": 2.0,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "LNDN6",
+    "name": "Atlantic Ocean  AT Lindenhurst",
+    "latitude": 40.6693,
+    "longitude": -73.356,
+    "elevation": 0.3,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "JMPN7",
+    "name": "ATLANTIC OCEAN  AT Nos Tide Gage At Wrightsville Beach",
+    "latitude": 34.21,
+    "longitude": -77.795,
+    "elevation": 1.46,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "SDHN4",
+    "name": "Atlantic Ocean  AT Sandy Hook",
+    "latitude": 40.4667,
+    "longitude": -74.0,
+    "elevation": -1.04,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "MTLN4",
+    "name": "AT Mantaloking",
+    "latitude": 40.04,
+    "longitude": -74.0522,
+    "elevation": 0.88,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "MROS1",
+    "name": "AT Nos Tide Gage At Springmaid Pier",
+    "latitude": 33.655,
+    "longitude": -78.9183,
+    "elevation": 0.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "ORIN7",
+    "name": "AT Oregon Inlet Marina",
+    "latitude": 35.7856,
+    "longitude": -75.55,
+    "elevation": -2.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "KLNG1",
+    "name": "AT ST MARYS RIVER AT I-95 NEAR KINGSLAND",
+    "latitude": 30.7439,
+    "longitude": -81.6544,
+    "elevation": -0.58,
+    "network": "GA_DCP"
+  },
+  {
+    "id": "SHBN4",
+    "name": "AT Stone Harbor",
+    "latitude": 39.0569,
+    "longitude": -74.7658,
+    "elevation": -0.49,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "SUWF1",
+    "name": "AT Suwannee River above Gopher River Confluence.",
+    "latitude": 29.3469,
+    "longitude": -83.0628,
+    "elevation": 21.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "TCBM2",
+    "name": "AT Tolchester Beach",
+    "latitude": 39.2167,
+    "longitude": -76.2333,
+    "elevation": 12.0,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "TKTN4",
+    "name": "AT Tuckerton",
+    "latitude": 39.5086,
+    "longitude": -74.325,
+    "elevation": 3.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "NUTF1",
+    "name": "Aucilla River 12 ESE Nutall Rise",
+    "latitude": 30.1122,
+    "longitude": -83.98,
+    "elevation": 7.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "AVON7",
+    "name": "Avon - Askins Creek",
+    "latitude": 35.3257,
+    "longitude": -75.5119,
+    "elevation": 1.89,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "AVNN7",
+    "name": "Avon Harbor",
+    "latitude": 35.34731,
+    "longitude": -75.51232,
+    "elevation": 1.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "BPPL1",
+    "name": "BARATARIA WATERWAY  AT Bayou Perot at Point Legard",
+    "latitude": 29.5656,
+    "longitude": -90.1656,
+    "elevation": -2.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "ATGM1",
+    "name": "Bar Harbor - 8413320",
+    "latitude": 44.392,
+    "longitude": -68.204,
+    "elevation": 0.26,
+    "network": "ME_DCP"
+  },
+  {
+    "id": "BGLN4",
+    "name": "Barnegat Bay  AT Barnegat Light",
+    "latitude": 39.7631,
+    "longitude": -74.1106,
+    "elevation": -2.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "SBTN4",
+    "name": "Barnegat Bay  AT Ship Bottom",
+    "latitude": 39.6538,
+    "longitude": -74.1858,
+    "elevation": 0.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "BAHM1",
+    "name": "Bath",
+    "latitude": 43.925,
+    "longitude": -69.81,
+    "elevation": 0.0,
+    "network": "ME_DCP"
+  },
+  {
+    "id": "BDAL1",
+    "name": "Bayou Des Allemands 1 WSW Bayou Des Allemands at Des Allemands",
+    "latitude": 29.8239,
+    "longitude": -90.4767,
+    "elevation": 2.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "DACL1",
+    "name": "BAYOU GRAND CAILLOU  AT Bayou Grand Caillou at Dulac",
+    "latitude": 29.3828,
+    "longitude": -90.7153,
+    "elevation": 3.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "WFRA1",
+    "name": "Bayou La Batre 5E - W Fowl River",
+    "latitude": 30.3766,
+    "longitude": -88.1586,
+    "elevation": 1.0,
+    "network": "AL_DCP"
+  },
+  {
+    "id": "LRLL1",
+    "name": "Bayou Lacombe 3 SSW Lacombe",
+    "latitude": 30.2649,
+    "longitude": -89.9562,
+    "elevation": 6.22,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "BASN4",
+    "name": "Bay Shore 2W - Route 37 Bridge",
+    "latitude": 39.94139,
+    "longitude": -74.06722,
+    "elevation": 0.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "BYSA1",
+    "name": "Bayside - Dog River",
+    "latitude": 30.5651,
+    "longitude": -88.088,
+    "elevation": -1.0,
+    "network": "AL_DCP"
+  },
+  {
+    "id": "WYCM6",
+    "name": "Bay Waveland Yacht Club  MS - 8747437",
+    "latitude": 30.326,
+    "longitude": -89.326,
+    "elevation": 0.0,
+    "network": "MS_DCP"
+  },
+  {
+    "id": "MGTN4",
+    "name": "Beach Thorofare  AT Margate",
+    "latitude": 39.3375,
+    "longitude": -74.5133,
+    "elevation": 0.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "BRBS1",
+    "name": "Beaufort - Beaufort River",
+    "latitude": 32.42722,
+    "longitude": -80.66944,
+    "elevation": -3.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "BLHN7",
+    "name": "Belhaven at Pungo River",
+    "latitude": 35.5372,
+    "longitude": -76.6228,
+    "elevation": 2.28,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "BTBM1",
+    "name": "Boothbay Harbor Tides",
+    "latitude": 43.82,
+    "longitude": -69.62,
+    "elevation": 1.0,
+    "network": "ME_DCP"
+  },
+  {
+    "id": "BHBM3",
+    "name": "Boston - 8443970",
+    "latitude": 42.355,
+    "longitude": -71.05,
+    "elevation": 3.4,
+    "network": "MA_DCP"
+  },
+  {
+    "id": "WNGM3",
+    "name": "Bourne - Wings Neck",
+    "latitude": 41.68,
+    "longitude": -70.6617,
+    "elevation": -0.03,
+    "network": "MA_DCP"
+  },
+  {
+    "id": "BRND1",
+    "name": "Brandywine Shoal Light - 8555889",
+    "latitude": 38.987,
+    "longitude": -75.113,
+    "elevation": 1.9,
+    "network": "DE_DCP"
+  },
+  {
+    "id": "BDSP1",
+    "name": "Bridesburg - 8546252",
+    "latitude": 39.98,
+    "longitude": -75.079,
+    "elevation": 3.71,
+    "network": "PA_DCP"
+  },
+  {
+    "id": "BRHC3",
+    "name": "Bridgeport - 8467150",
+    "latitude": 41.174,
+    "longitude": -73.181,
+    "elevation": 1.8,
+    "network": "CT_DCP"
+  },
+  {
+    "id": "BRJF1",
+    "name": "Broward River  AT Broward River Below Biscayne Boulevard",
+    "latitude": 30.44333,
+    "longitude": -81.66833,
+    "elevation": 12.48,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "BRNG1",
+    "name": "BRUNSWICK RIVER  AT ST SIMONS IL. AT VILLAGE PIER",
+    "latitude": 31.1331,
+    "longitude": -81.3969,
+    "elevation": 0.0,
+    "network": "GA_DCP"
+  },
+  {
+    "id": "BDRN4",
+    "name": "Burlington - Delaware River - 8539094",
+    "latitude": 40.082,
+    "longitude": -74.87,
+    "elevation": 2.2,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "FESN7",
+    "name": "Buxton - Cape Creek",
+    "latitude": 35.2676,
+    "longitude": -75.5218,
+    "elevation": 4.6,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "WRCS1",
+    "name": "Cainhoy - Wando River",
+    "latitude": 32.92417,
+    "longitude": -79.8325,
+    "elevation": 1.25,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "CALM1",
+    "name": "Calais - St Croix",
+    "latitude": 45.19167,
+    "longitude": -67.28361,
+    "elevation": 3.0,
+    "network": "ME_DCP"
+  },
+  {
+    "id": "CAPL1",
+    "name": "Calcasieu Pass  LA - 8768094",
+    "latitude": 29.768,
+    "longitude": -93.343,
+    "elevation": 0.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "LKHL1",
+    "name": "CALCASIEU RIVER  AT LAKE CHARLES/I-10",
+    "latitude": 30.2369,
+    "longitude": -93.2472,
+    "elevation": -18.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "LCHL1",
+    "name": "Calcasieu River  AT Salt Water Barrier",
+    "latitude": 30.25,
+    "longitude": -93.2167,
+    "elevation": 13.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "CWOL1",
+    "name": "Calcasieu River  AT White Oak Park",
+    "latitude": 30.2969,
+    "longitude": -93.1177,
+    "elevation": 11.84,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "SESM3",
+    "name": "Cape Cod Bay  AT Dennis Sesuit Harbor",
+    "latitude": 41.7519,
+    "longitude": -70.1539,
+    "elevation": -0.36,
+    "network": "MA_DCP"
+  },
+  {
+    "id": "CPTT2",
+    "name": "CARPENTERS BAYOU @ I-10",
+    "latitude": 29.7708,
+    "longitude": -95.1444,
+    "elevation": 9.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "CARL1",
+    "name": "Carrollton  LA - 8761955",
+    "latitude": 29.933,
+    "longitude": -90.135,
+    "elevation": 0.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "JAKF1",
+    "name": "CEDAR RIVER  AT CEDAR RIVER AT SAN JUAN AVE JACKSONVILLE",
+    "latitude": 30.2819,
+    "longitude": -81.7406,
+    "elevation": 5.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "CHTS1",
+    "name": "Charleston - 8665530",
+    "latitude": 32.781,
+    "longitude": -79.924,
+    "elevation": -9.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "CHMF1",
+    "name": "CHASSAHOWITZKA",
+    "latitude": 28.6944,
+    "longitude": -82.6392,
+    "elevation": 0.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "DGIF1",
+    "name": "CHASSAHOWITZKA",
+    "latitude": 28.7025,
+    "longitude": -82.6275,
+    "elevation": 7.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "CZKF1",
+    "name": "CHASSAHOWITZKA",
+    "latitude": 28.715,
+    "longitude": -82.6064,
+    "elevation": 0.05,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "CHWF1",
+    "name": "CHASSAHOWITZKA RVR",
+    "latitude": 28.715,
+    "longitude": -82.575,
+    "elevation": 15.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "CHTM3",
+    "name": "Chatham Harbour",
+    "latitude": 41.6885,
+    "longitude": -69.951,
+    "elevation": -0.07,
+    "network": "MA_DCP"
+  },
+  {
+    "id": "HDGM2",
+    "name": "Chesapeake Bay  AT Havre De Grace",
+    "latitude": 39.5379,
+    "longitude": -76.0896,
+    "elevation": 1.01,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "KPTV2",
+    "name": "Chesapeake Bay  AT Kiptopeke",
+    "latitude": 37.17,
+    "longitude": -75.99,
+    "elevation": 0.25,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "WNDV2",
+    "name": "Chesapeake Bay  AT Windmill Point",
+    "latitude": 37.61,
+    "longitude": -76.28,
+    "elevation": -2.0,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "CHCM2",
+    "name": "Chesapeake City - 8573927",
+    "latitude": 39.527,
+    "longitude": -75.81,
+    "elevation": 4.28,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "CIKA1",
+    "name": "Chickasaw - Chickasaw Creek",
+    "latitude": 30.7818,
+    "longitude": -88.0736,
+    "elevation": 1.0,
+    "network": "AL_DCP"
+  },
+  {
+    "id": "CHIV2",
+    "name": "Chincoteague Inlet 2 SW Chincoteague Bay Inlet",
+    "latitude": 37.9023,
+    "longitude": -75.4078,
+    "elevation": 0.26,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "CAMM2",
+    "name": "Choptank River  AT Cambridge",
+    "latitude": 38.5667,
+    "longitude": -76.0667,
+    "elevation": 5.78,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "CLNM2",
+    "name": "Claiborne - Eastern Bay",
+    "latitude": 38.83694,
+    "longitude": -76.28056,
+    "elevation": -0.14,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "LGCT2",
+    "name": "Clear Creek  AT League City",
+    "latitude": 29.5114,
+    "longitude": -95.1211,
+    "elevation": 10.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "CLCT2",
+    "name": "Clear Creek  AT Seabrook",
+    "latitude": 29.5503,
+    "longitude": -95.0239,
+    "elevation": 2.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "CWBF1",
+    "name": "Clearwater Beach  FL - 8726724",
+    "latitude": 27.978,
+    "longitude": -82.832,
+    "elevation": 1.3,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "FOXR1",
+    "name": "Coastal Rhode Island  AT Providence Fox Point",
+    "latitude": 41.8011,
+    "longitude": -71.4003,
+    "elevation": 84.0,
+    "network": "RI_DCP"
+  },
+  {
+    "id": "WHLR1",
+    "name": "Coastal Rhode Island  AT Watch Hill Cove",
+    "latitude": 41.3106,
+    "longitude": -71.8583,
+    "elevation": 5.08,
+    "network": "RI_DCP"
+  },
+  {
+    "id": "CTIN7",
+    "name": "Coast  AT Cedar Island",
+    "latitude": 35.0183,
+    "longitude": -76.3144,
+    "elevation": 3.84,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "OCAN7",
+    "name": "Coast  AT Ocracoke",
+    "latitude": 35.1153,
+    "longitude": -75.9873,
+    "elevation": 2.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "GRWN4",
+    "name": "Cohansey River  AT Greenwich",
+    "latitude": 39.3789,
+    "longitude": -75.3558,
+    "elevation": 2.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "CBRN7",
+    "name": "Coinjock 1NNE - Boat Ramp",
+    "latitude": 36.3592,
+    "longitude": -75.9459,
+    "elevation": 4.39,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "CLGN7",
+    "name": "Colington Harbor",
+    "latitude": 36.01783,
+    "longitude": -75.72728,
+    "elevation": 2.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "CPTR1",
+    "name": "Conimicut Light - 8452944",
+    "latitude": 41.717,
+    "longitude": -71.345,
+    "elevation": 0.0,
+    "network": "RI_DCP"
+  },
+  {
+    "id": "CPFS1",
+    "name": "Cooper River  AT Cooper River At Filbin Creek",
+    "latitude": 32.8903,
+    "longitude": -79.9631,
+    "elevation": 2.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "CPCS1",
+    "name": "Cooper River  AT Cooper River At Hwy 17",
+    "latitude": 32.8031,
+    "longitude": -79.9153,
+    "elevation": 29.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "CPNT2",
+    "name": "Copano Bay  TX - 8774513",
+    "latitude": 28.114,
+    "longitude": -97.024,
+    "elevation": 0.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "COVM2",
+    "name": "Cove Point  Md",
+    "latitude": 38.432,
+    "longitude": -76.387,
+    "elevation": 0.0,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "NLRV2",
+    "name": "Creeds - North Landing River",
+    "latitude": 36.6181,
+    "longitude": -76.0463,
+    "elevation": 3.75,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "LRBV2",
+    "name": "Croatan Beach - Lake Rudee",
+    "latitude": 36.8247,
+    "longitude": -75.9852,
+    "elevation": 7.55,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "CYTF1",
+    "name": "CRYSTAL RIVER",
+    "latitude": 28.9014,
+    "longitude": -82.6456,
+    "elevation": 10.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "SGCF1",
+    "name": "Crystal River - Saragassa Canal",
+    "latitude": 28.89028,
+    "longitude": -82.59583,
+    "elevation": 3.67,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "OBCN7",
+    "name": "Currituck Sound 1 S Outer Bank Center for Wildlife Education Cor",
+    "latitude": 36.3744,
+    "longitude": -75.8341,
+    "elevation": 0.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "CFWM1",
+    "name": "Cutler Farris Wharf - 8411060",
+    "latitude": 44.657,
+    "longitude": -67.205,
+    "elevation": 2.12,
+    "network": "ME_DCP"
+  },
+  {
+    "id": "CKBF1",
+    "name": "CYRSTAL RIVER",
+    "latitude": 28.8933,
+    "longitude": -82.6056,
+    "elevation": 0.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "NCDV2",
+    "name": "Dahlgren - 8635027",
+    "latitude": 38.32,
+    "longitude": -77.037,
+    "elevation": 5.5,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "DILA1",
+    "name": "Dauphin Island",
+    "latitude": 30.25,
+    "longitude": -88.075,
+    "elevation": 0.0,
+    "network": "AL_DCP"
+  },
+  {
+    "id": "SPUF1",
+    "name": "DEEP CREEK  AT DEEP CK AT SPUDS",
+    "latitude": 29.7294,
+    "longitude": -81.4869,
+    "elevation": 12.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "SCPT2",
+    "name": "Deer Park 3NE - Juan Seguin Park",
+    "latitude": 29.7619,
+    "longitude": -95.0818,
+    "elevation": 2.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "CMAN4",
+    "name": "Delaware Bay 1 N Cape May Ferry",
+    "latitude": 38.9667,
+    "longitude": -74.9667,
+    "elevation": -2.67,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "LWSD1",
+    "name": "Delaware Bay  AT Lewes",
+    "latitude": 38.7833,
+    "longitude": -75.1167,
+    "elevation": -2.53,
+    "network": "DE_DCP"
+  },
+  {
+    "id": "DELD1",
+    "name": "Delaware City NOS Tide",
+    "latitude": 39.5817,
+    "longitude": -75.5883,
+    "elevation": -0.21,
+    "network": "DE_DCP"
+  },
+  {
+    "id": "NBLP1",
+    "name": "Delaware River  AT Newbold Island",
+    "latitude": 40.1342,
+    "longitude": -74.7517,
+    "elevation": 1.71,
+    "network": "PA_DCP"
+  },
+  {
+    "id": "PHBP1",
+    "name": "Delaware River  AT USCG Washington St Philadelphia",
+    "latitude": 39.95,
+    "longitude": -75.1333,
+    "elevation": 0.0,
+    "network": "PA_DCP"
+  },
+  {
+    "id": "WIMD1",
+    "name": "DELAWARE RIVER AT WILMINGTON",
+    "latitude": 39.7167,
+    "longitude": -75.5175,
+    "elevation": -2.0,
+    "network": "DE_DCP"
+  },
+  {
+    "id": "DICT2",
+    "name": "Dickinson - Bayou at Hwy 3",
+    "latitude": 29.4565,
+    "longitude": -95.0478,
+    "elevation": 4.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "JDWT2",
+    "name": "DOUBLE BAYOU @ WEST FORK @ EAGLE FERRY R",
+    "latitude": 29.6752,
+    "longitude": -94.6664,
+    "elevation": 5.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "DKBN7",
+    "name": "Duck - Currituck Sound",
+    "latitude": 36.1652,
+    "longitude": -75.7555,
+    "elevation": 1.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "DUKN7",
+    "name": "Duck - Tide",
+    "latitude": 36.1833,
+    "longitude": -75.7356,
+    "elevation": -8.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "DCDF1",
+    "name": "Dunn Creek  AT Dunn Creek at Dunn Creek Road",
+    "latitude": 30.46083,
+    "longitude": -81.59694,
+    "elevation": 9.07,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "DNSF1",
+    "name": "DUNNS CREEK 2 NE SATSUMA",
+    "latitude": 29.5775,
+    "longitude": -81.6264,
+    "elevation": 8.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "EPTT2",
+    "name": "Eagle Point  TX - 8771013",
+    "latitude": 29.481,
+    "longitude": -94.917,
+    "elevation": 2.3,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "GLCM3",
+    "name": "East Coastal Massachusetts  AT Gloucester Harbor",
+    "latitude": 42.6028,
+    "longitude": -70.6,
+    "elevation": -30.53,
+    "network": "MA_DCP"
+  },
+  {
+    "id": "SCTM3",
+    "name": "East Coastal Massachusetts  AT Scituate",
+    "latitude": 42.2,
+    "longitude": -70.7067,
+    "elevation": 0.0,
+    "network": "MA_DCP"
+  },
+  {
+    "id": "EMAT2",
+    "name": "East Matagorda",
+    "latitude": 28.71,
+    "longitude": -95.9138,
+    "elevation": -0.02,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "MOBN6",
+    "name": "East Moriches - Moriches Bay",
+    "latitude": 40.78806,
+    "longitude": -72.75083,
+    "elevation": 1.24,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "EPPL1",
+    "name": "EAST PEARL RIVER 1 SW U.S. Highway 90 near Pearlington",
+    "latitude": 30.2391,
+    "longitude": -89.6148,
+    "elevation": 1.18,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "EPCM6",
+    "name": "EAST PEARL RIVER 6 SE CSX Railroad near Claiborne",
+    "latitude": 30.1947,
+    "longitude": -89.5342,
+    "elevation": -0.65,
+    "network": "MS_DCP"
+  },
+  {
+    "id": "NAPM6",
+    "name": "EAST PEARL RIVER  AT NSTL Station near Stennis",
+    "latitude": 30.3472,
+    "longitude": -89.6411,
+    "elevation": 15.0,
+    "network": "MS_DCP"
+  },
+  {
+    "id": "PSBM1",
+    "name": "Eastport - 8410140",
+    "latitude": 44.905,
+    "longitude": -66.983,
+    "elevation": 6.7,
+    "network": "ME_DCP"
+  },
+  {
+    "id": "EFSF1",
+    "name": "Econfina River State Park",
+    "latitude": 30.06806,
+    "longitude": -83.89861,
+    "elevation": 11.03,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "EWPN7",
+    "name": "Edenton",
+    "latitude": 36.0563,
+    "longitude": -76.6105,
+    "elevation": -2.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "BEIS1",
+    "name": "Editso Island - Ace Basin",
+    "latitude": 32.50389,
+    "longitude": -80.32472,
+    "elevation": 7.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "EMWN7",
+    "name": "Elizabeth City",
+    "latitude": 36.2985,
+    "longitude": -76.2185,
+    "elevation": 0.3,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "ELZV2",
+    "name": "Elizabeth River 1 SE West Branch of the Elizabeth River",
+    "latitude": 36.8436,
+    "longitude": -76.3647,
+    "elevation": 1.15,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "MNPV2",
+    "name": "Elizabeth River  AT Money Point",
+    "latitude": 36.78,
+    "longitude": -76.3,
+    "elevation": 3.0,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "EMDN7",
+    "name": "Emerald Isle - Bogue Sound",
+    "latitude": 34.6677,
+    "longitude": -77.0634,
+    "elevation": 0.11,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "EGHN7",
+    "name": "Engelhard - Far Creek",
+    "latitude": 35.5089,
+    "longitude": -75.9969,
+    "elevation": 1.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "ESXC3",
+    "name": "Essex - Connecticut River",
+    "latitude": 41.3514,
+    "longitude": -72.3844,
+    "elevation": -0.82,
+    "network": "CT_DCP"
+  },
+  {
+    "id": "FRVM3",
+    "name": "Fall River - 8447386",
+    "latitude": 41.704,
+    "longitude": -71.164,
+    "elevation": 2.3,
+    "network": "MA_DCP"
+  },
+  {
+    "id": "RWYN6",
+    "name": "Floyd Bennett Field  AT Rockaway Inlet",
+    "latitude": 40.5735,
+    "longitude": -73.8856,
+    "elevation": -15.0,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "FMRF1",
+    "name": "Fort Myers  FL - 8725520",
+    "latitude": 26.647,
+    "longitude": -81.871,
+    "elevation": 1.4,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "FPKG1",
+    "name": "Fort Pulaski - 8670870",
+    "latitude": 32.035,
+    "longitude": -80.903,
+    "elevation": 2.9,
+    "network": "GA_DCP"
+  },
+  {
+    "id": "FHBT2",
+    "name": "FRED HARTMAN BRIDGE",
+    "latitude": 29.7136,
+    "longitude": -95.0039,
+    "elevation": 8.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "FPST2",
+    "name": "Freeport 1SSE",
+    "latitude": 28.9357,
+    "longitude": -95.2942,
+    "elevation": 3.69,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "FRWL1",
+    "name": "Fresh Water Canal Locks  LA - 8766072",
+    "latitude": 29.552,
+    "longitude": -92.305,
+    "elevation": 2.1,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "FRIN7",
+    "name": "Frisco",
+    "latitude": 35.25242,
+    "longitude": -75.60133,
+    "elevation": 1.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "GNJT2",
+    "name": "Galveston Bay (North Jetty) - 8771341",
+    "latitude": 29.357,
+    "longitude": -94.725,
+    "elevation": -6.99,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "GRRT2",
+    "name": "Galveston Causeway Bridge - 8771486",
+    "latitude": 29.29541,
+    "longitude": -94.88467,
+    "elevation": -2.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "GTOT2",
+    "name": "Galveston Pier 21 - 8771450",
+    "latitude": 29.311,
+    "longitude": -94.792,
+    "elevation": 4.8,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "GCYG1",
+    "name": "Garden City 1E",
+    "latitude": 32.1155,
+    "longitude": -81.129,
+    "elevation": 2.0,
+    "network": "GA_DCP"
+  },
+  {
+    "id": "LSPV2",
+    "name": "Garfield Estates 1E - Potomac River",
+    "latitude": 38.5912,
+    "longitude": -77.2466,
+    "elevation": 0.42,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "WYSS1",
+    "name": "Georgetown - NERRS Winyah",
+    "latitude": 33.3092,
+    "longitude": -79.2881,
+    "elevation": -4.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "WYBS1",
+    "name": "Georgetown - NERRS Winyah Bottom",
+    "latitude": 33.3092,
+    "longitude": -79.2881,
+    "elevation": -4.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "PDGS1",
+    "name": "Georgetown - Peedee River",
+    "latitude": 33.36917,
+    "longitude": -79.26389,
+    "elevation": 0.5,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "EZMV2",
+    "name": "Ghent 1WSW - Elizabeth River",
+    "latitude": 36.862,
+    "longitude": -76.3095,
+    "elevation": 4.88,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "GBSF1",
+    "name": "GIBSONTON",
+    "latitude": 27.8594,
+    "longitude": -82.3844,
+    "elevation": 1.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "WESN6",
+    "name": "Glen Cove - West Pond",
+    "latitude": 40.8886,
+    "longitude": -73.638,
+    "elevation": 3.02,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "GOOT2",
+    "name": "Goose Creek  AT Old State Highway 146",
+    "latitude": 29.7139,
+    "longitude": -94.9917,
+    "elevation": -0.25,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "GISL1",
+    "name": "Grand Isle - 8761724",
+    "latitude": 29.265,
+    "longitude": -89.958,
+    "elevation": 2.35,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "KILN6",
+    "name": "Great Kills Harbour",
+    "latitude": 40.53889,
+    "longitude": -74.12972,
+    "elevation": 4.24,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "GJCT2",
+    "name": "Greens Bayou 2 NE Normandy Road",
+    "latitude": 29.7667,
+    "longitude": -95.1889,
+    "elevation": 5.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "SJSN4",
+    "name": "Greenwich - Ship John Shoal",
+    "latitude": 39.305,
+    "longitude": -75.375,
+    "elevation": -6.47,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "APCF1",
+    "name": "Gulf of Mexico  AT Apalachicola Tide Gauge",
+    "latitude": 29.7267,
+    "longitude": -84.9817,
+    "elevation": 8.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "CKYF1",
+    "name": "Gulf of Mexico  AT Cedar Key Tide Gauge",
+    "latitude": 29.135,
+    "longitude": -83.0317,
+    "elevation": -0.21,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "PCBF1",
+    "name": "Gulf of Mexico  AT PANAMA CITY BEACH",
+    "latitude": 30.2147,
+    "longitude": -85.8781,
+    "elevation": -3.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "PACF1",
+    "name": "Gulf of Mexico  AT Panama City Tide Gauge",
+    "latitude": 30.152,
+    "longitude": -85.667,
+    "elevation": 1.97,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "SHPF1",
+    "name": "Gulf of Mexico  AT Shell Point",
+    "latitude": 30.06,
+    "longitude": -84.2906,
+    "elevation": 2.89,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "GSHA1",
+    "name": "Gulf Shores - Tide Gauge",
+    "latitude": 30.27944,
+    "longitude": -87.68667,
+    "elevation": -3.0,
+    "network": "AL_DCP"
+  },
+  {
+    "id": "ALIN7",
+    "name": "Gum Neck - NF Alligator River",
+    "latitude": 35.7215,
+    "longitude": -76.1934,
+    "elevation": 0.77,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "HACN4",
+    "name": "Hackensack",
+    "latitude": 40.88,
+    "longitude": -74.04,
+    "elevation": 0.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "HPMN3",
+    "name": "Hampton - Hampton River",
+    "latitude": 42.9003,
+    "longitude": -70.8186,
+    "elevation": 0.34,
+    "network": "NH_DCP"
+  },
+  {
+    "id": "FTMV2",
+    "name": "Hampton River 3 SW James River at Fort Monroe",
+    "latitude": 37.0019,
+    "longitude": -76.315,
+    "elevation": 1.68,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "HMNV2",
+    "name": "Hampton River  AT Hampton River",
+    "latitude": 37.0323,
+    "longitude": -76.3367,
+    "elevation": 2.19,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "FRHF1",
+    "name": "Hampton Springs - Fenholloway River",
+    "latitude": 30.01111,
+    "longitude": -83.77778,
+    "elevation": 11.57,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "MHBT2",
+    "name": "Harbor City - MODA",
+    "latitude": 27.8275,
+    "longitude": -97.2008,
+    "elevation": 9.49,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "SRPF1",
+    "name": "Hastings - St Johns River",
+    "latitude": 29.8,
+    "longitude": -81.55,
+    "elevation": 1.75,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "HLKN7",
+    "name": "Havelock - Slocum Creek",
+    "latitude": 34.891,
+    "longitude": -76.923,
+    "elevation": 5.66,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "MACS1",
+    "name": "Hilton Head - MacKay Creek",
+    "latitude": 32.22833,
+    "longitude": -80.78833,
+    "elevation": 1.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "BFCS1",
+    "name": "Hilton Head - Skull Creek",
+    "latitude": 32.265,
+    "longitude": -80.73806,
+    "elevation": -1.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "HBKN7",
+    "name": "Hobucken 1W - Pamlico Sound",
+    "latitude": 35.2449,
+    "longitude": -76.5917,
+    "elevation": 2.56,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "BISM2",
+    "name": "Honga River  AT Bishops Head",
+    "latitude": 38.22,
+    "longitude": -76.038,
+    "elevation": -2.0,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "FRPN6",
+    "name": "Hudson Bay  AT Freeport",
+    "latitude": 40.6275,
+    "longitude": -73.5758,
+    "elevation": 179.0,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "MERG1",
+    "name": "Hudson Creek  AT Darien 7 NNE",
+    "latitude": 31.4533,
+    "longitude": -81.3706,
+    "elevation": 18.0,
+    "network": "GA_DCP"
+  },
+  {
+    "id": "ALBN6",
+    "name": "Hudson River  AT Albany",
+    "latitude": 42.6481,
+    "longitude": -73.7472,
+    "elevation": -1.0,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "LHBT2",
+    "name": "Hunting Bayou  AT Houston",
+    "latitude": 29.7717,
+    "longitude": -95.2286,
+    "elevation": 7.85,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "CIBL1",
+    "name": "Indian Bayou  AT MOSS BLUFF 4 NW",
+    "latitude": 30.3397,
+    "longitude": -93.2543,
+    "elevation": 23.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "IHDM2",
+    "name": "Indian Head - Potomac River",
+    "latitude": 38.60083,
+    "longitude": -77.18222,
+    "elevation": 1.0,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "IRWF1",
+    "name": "Indian River  AT Wabasso",
+    "latitude": 27.7542,
+    "longitude": -80.4278,
+    "elevation": 2.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "INRD1",
+    "name": "INDIAN RIVER INLET AT CG BASE",
+    "latitude": 38.6097,
+    "longitude": -75.068,
+    "elevation": 2.0,
+    "network": "DE_DCP"
+  },
+  {
+    "id": "AVLN4",
+    "name": "Ingram Thorofare  AT Avalon",
+    "latitude": 39.1106,
+    "longitude": -74.7339,
+    "elevation": -7.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "ALCN4",
+    "name": "Inside Thorofare  AT Atlantic City",
+    "latitude": 39.3533,
+    "longitude": -74.4569,
+    "elevation": -4.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "BSRL1",
+    "name": "Intracoastal Waterway  AT Bayou Sorrel Lock",
+    "latitude": 30.1327,
+    "longitude": -91.3227,
+    "elevation": 8.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "HOGN6",
+    "name": "Island Park - Hog Island Channel",
+    "latitude": 40.60889,
+    "longitude": -73.65611,
+    "elevation": 0.14,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "DPBF1",
+    "name": "Jacksonville - Dames Point",
+    "latitude": 30.385,
+    "longitude": -81.5572,
+    "elevation": -0.5,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "JSFV2",
+    "name": "James River 2 SSW Jamestown/Scotland Ferry",
+    "latitude": 37.2201,
+    "longitude": -76.7914,
+    "elevation": -0.88,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "RICV2",
+    "name": "James River  AT Richmond Locks",
+    "latitude": 37.525,
+    "longitude": -77.4211,
+    "elevation": 8.0,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "SWPV2",
+    "name": "James River  AT Sewells Point",
+    "latitude": 36.95,
+    "longitude": -76.4,
+    "elevation": -6.5,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "KLNM6",
+    "name": "Jourdan River 2 SSW Kiln/Bay St. Louis",
+    "latitude": 30.3872,
+    "longitude": -89.4414,
+    "elevation": 4.0,
+    "network": "MS_DCP"
+  },
+  {
+    "id": "JULF1",
+    "name": "Julington Creek  AT Julington Creek at Old Saint Augustine Road",
+    "latitude": 30.14333,
+    "longitude": -81.55583,
+    "elevation": 10.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "GIRM1",
+    "name": "KENNEBEC RIVER  AT GARDINER",
+    "latitude": 44.2306,
+    "longitude": -69.7711,
+    "elevation": -3.0,
+    "network": "ME_DCP"
+  },
+  {
+    "id": "KYWF1",
+    "name": "Key West - 8724580",
+    "latitude": 24.556,
+    "longitude": -81.808,
+    "elevation": 2.57,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "KIAS1",
+    "name": "Kiawah Island 3W - Kiawah River",
+    "latitude": 32.6039,
+    "longitude": -80.1324,
+    "elevation": 1.98,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "KPTN6",
+    "name": "Kings Point - 8516945",
+    "latitude": 40.811,
+    "longitude": -73.765,
+    "elevation": 2.1,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "KITN7",
+    "name": "Kitty Hawk - Pamlico Sound",
+    "latitude": 36.0675,
+    "longitude": -75.6931,
+    "elevation": 4.72,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "BKTL1",
+    "name": "Lake Charles Bulk Terminal - 8767961",
+    "latitude": 30.19,
+    "longitude": -93.301,
+    "elevation": 0.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "LCLL1",
+    "name": "Lake Charles  LA - 8767816",
+    "latitude": 30.224,
+    "longitude": -93.222,
+    "elevation": 3.5,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "LEPL1",
+    "name": "LAKE PALOURDE NEAR MORGAN CITY",
+    "latitude": 29.7194,
+    "longitude": -91.1872,
+    "elevation": 3.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "LKWF1",
+    "name": "Lake Worth Pier - 8722670",
+    "latitude": 26.613,
+    "longitude": -80.034,
+    "elevation": 5.9,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "BKNV2",
+    "name": "Langley View - Brick Kiln Creek",
+    "latitude": 37.1049,
+    "longitude": -76.3854,
+    "elevation": 1.8,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "CRSM2",
+    "name": "LITTLE ANNEMESSEX RIVER AT CRIS",
+    "latitude": 37.9783,
+    "longitude": -75.8636,
+    "elevation": -0.33,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "LVJT2",
+    "name": "LITTLE VINCE BAYOU AT JACKSON",
+    "latitude": 29.7083,
+    "longitude": -95.2,
+    "elevation": 10.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "STDC3",
+    "name": "Long Island Sound  AT Stamford",
+    "latitude": 41.0372,
+    "longitude": -73.5347,
+    "elevation": 0.0,
+    "network": "CT_DCP"
+  },
+  {
+    "id": "LXRF1",
+    "name": "Loxahatchee River 5 NW lOXAHATCHEE RIVER",
+    "latitude": 26.985,
+    "longitude": -80.1597,
+    "elevation": 6.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "SICN4",
+    "name": "Ludlam Thorofare  AT Sea Isle City",
+    "latitude": 39.1578,
+    "longitude": -74.6981,
+    "elevation": 2.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "LHNV2",
+    "name": "Lynnhaven River  AT Lynnhaven Inlet",
+    "latitude": 36.9063,
+    "longitude": -76.0868,
+    "elevation": 4.15,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "THAV2",
+    "name": "Lynn Shores - Thalia Creek",
+    "latitude": 36.8431,
+    "longitude": -76.1244,
+    "elevation": 4.22,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "MCSM1",
+    "name": "Machias",
+    "latitude": 44.7185,
+    "longitude": -67.4532,
+    "elevation": 3.0,
+    "network": "ME_DCP"
+  },
+  {
+    "id": "MINN7",
+    "name": "Mackays Island - Curritruck Sound",
+    "latitude": 36.52694,
+    "longitude": -75.99028,
+    "elevation": 0.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "NCHT2",
+    "name": "Manchester  TX - 8770777",
+    "latitude": 29.726,
+    "longitude": -95.266,
+    "elevation": 2.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "RMLN7",
+    "name": "Manteo - Roanoke Marshes",
+    "latitude": 35.9081,
+    "longitude": -75.6683,
+    "elevation": 0.44,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "BLIN7",
+    "name": "Maple 2E - Bells Island",
+    "latitude": 36.4226,
+    "longitude": -75.9652,
+    "elevation": 0.38,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "MRCP1",
+    "name": "Marcus Hook NWLON",
+    "latitude": 39.812,
+    "longitude": -75.41,
+    "elevation": 0.0,
+    "network": "PA_DCP"
+  },
+  {
+    "id": "POPM3",
+    "name": "Mashpee - Tide Gauge",
+    "latitude": 41.6001,
+    "longitude": -70.4661,
+    "elevation": 2.79,
+    "network": "MA_DCP"
+  },
+  {
+    "id": "MBET2",
+    "name": "Matagorda Bay Entrance Channel  TX - 8773767",
+    "latitude": 28.422,
+    "longitude": -96.327,
+    "elevation": 0.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "BVVN4",
+    "name": "Maurice River  AT Bivalve",
+    "latitude": 39.2316,
+    "longitude": -75.033,
+    "elevation": 2.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "SCMS1",
+    "name": "McClellenville 6E - Skrine Creek",
+    "latitude": 33.07444,
+    "longitude": -79.36333,
+    "elevation": -0.34,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "LCSL1",
+    "name": "Mermentau  AT Lacassine Nwr",
+    "latitude": 30.0002,
+    "longitude": -92.7811,
+    "elevation": 31.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "MRML1",
+    "name": "Mermentau River 2 S Mermentau",
+    "latitude": 30.1833,
+    "longitude": -92.5833,
+    "elevation": 14.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "HVRM3",
+    "name": "Merrimack River  AT Haverhill",
+    "latitude": 42.7719,
+    "longitude": -71.0829,
+    "elevation": 6.0,
+    "network": "MA_DCP"
+  },
+  {
+    "id": "MIGM1",
+    "name": "Milbridge (Jordan's Pier) MLLW",
+    "latitude": 44.54,
+    "longitude": -67.875,
+    "elevation": 0.0,
+    "network": "ME_DCP"
+  },
+  {
+    "id": "MBCL1",
+    "name": "MISSISSIPPI RIVER 1 ENE Mississippi River near Belle Chasse",
+    "latitude": 29.8464,
+    "longitude": -89.9828,
+    "elevation": -1.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "DONL1",
+    "name": "Mississippi River 1 NE Donaldsonville",
+    "latitude": 30.1089,
+    "longitude": -90.9875,
+    "elevation": 7.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "BCSL1",
+    "name": "Mississippi River 1 WSW Mississippi River at Bonnet Carre near N",
+    "latitude": 29.9971,
+    "longitude": -90.4246,
+    "elevation": 7.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "MRAL1",
+    "name": "MISSISSIPPI RIVER 3 NNW Alliance Refinery near Ironton",
+    "latitude": 29.6845,
+    "longitude": -89.9699,
+    "elevation": 1.24,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "BTRL1",
+    "name": "Mississippi River  AT Baton Rouge",
+    "latitude": 30.4291,
+    "longitude": -91.2069,
+    "elevation": 10.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "EMPL1",
+    "name": "MISSISSIPPI RIVER  AT Mississippi River at Empire",
+    "latitude": 29.3892,
+    "longitude": -89.5964,
+    "elevation": 1.49,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "HPGL1",
+    "name": "MISSISSIPPI RIVER  AT Mississippi River at Head of Passes",
+    "latitude": 29.1339,
+    "longitude": -89.2467,
+    "elevation": 7.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "RRLL1",
+    "name": "Mississippi River  AT Red River Landing",
+    "latitude": 30.9608,
+    "longitude": -91.6644,
+    "elevation": 53.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "RRVL1",
+    "name": "Mississippi River  AT Reserve",
+    "latitude": 30.0556,
+    "longitude": -90.5686,
+    "elevation": 7.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "VNCL1",
+    "name": "MISSISSIPPI RIVER  AT Venice",
+    "latitude": 29.2758,
+    "longitude": -89.3528,
+    "elevation": 2.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "WPHL1",
+    "name": "Mississippi River  AT West Pont a la Hache",
+    "latitude": 29.5367,
+    "longitude": -89.7975,
+    "elevation": -1.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "GRPL1",
+    "name": "MISSISSIPPI SOUND  AT Grand Pass",
+    "latitude": 30.1228,
+    "longitude": -89.2503,
+    "elevation": 0.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "MCGA1",
+    "name": "Mobile Coast Guard Sector - 8736897",
+    "latitude": 30.649,
+    "longitude": -88.058,
+    "elevation": 2.0,
+    "network": "AL_DCP"
+  },
+  {
+    "id": "OBLA1",
+    "name": "Mobile State Docks  AL - 8737048",
+    "latitude": 30.705,
+    "longitude": -88.04,
+    "elevation": 3.0,
+    "network": "AL_DCP"
+  },
+  {
+    "id": "EFRA1",
+    "name": "Mon Louis - E Fowl River",
+    "latitude": 30.4436,
+    "longitude": -88.1139,
+    "elevation": 2.0,
+    "network": "AL_DCP"
+  },
+  {
+    "id": "MTKN6",
+    "name": "Montauk - 8510560",
+    "latitude": 41.048,
+    "longitude": -71.959,
+    "elevation": 2.1,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "MGPT2",
+    "name": "Morgans Point  TX - 8770613",
+    "latitude": 29.682,
+    "longitude": -94.985,
+    "elevation": 4.3,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "BOWD1",
+    "name": "MUDERKILL RIVER AT BOWERS BEACH",
+    "latitude": 39.0578,
+    "longitude": -75.3983,
+    "elevation": 1.0,
+    "network": "DE_DCP"
+  },
+  {
+    "id": "NAGN7",
+    "name": "Nags Head",
+    "latitude": 35.93394,
+    "longitude": -75.62156,
+    "elevation": 4.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "NMDV2",
+    "name": "Nansemond River 1 N Nansemond River at Suffolk",
+    "latitude": 36.7391,
+    "longitude": -76.5827,
+    "elevation": 5.29,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "NTKM3",
+    "name": "Nantucket Island - 8449130",
+    "latitude": 41.285,
+    "longitude": -70.096,
+    "elevation": -1.0,
+    "network": "MA_DCP"
+  },
+  {
+    "id": "NATF1",
+    "name": "Nassau River  AT Nassau River near Tisonia",
+    "latitude": 30.5505,
+    "longitude": -81.59,
+    "elevation": 0.05,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "NSWV2",
+    "name": "Nassawadox Creek  AT Nassawadox Creek near Bayford",
+    "latitude": 37.4763,
+    "longitude": -75.9352,
+    "elevation": 3.71,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "NSBT2",
+    "name": "Neches River 5 N Neches River Saltwater Barrier",
+    "latitude": 30.1567,
+    "longitude": -94.1142,
+    "elevation": 12.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "LTQM2",
+    "name": "Nerrs Water Quality Site Near Riverside",
+    "latitude": 39.45083,
+    "longitude": -76.27472,
+    "elevation": 0.17,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "ORLN7",
+    "name": "Neuse River  AT Oriental",
+    "latitude": 35.0244,
+    "longitude": -76.6919,
+    "elevation": 0.93,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "BERN7",
+    "name": "New Bern - Trent River",
+    "latitude": 35.1028,
+    "longitude": -77.0366,
+    "elevation": 0.5,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "NWCL1",
+    "name": "New Canal  LA - 8761927",
+    "latitude": 30.027,
+    "longitude": -90.113,
+    "elevation": 1.7,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "NWHC3",
+    "name": "New Haven - 8465705",
+    "latitude": 41.283,
+    "longitude": -72.908,
+    "elevation": 3.0,
+    "network": "CT_DCP"
+  },
+  {
+    "id": "NLHC3",
+    "name": "New London Harbor (IN MLLW)",
+    "latitude": 41.37167,
+    "longitude": -72.09556,
+    "elevation": 0.0,
+    "network": "CT_DCP"
+  },
+  {
+    "id": "NWPR1",
+    "name": "Newport - 8452660",
+    "latitude": 41.504,
+    "longitude": -71.326,
+    "elevation": 13.0,
+    "network": "RI_DCP"
+  },
+  {
+    "id": "PNPF1",
+    "name": "NEW PORT RICHEY",
+    "latitude": 28.2606,
+    "longitude": -82.7214,
+    "elevation": 6.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "JCKN7",
+    "name": "NEW RIVER HWY 17 BRIDGE",
+    "latitude": 34.7489,
+    "longitude": -77.4378,
+    "elevation": -1.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "BATN6",
+    "name": "New York Harbor  AT Battery",
+    "latitude": 40.7,
+    "longitude": -74.1,
+    "elevation": 5.0,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "SKTF1",
+    "name": "NOKOMIS",
+    "latitude": 27.1436,
+    "longitude": -82.4303,
+    "elevation": 5.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "NCLL1",
+    "name": "NORTH CALCASIEU LAKE",
+    "latitude": 30.0319,
+    "longitude": -93.2994,
+    "elevation": -0.15,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "NIQS1",
+    "name": "NORTH INLET WINYAH BAY WATER",
+    "latitude": 33.3503,
+    "longitude": -79.1906,
+    "elevation": -1.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "EINL1",
+    "name": "North of Eugene Island  LA - 8764314",
+    "latitude": 29.373,
+    "longitude": -91.384,
+    "elevation": 6.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "MRNF1",
+    "name": "NORTH PORT CHARLOTTE",
+    "latitude": 27.0447,
+    "longitude": -82.2931,
+    "elevation": 8.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "NSNS1",
+    "name": "NORTH SANTEE RIVER  AT N Santee River Nr N Santee",
+    "latitude": 33.2083,
+    "longitude": -79.3828,
+    "elevation": 8.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "NUET2",
+    "name": "Nueces Bay - 8775244",
+    "latitude": 27.832,
+    "longitude": -97.486,
+    "elevation": 0.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "BLTM2",
+    "name": "Nw Branch Patapsco River  AT Fort McHenry Tide",
+    "latitude": 39.27,
+    "longitude": -76.58,
+    "elevation": 1.63,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "CTMF1",
+    "name": "Ochlockonee River  AT Ochlockonee RIver at Curtis Mill",
+    "latitude": 29.9883,
+    "longitude": -84.5023,
+    "elevation": 6.06,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "OBRT2",
+    "name": "OLD BRAZOS R",
+    "latitude": 28.9508,
+    "longitude": -95.3386,
+    "elevation": 7.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "FLXN6",
+    "name": "Old Field - Flax Pond",
+    "latitude": 40.9627,
+    "longitude": -73.143,
+    "elevation": 0.5,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "LYMC3",
+    "name": "Old Lyme",
+    "latitude": 41.3125,
+    "longitude": -72.3463,
+    "elevation": 1.0,
+    "network": "CT_DCP"
+  },
+  {
+    "id": "OPTF1",
+    "name": "Old Port Tampa - 8726607",
+    "latitude": 27.858,
+    "longitude": -82.553,
+    "elevation": 11.1,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "SABC3",
+    "name": "Old Saybrook - Connecticut River",
+    "latitude": 41.2814,
+    "longitude": -72.3492,
+    "elevation": -2.0,
+    "network": "CT_DCP"
+  },
+  {
+    "id": "ORIN6",
+    "name": "Orient Harbour",
+    "latitude": 41.1363,
+    "longitude": -72.3066,
+    "elevation": 0.0,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "OTWN7",
+    "name": "Otway - Ward Creek",
+    "latitude": 34.7808,
+    "longitude": -76.574,
+    "elevation": 0.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "PACT2",
+    "name": "Packery Channel  TX - 8775792",
+    "latitude": 27.634,
+    "longitude": -97.237,
+    "elevation": 0.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "PAMN7",
+    "name": "Pamlico River  AT Washington",
+    "latitude": 35.5425,
+    "longitude": -77.0619,
+    "elevation": 6.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "PNLM6",
+    "name": "Pascagoula NOAA Lab  MS - 8741533",
+    "latitude": 30.368,
+    "longitude": -88.563,
+    "elevation": 0.0,
+    "network": "MS_DCP"
+  },
+  {
+    "id": "NWKN4",
+    "name": "Passaic River  AT Newark",
+    "latitude": 40.7333,
+    "longitude": -74.1583,
+    "elevation": 4.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "ONCN4",
+    "name": "Peck Bay  AT Ocean City",
+    "latitude": 39.2542,
+    "longitude": -74.6289,
+    "elevation": -0.3,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "PELF1",
+    "name": "PELLICER CREEK",
+    "latitude": 29.6692,
+    "longitude": -81.2597,
+    "elevation": 12.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "PCLF1",
+    "name": "Pensacola  FL - 8729840",
+    "latitude": 30.404,
+    "longitude": -87.211,
+    "elevation": 2.8,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "PABN4",
+    "name": "Perth Amboy - Arthur Kill",
+    "latitude": 40.50389,
+    "longitude": -74.26222,
+    "elevation": -0.51,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "PMTN6",
+    "name": "Piermont",
+    "latitude": 41.0432,
+    "longitude": -73.8965,
+    "elevation": -3.0,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "PSTL1",
+    "name": "Pilot&#039s Station East  SW Pass  LA - 8760922",
+    "latitude": 28.932,
+    "longitude": -89.407,
+    "elevation": 3.6,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "PILL1",
+    "name": "Pilottown  LA - 8760721",
+    "latitude": 29.179,
+    "longitude": -89.259,
+    "elevation": 2.3,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "PPTM2",
+    "name": "Piney Point",
+    "latitude": 38.133,
+    "longitude": -76.533,
+    "elevation": 0.0,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "SGSM2",
+    "name": "Piney Point - St George Creek",
+    "latitude": 38.1382,
+    "longitude": -76.5,
+    "elevation": -2.0,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "SHIN6",
+    "name": "Ponquogue - Shinnecock Bay",
+    "latitude": 40.85056,
+    "longitude": -72.50333,
+    "elevation": 0.49,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "ANPT2",
+    "name": "Port Aransas",
+    "latitude": 27.8366,
+    "longitude": -97.0391,
+    "elevation": -4.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "RTAT2",
+    "name": "Port Aransas  TX - 8775237",
+    "latitude": 27.84,
+    "longitude": -97.072,
+    "elevation": 0.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "RBBT2",
+    "name": "Port Arthur - Rainbow Bridge",
+    "latitude": 29.98,
+    "longitude": -93.8817,
+    "elevation": 1.7,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "PORT2",
+    "name": "Port Arthur  TX - 8770475",
+    "latitude": 29.867,
+    "longitude": -93.931,
+    "elevation": 0.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "PTFL1",
+    "name": "Port Fourchon",
+    "latitude": 29.115,
+    "longitude": -90.2,
+    "elevation": 2.48,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "PTIT2",
+    "name": "Port Isabel  TX - 8779770",
+    "latitude": 26.061,
+    "longitude": -97.215,
+    "elevation": 3.2,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "CASM1",
+    "name": "Portland - 8418150",
+    "latitude": 43.656,
+    "longitude": -70.246,
+    "elevation": 3.5,
+    "network": "ME_DCP"
+  },
+  {
+    "id": "VCAT2",
+    "name": "Port Lavaca -  8773259",
+    "latitude": 28.64,
+    "longitude": -96.609,
+    "elevation": -0.35,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "PMAF1",
+    "name": "Port Manatee  FL - 8726384",
+    "latitude": 27.638,
+    "longitude": -82.562,
+    "elevation": 2.4,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "PCNT2",
+    "name": "Port Oconnor",
+    "latitude": 28.4467,
+    "longitude": -96.3967,
+    "elevation": -2.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "AXTV2",
+    "name": "Potomac River  AT Alexandria Dock",
+    "latitude": 38.8053,
+    "longitude": -77.0383,
+    "elevation": 3.0,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "LWTV2",
+    "name": "Potomac River  AT Lewisetta",
+    "latitude": 38.0,
+    "longitude": -76.46,
+    "elevation": -2.0,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "PCUF1",
+    "name": "Pottsburg Creek  AT Pottsburg Creek at US 90",
+    "latitude": 30.28694,
+    "longitude": -81.57,
+    "elevation": 0.86,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "PKMN6",
+    "name": "Poughkeepsie 2NW - Hudson River",
+    "latitude": 41.7217,
+    "longitude": -73.9411,
+    "elevation": 0.81,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "PVHM3",
+    "name": "Provincetown Harbor  AT Provincetown Harbor",
+    "latitude": 42.0497,
+    "longitude": -70.1822,
+    "elevation": 10.27,
+    "network": "MA_DCP"
+  },
+  {
+    "id": "PRGF1",
+    "name": "PUMKIN RIVER",
+    "latitude": 25.9314,
+    "longitude": -81.5444,
+    "elevation": 17.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "QPTR1",
+    "name": "Quonset Point - 8454049",
+    "latitude": 41.586,
+    "longitude": -71.407,
+    "elevation": 1.6,
+    "network": "RI_DCP"
+  },
+  {
+    "id": "JRAF1",
+    "name": "Ranch Road - Jackson River",
+    "latitude": 29.76944,
+    "longitude": -85.08417,
+    "elevation": 11.49,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "RLIT2",
+    "name": "Realitos Peninsula  TX - 8779280",
+    "latitude": 26.262,
+    "longitude": -97.285,
+    "elevation": 0.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "RDYD1",
+    "name": "Reedy Point - 8551910",
+    "latitude": 39.558,
+    "longitude": -75.572,
+    "elevation": 2.3,
+    "network": "DE_DCP"
+  },
+  {
+    "id": "REYN6",
+    "name": "Reynolds Channel  AT Reynolds Channel",
+    "latitude": 40.5933,
+    "longitude": -73.5841,
+    "elevation": 2.13,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "RBDN7",
+    "name": "River Bend - Trent River",
+    "latitude": 35.0693,
+    "longitude": -77.1346,
+    "elevation": 0.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "NMCV2",
+    "name": "Riverdale - New Market Creek",
+    "latitude": 37.045,
+    "longitude": -76.3678,
+    "elevation": 5.71,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "PRIN6",
+    "name": "Riverhead - Peconic River Hwy 105",
+    "latitude": 40.918,
+    "longitude": -72.639,
+    "elevation": 0.94,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "WESN7",
+    "name": "Roanoke River 3 NW Westover",
+    "latitude": 35.9147,
+    "longitude": -76.7231,
+    "elevation": 2.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "RCPT2",
+    "name": "Rockport  TX - 8774770",
+    "latitude": 28.024,
+    "longitude": -97.048,
+    "elevation": 1.4,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "ROFN7",
+    "name": "Rodanthe Ferry Terminal",
+    "latitude": 35.5955,
+    "longitude": -75.47,
+    "elevation": 4.96,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "RLOT2",
+    "name": "Rollover Pass  TX - 8770971",
+    "latitude": 29.515,
+    "longitude": -94.513,
+    "elevation": 0.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "IRRD1",
+    "name": "ROSEDALE BEACH",
+    "latitude": 38.5917,
+    "longitude": -75.2117,
+    "elevation": 4.0,
+    "network": "DE_DCP"
+  },
+  {
+    "id": "ORNT2",
+    "name": "Sabine River 1.5 NE Orange",
+    "latitude": 30.0977,
+    "longitude": -93.7213,
+    "elevation": 1.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "CPEM1",
+    "name": "Saco - Saco River near Camp Ellis",
+    "latitude": 43.46167,
+    "longitude": -70.38167,
+    "elevation": -1.0,
+    "network": "ME_DCP"
+  },
+  {
+    "id": "SADN6",
+    "name": "Sands Point - East Creek",
+    "latitude": 40.86611,
+    "longitude": -73.71028,
+    "elevation": 0.34,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "SHLT2",
+    "name": "San Jacinto River 1.5 E Sheldon",
+    "latitude": 29.8761,
+    "longitude": -95.0936,
+    "elevation": 10.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "HLNT2",
+    "name": "SAN JACINTO RIVER @ I 10",
+    "latitude": 29.7928,
+    "longitude": -95.0614,
+    "elevation": -6.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "RIOT2",
+    "name": "SAN JACINTO RIVER NEAR RIO VILLA",
+    "latitude": 29.8761,
+    "longitude": -95.0833,
+    "elevation": 16.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "LUIT2",
+    "name": "San Luis Pass  TX - 8771972",
+    "latitude": 29.076,
+    "longitude": -95.122,
+    "elevation": 0.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "SGNT2",
+    "name": "Sargent  TX - 8772985",
+    "latitude": 28.771,
+    "longitude": -95.617,
+    "elevation": 2.23,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "SRWG1",
+    "name": "Satilla River  AT Satilla River at Woodbine",
+    "latitude": 30.9744,
+    "longitude": -81.7258,
+    "elevation": -14.0,
+    "network": "GA_DCP"
+  },
+  {
+    "id": "PWNG1",
+    "name": "SAVANNAH RIVER AT GA RT. 25 AT PORT WENT",
+    "latitude": 32.1658,
+    "longitude": -81.1539,
+    "elevation": 1.0,
+    "network": "GA_DCP"
+  },
+  {
+    "id": "SVDG1",
+    "name": "SAVANNAH RIVER AT USACE DOCK AT SAVANNAH",
+    "latitude": 32.0808,
+    "longitude": -81.0814,
+    "elevation": 6.0,
+    "network": "GA_DCP"
+  },
+  {
+    "id": "WRVV2",
+    "name": "Schley 1ESE - Ware River",
+    "latitude": 37.3793,
+    "longitude": -76.4254,
+    "elevation": 8.04,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "PHDP1",
+    "name": "Schuylkill River  AT Philadelphia near 30th Street",
+    "latitude": 39.95639,
+    "longitude": -75.18028,
+    "elevation": 4.81,
+    "network": "PA_DCP"
+  },
+  {
+    "id": "COLN7",
+    "name": "Scuppernong River  AT Columbia",
+    "latitude": 35.9175,
+    "longitude": -76.2543,
+    "elevation": 4.07,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "SDRT2",
+    "name": "Seadrift  TX - 8773037",
+    "latitude": 28.407,
+    "longitude": -96.712,
+    "elevation": 0.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "SEIM1",
+    "name": "Seavey Island",
+    "latitude": 43.08,
+    "longitude": -70.742,
+    "elevation": 2.0,
+    "network": "ME_DCP"
+  },
+  {
+    "id": "GCEF1",
+    "name": "Shands Bridge - St Johns River",
+    "latitude": 29.9825,
+    "longitude": -81.6475,
+    "elevation": 0.75,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "SHBL1",
+    "name": "Shell Beach  LA - 8761305",
+    "latitude": 29.868,
+    "longitude": -89.673,
+    "elevation": 0.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "SISF1",
+    "name": "SHELL ISLAND",
+    "latitude": 28.9253,
+    "longitude": -82.6906,
+    "elevation": 0.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "TERN6",
+    "name": "Shelter Island Sound",
+    "latitude": 41.04417,
+    "longitude": -72.31694,
+    "elevation": -0.69,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "SBIN4",
+    "name": "Shrewsbury River  AT Sea Bright",
+    "latitude": 40.3656,
+    "longitude": -73.9753,
+    "elevation": -0.51,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "HSIT2",
+    "name": "Sims Bayou  AT Telephone Road",
+    "latitude": 29.6667,
+    "longitude": -95.2833,
+    "elevation": 16.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "SLIM2",
+    "name": "Solomons Island - 8577330",
+    "latitude": 38.321,
+    "longitude": -76.452,
+    "elevation": 1.5,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "SNDN7",
+    "name": "Sound Park Public Boat Access",
+    "latitude": 36.37444,
+    "longitude": -75.83444,
+    "elevation": 1.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "NBDM3",
+    "name": "South Coastal Massachusetts  AT New Bedford Hurrcane Barrier",
+    "latitude": 41.62,
+    "longitude": -70.9103,
+    "elevation": 0.0,
+    "network": "MA_DCP"
+  },
+  {
+    "id": "PCGT2",
+    "name": "South Padre Island CGS  TX - 8779748",
+    "latitude": 26.072,
+    "longitude": -97.167,
+    "elevation": 0.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "STHN7",
+    "name": "Southport",
+    "latitude": 33.9169,
+    "longitude": -78.0179,
+    "elevation": -0.02,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "SSNS1",
+    "name": "South Santee River  AT Mcclellanville 8 NE",
+    "latitude": 33.1542,
+    "longitude": -79.3544,
+    "elevation": 0.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "BZST2",
+    "name": "SPI Brazos Santiago  TX - 8779749",
+    "latitude": 26.067,
+    "longitude": -97.155,
+    "elevation": 0.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "SBIF1",
+    "name": "Spring Creek  AT Spring Creek near Spring Creek",
+    "latitude": 30.0725,
+    "longitude": -84.3275,
+    "elevation": 0.76,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "SAXV2",
+    "name": "Starling Creek 1 SW Starling Creek at Port of Saxis",
+    "latitude": 37.9188,
+    "longitude": -75.7275,
+    "elevation": 2.35,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "STIF1",
+    "name": "Steinhatchee - Steinhatchee River",
+    "latitude": 29.6681,
+    "longitude": -83.3775,
+    "elevation": 5.66,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "STFL1",
+    "name": "St Francisville 6SE - Mississippi River",
+    "latitude": 30.70278,
+    "longitude": -91.34417,
+    "elevation": 13.86,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "CCJF1",
+    "name": "St Johns  AT Clapboard Creek near Jacksonville",
+    "latitude": 30.44833,
+    "longitude": -81.51833,
+    "elevation": 0.51,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "SJLF1",
+    "name": "ST. JOHNS  AT JACKSONVILLE ACOSTA BRIDGE",
+    "latitude": 30.3222,
+    "longitude": -81.6656,
+    "elevation": -17.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "MYPF1",
+    "name": "ST. JOHNS  AT MAYPORT",
+    "latitude": 30.3917,
+    "longitude": -81.4333,
+    "elevation": 1.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "BKBF1",
+    "name": "St Johns  AT St. Johns River at Buckman Bridge",
+    "latitude": 30.1847,
+    "longitude": -81.6847,
+    "elevation": -2.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "ASTF1",
+    "name": "St Johns River 1 NE Astor",
+    "latitude": 29.1667,
+    "longitude": -81.5222,
+    "elevation": 5.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "PALF1",
+    "name": "ST. JOHNS RIVER 4 SW BUFFALO BLUFF NR PALATKA",
+    "latitude": 29.5961,
+    "longitude": -81.6833,
+    "elevation": 7.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "BUCF1",
+    "name": "ST JOHNS RIVER AT BUCKMAN BRIDG",
+    "latitude": 30.19,
+    "longitude": -81.6663,
+    "elevation": -3.06,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "DUCF1",
+    "name": "St Johns River  AT Durbin Creek at Racetrack Road",
+    "latitude": 30.09917,
+    "longitude": -81.52611,
+    "elevation": 10.51,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "DMSF1",
+    "name": "St Johns River  AT St Johns River at Dames Point Bridge",
+    "latitude": 30.3866,
+    "longitude": -81.5583,
+    "elevation": 0.19,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "MSBF1",
+    "name": "St Johns River  AT St Johns River at Main Street Bridge",
+    "latitude": 30.32,
+    "longitude": -81.6583,
+    "elevation": 12.38,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "SPTF1",
+    "name": "ST LUCIE RIVER  AT Steele Point",
+    "latitude": 27.1989,
+    "longitude": -80.2081,
+    "elevation": -10.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "SLRF1",
+    "name": "St Lucie River  AT St Lucie River near Stuart",
+    "latitude": 27.2019,
+    "longitude": -80.2589,
+    "elevation": 8.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "SAPF1",
+    "name": "St. Petersburg  FL - 8726520",
+    "latitude": 27.761,
+    "longitude": -82.627,
+    "elevation": 1.5,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "STUN7",
+    "name": "Stumpy Point",
+    "latitude": 35.69881,
+    "longitude": -75.77022,
+    "elevation": 2.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "BIPN7",
+    "name": "Swanquarter 4NW - Bell Island Pier",
+    "latitude": 35.4351,
+    "longitude": -76.3998,
+    "elevation": 0.74,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "SWBN7",
+    "name": "Swansboro - White Oak River",
+    "latitude": 34.6875,
+    "longitude": -77.54889,
+    "elevation": 11.01,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "HPLF1",
+    "name": "TAMPA",
+    "latitude": 27.9417,
+    "longitude": -82.4589,
+    "elevation": 5.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "EBEF1",
+    "name": "Tampa - East Bay",
+    "latitude": 27.9231,
+    "longitude": -82.4214,
+    "elevation": 50.37,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "GRMN7",
+    "name": "Tar River  AT Grimesland",
+    "latitude": 35.5736,
+    "longitude": -77.1756,
+    "elevation": 3.0,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "MSVL1",
+    "name": "Tchefuncte  AT Madisonville",
+    "latitude": 30.4045,
+    "longitude": -90.1542,
+    "elevation": 3.86,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "DIBM6",
+    "name": "Tchoutacabouffa River 3 N D'Iberville",
+    "latitude": 30.4762,
+    "longitude": -88.8935,
+    "elevation": 7.0,
+    "network": "MS_DCP"
+  },
+  {
+    "id": "TESL1",
+    "name": "Tesoro Marine Terminal - 8764044",
+    "latitude": 29.668,
+    "longitude": -91.237,
+    "elevation": 0.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "TXPT2",
+    "name": "Texas Point",
+    "latitude": 29.689,
+    "longitude": -93.842,
+    "elevation": 0.42,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "BLDM2",
+    "name": "Tidal Anacostia River  AT Bladensburg",
+    "latitude": 38.9381,
+    "longitude": -76.9403,
+    "elevation": 2.0,
+    "network": "MD_DCP"
+  },
+  {
+    "id": "ALEV2",
+    "name": "Tidal Four Mile Run  AT Alexandria",
+    "latitude": 38.8403,
+    "longitude": -77.0533,
+    "elevation": 1.0,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "GTND2",
+    "name": "Tidal Potomac River  AT Wisconsin Avenue/Georgetown",
+    "latitude": 38.9022,
+    "longitude": -77.0631,
+    "elevation": 13.0,
+    "network": "DC_DCP"
+  },
+  {
+    "id": "TRDF1",
+    "name": "Trident Pier - 8721604",
+    "latitude": 28.416,
+    "longitude": -80.593,
+    "elevation": 6.82,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "TRJF1",
+    "name": "Trout River  AT Trout River at Lem Turner Road",
+    "latitude": 30.41722,
+    "longitude": -81.69667,
+    "elevation": 4.51,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "TKPN6",
+    "name": "Turkey Point - Hudson River",
+    "latitude": 42.014,
+    "longitude": -73.939,
+    "elevation": 0.0,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "TAQT2",
+    "name": "USS Lexington  TX - 8775296",
+    "latitude": 27.815,
+    "longitude": -97.389,
+    "elevation": 0.0,
+    "network": "TX_DCP"
+  },
+  {
+    "id": "VCAF1",
+    "name": "Vaca Key - VCAF1",
+    "latitude": 24.711,
+    "longitude": -81.107,
+    "elevation": 6.78,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "CNMF1",
+    "name": "VENICE",
+    "latitude": 27.1122,
+    "longitude": -82.4656,
+    "elevation": 1.66,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "VCPL1",
+    "name": "Vermilion Bay  AT VERMILION BAY NEAR CYPREMORT POINT",
+    "latitude": 29.7139,
+    "longitude": -91.8817,
+    "elevation": -0.49,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "CHBV2",
+    "name": "Virginia Beach 7NNW - Chesapeake Bay",
+    "latitude": 37.032,
+    "longitude": -76.083,
+    "elevation": -10.0,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "BGCV2",
+    "name": "Virginia Beach - Beggars Bridge",
+    "latitude": 36.6797,
+    "longitude": -75.984,
+    "elevation": 3.6,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "LTCV2",
+    "name": "Virginia Beach - Little Neck Creek",
+    "latitude": 36.8592,
+    "longitude": -75.9844,
+    "elevation": 1.42,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "LONV2",
+    "name": "Virginia Beach - London Bridge",
+    "latitude": 36.841,
+    "longitude": -76.057,
+    "elevation": 1.78,
+    "network": "VA_DCP"
+  },
+  {
+    "id": "VAKF1",
+    "name": "Virginia Key - 8723214",
+    "latitude": 25.731,
+    "longitude": -80.162,
+    "elevation": 0.07,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "BUCS1",
+    "name": "WACCAMAW 1 SE Bucksport",
+    "latitude": 33.6489,
+    "longitude": -79.0944,
+    "elevation": -2.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "WPIS1",
+    "name": "WACCAMAW 2 W Waccamaw Nr Pawleys Island 2w",
+    "latitude": 33.5064,
+    "longitude": -79.1272,
+    "elevation": -9.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "HAGS1",
+    "name": "WACCAMAW RIVER AT HAGLEY LANDING 3 W Hagley Landing/pawleys Is",
+    "latitude": 33.4361,
+    "longitude": -79.1808,
+    "elevation": 4.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "WRIS1",
+    "name": "Wando River  AT Mount Pleasant 5 NW",
+    "latitude": 32.8589,
+    "longitude": -79.8964,
+    "elevation": 15.0,
+    "network": "SC_DCP"
+  },
+  {
+    "id": "WATN4",
+    "name": "Waretown - Barnegat Bay",
+    "latitude": 39.7911,
+    "longitude": -74.1806,
+    "elevation": -2.36,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "BPAD2",
+    "name": "Wash DC - Anacostia River near Buzzard",
+    "latitude": 38.865,
+    "longitude": -77.01028,
+    "elevation": -0.33,
+    "network": "DC_DCP"
+  },
+  {
+    "id": "WASD2",
+    "name": "Washington Channel  AT DC/SW Waterfront",
+    "latitude": 38.87,
+    "longitude": -77.02,
+    "elevation": 0.0,
+    "network": "DC_DCP"
+  },
+  {
+    "id": "FIRN6",
+    "name": "Watch Hill - Great Southern Bay",
+    "latitude": 40.69139,
+    "longitude": -72.98972,
+    "elevation": 3.51,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "SAQG1",
+    "name": "WATER QUALITY SITE  AT SAPELO ISLAND NER",
+    "latitude": 31.4178,
+    "longitude": -81.2936,
+    "elevation": 7.0,
+    "network": "GA_DCP"
+  },
+  {
+    "id": "MSNN4",
+    "name": "Watson Creek  AT Manasquan",
+    "latitude": 40.1117,
+    "longitude": -74.0443,
+    "elevation": 0.35,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "WLCL1",
+    "name": "WAX LAKE OUTLET AT CALUMET",
+    "latitude": 29.6978,
+    "longitude": -91.3728,
+    "elevation": 4.0,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "WKQA1",
+    "name": "WEEKS BAY  AT WEEKS BAY WATER",
+    "latitude": 30.4161,
+    "longitude": -87.8228,
+    "elevation": 8.0,
+    "network": "AL_DCP"
+  },
+  {
+    "id": "WPSL1",
+    "name": "West Pearl River 4 E West Pearl River near Slidell",
+    "latitude": 30.231,
+    "longitude": -89.6689,
+    "elevation": 5.49,
+    "network": "LA_DCP"
+  },
+  {
+    "id": "SAYN6",
+    "name": "West Sayville - Great South Bay",
+    "latitude": 40.72111,
+    "longitude": -73.09139,
+    "elevation": 0.59,
+    "network": "NY_DCP"
+  },
+  {
+    "id": "WLON7",
+    "name": "Wilmington - 8658120",
+    "latitude": 34.228,
+    "longitude": -77.954,
+    "elevation": -2.51,
+    "network": "NC_DCP"
+  },
+  {
+    "id": "WCIF1",
+    "name": "WITHLACOOCHEE RIVER AT CHAMBERS ISLAND",
+    "latitude": 29.0008,
+    "longitude": -82.7622,
+    "elevation": 8.0,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "BZBM3",
+    "name": "Woods Hole - 8447930",
+    "latitude": 41.524,
+    "longitude": -70.671,
+    "elevation": 2.5,
+    "network": "MA_DCP"
+  },
+  {
+    "id": "YKTV2",
+    "name": "York River  AT Yorktown",
+    "latitude": 37.2267,
+    "longitude": -76.4783,
+    "elevation": -10.0,
+    "network": "VA_DCP"
+  }
+]
