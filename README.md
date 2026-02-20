@@ -18,18 +18,6 @@ Once GitHub Pages is enabled:
 - TWL Data: `https://ehsankahrizi.github.io/coastal-twl-app/data/twl_data.json`
 - Metadata: `https://ehsankahrizi.github.io/coastal-twl-app/data/metadata.json`
 
-## Manual Run
-
-You can trigger the pipeline manually from the **Actions** tab → **Update TWL Forecast Data** → **Run workflow**.
-
-## Local Development
-
-```bash
-cd pipeline
-pip install -r requirements.txt
-python fetch_and_parse.py
-```
-
 ## Data Sources
 
 - **TWL Forecasts**: NOAA NWM via `gs://national-water-model/`
