@@ -8,19 +8,19 @@
     "network": "FL_DCP"
   },
   {
-    "id": "ASCN4",
-    "name": "Absecon Creek  AT Absecon",
-    "latitude": 39.4226,
-    "longitude": -74.4997,
-    "elevation": 7.0,
-    "network": "NJ_DCP"
-  },
-  {
     "id": "ABSN4",
     "name": "Absecon Creek  AT Absecon",
     "latitude": 39.2548,
     "longitude": -74.3115,
     "elevation": 0.0,
+    "network": "NJ_DCP"
+  },
+  {
+    "id": "ASCN4",
+    "name": "Absecon Creek  AT Absecon",
+    "latitude": 39.4226,
+    "longitude": -74.4997,
+    "elevation": 7.0,
     "network": "NJ_DCP"
   },
   {
@@ -656,19 +656,19 @@
     "network": "FL_DCP"
   },
   {
-    "id": "DGIF1",
-    "name": "CHASSAHOWITZKA",
-    "latitude": 28.7025,
-    "longitude": -82.6275,
-    "elevation": 7.0,
-    "network": "FL_DCP"
-  },
-  {
     "id": "CZKF1",
     "name": "CHASSAHOWITZKA",
     "latitude": 28.715,
     "longitude": -82.6064,
     "elevation": 0.05,
+    "network": "FL_DCP"
+  },
+  {
+    "id": "DGIF1",
+    "name": "CHASSAHOWITZKA",
+    "latitude": 28.7025,
+    "longitude": -82.6275,
+    "elevation": 7.0,
     "network": "FL_DCP"
   },
   {
