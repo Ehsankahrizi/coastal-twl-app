@@ -55,5 +55,5 @@ jobs:
         run: |
           git config user.name "TWL Pipeline Bot"
           git config user.email "actions@github.com"
-          git commit -m "🌊 Update TWL forecast data $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git commit -m "Update TWL forecast data $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
