@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-26T19:58:47.361943Z",
+  "lastUpdated": "2026-02-27T03:40:22.791595Z",
   "stationsCount": 424,
   "stationsWithData": 503,
   "totalReadings": 13662,
   "downloads": [
     {
-      "date": "2026-02-26",
+      "date": "2026-02-27",
       "region": "atlgulf",
-      "cycle": "12",
+      "cycle": "00",
       "records": 13662,
       "stations": 503
     }
