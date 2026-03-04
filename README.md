@@ -52,15 +52,6 @@ pip install -r requirements.txt
 python fetch_and_parse.py
 ```
 
-## Pipeline Structure
-
-```
-pipeline/
-├── fetch_and_parse.py    # Main pipeline script
-├── datum_converter.py    # NAVD88 → MHHW conversion (VDatum API + CO-OPS fallback)
-└── requirements.txt      # Python dependencies
-```
-
 ## Data Sources
 
 - **TWL Forecasts**: NOAA NWM via `gs://national-water-model/`
