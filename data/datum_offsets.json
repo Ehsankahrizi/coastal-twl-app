@@ -1,0 +1,3688 @@
+{
+  "RBBT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770520",
+    "coops_station_name": "Rainbow Bridge",
+    "distance_km": 0.0,
+    "offset_ft": -0.554462,
+    "offset_m": -0.169
+  },
+  "MLVL1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 123.44,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "FRVM3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8447386",
+    "coops_station_name": "Fall River",
+    "distance_km": 0.03,
+    "offset_ft": -2.34252,
+    "offset_m": -0.714
+  },
+  "WYCM6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8747437",
+    "coops_station_name": "Bay Waveland Yacht Club",
+    "distance_km": 0.04,
+    "offset_ft": -0.97769,
+    "offset_m": -0.298
+  },
+  "SVDG1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8670870",
+    "coops_station_name": "Fort Pulaski",
+    "distance_km": 17.57,
+    "offset_ft": -3.451444,
+    "offset_m": -1.052
+  },
+  "MTLN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8531680",
+    "coops_station_name": "Sandy Hook",
+    "distance_km": 47.61,
+    "offset_ft": -2.411417,
+    "offset_m": -0.735
+  },
+  "NBDM3": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8447636",
+    "coops_station_name": "New Bedford Harbor",
+    "distance_km": 0.31,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CNMF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 59.31,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "DUCF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720357",
+    "coops_station_name": "I-295 Buckman Bridge",
+    "distance_km": 18.77,
+    "offset_ft": -0.39042,
+    "offset_m": -0.119
+  },
+  "OBCN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8651370",
+    "coops_station_name": "Duck",
+    "distance_km": 22.65,
+    "offset_ft": -1.499344,
+    "offset_m": -0.457
+  },
+  "BVVN4": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8555889",
+    "coops_station_name": "Brandywine Shoal Light",
+    "distance_km": 28.1,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "IRRD1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8557380",
+    "coops_station_name": "Lewes",
+    "distance_km": 22.72,
+    "offset_ft": -2.024278,
+    "offset_m": -0.617
+  },
+  "BDRN4": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8539094",
+    "coops_station_name": "Burlington, Delaware River",
+    "distance_km": 0.04,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "BDAL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8762482",
+    "coops_station_name": "West Bank 1, Bayou Gauche",
+    "distance_km": 6.71,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "MOBN6": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 56.4,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "PACT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8775792",
+    "coops_station_name": "Packery Channel",
+    "distance_km": 0.08,
+    "offset_ft": -0.790682,
+    "offset_m": -0.241
+  },
+  "BHBM3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8443970",
+    "coops_station_name": "Boston",
+    "distance_km": 0.13,
+    "offset_ft": -4.767061,
+    "offset_m": -1.453
+  },
+  "BKTL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8767961",
+    "coops_station_name": "Bulk Terminal",
+    "distance_km": 0.04,
+    "offset_ft": -0.705381,
+    "offset_m": -0.215
+  },
+  "MGTN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8534720",
+    "coops_station_name": "Atlantic City",
+    "distance_km": 8.46,
+    "offset_ft": -1.988189,
+    "offset_m": -0.606
+  },
+  "ORIN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8652587",
+    "coops_station_name": "Oregon Inlet Marina",
+    "distance_km": 1.13,
+    "offset_ft": -0.475722,
+    "offset_m": -0.145
+  },
+  "WNGM3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8447930",
+    "coops_station_name": "Woods Hole",
+    "distance_km": 17.41,
+    "offset_ft": -0.843176,
+    "offset_m": -0.257
+  },
+  "BEIS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8665530",
+    "coops_station_name": "Charleston",
+    "distance_km": 48.57,
+    "offset_ft": -2.624672,
+    "offset_m": -0.8
+  },
+  "DMSF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720219",
+    "coops_station_name": "Dames Point",
+    "distance_km": 0.01,
+    "offset_ft": -1.414042,
+    "offset_m": -0.431
+  },
+  "BFCS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8670870",
+    "coops_station_name": "Fort Pulaski",
+    "distance_km": 29.95,
+    "offset_ft": -3.451444,
+    "offset_m": -1.052
+  },
+  "KYWF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8724580",
+    "coops_station_name": "Key West",
+    "distance_km": 0.03,
+    "offset_ft": -0.042651,
+    "offset_m": -0.013
+  },
+  "MGPT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770613",
+    "coops_station_name": "Morgans Point, Barbours Cut",
+    "distance_km": 0.04,
+    "offset_ft": -1.345144,
+    "offset_m": -0.41
+  },
+  "KPTV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8632200",
+    "coops_station_name": "Kiptopeke",
+    "distance_km": 0.55,
+    "offset_ft": -1.036745,
+    "offset_m": -0.316
+  },
+  "PKMN6": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8518962",
+    "coops_station_name": "Turkey Point Hudson River NERRS",
+    "distance_km": 32.49,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CALM1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8410140",
+    "coops_station_name": "Eastport",
+    "distance_km": 39.71,
+    "offset_ft": -9.33399,
+    "offset_m": -2.845
+  },
+  "SPTF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 67.42,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "NSBT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770520",
+    "coops_station_name": "Rainbow Bridge",
+    "distance_km": 29.78,
+    "offset_ft": -0.554462,
+    "offset_m": -0.169
+  },
+  "TCBM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8573364",
+    "coops_station_name": "Tolchester Beach",
+    "distance_km": 1.03,
+    "offset_ft": -0.761155,
+    "offset_m": -0.232
+  },
+  "RRVL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8762482",
+    "coops_station_name": "West Bank 1, Bayou Gauche",
+    "distance_km": 32.95,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "REYN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8516945",
+    "coops_station_name": "Kings Point",
+    "distance_km": 28.54,
+    "offset_ft": -3.59252,
+    "offset_m": -1.095
+  },
+  "WRCS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8665530",
+    "coops_station_name": "Charleston",
+    "distance_km": 18.07,
+    "offset_ft": -2.624672,
+    "offset_m": -0.8
+  },
+  "WCIF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8727520",
+    "coops_station_name": "Cedar Key",
+    "distance_km": 30.15,
+    "offset_ft": -1.545276,
+    "offset_m": -0.471
+  },
+  "EWPN7": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 78.86,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "WIMD1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8540433",
+    "coops_station_name": "Marcus Hook",
+    "distance_km": 14.04,
+    "offset_ft": -3.192257,
+    "offset_m": -0.973
+  },
+  "SJSN4": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8537121",
+    "coops_station_name": "Ship John Shoal",
+    "distance_km": 0.15,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "KSBN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8531680",
+    "coops_station_name": "Sandy Hook",
+    "distance_km": 11.88,
+    "offset_ft": -2.411417,
+    "offset_m": -0.735
+  },
+  "SHIN6": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 50.7,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "THAV2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8639348",
+    "coops_station_name": "Money Point",
+    "distance_km": 17.37,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "MAUL1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 57.15,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "HPLF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8726674",
+    "coops_station_name": "East Bay",
+    "distance_km": 4.22,
+    "offset_ft": -0.853018,
+    "offset_m": -0.26
+  },
+  "ALIN7": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 58.8,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "DGIF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 62.13,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "PCGT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8779748",
+    "coops_station_name": "South Padre Island CG Station",
+    "distance_km": 0.13,
+    "offset_ft": -0.439633,
+    "offset_m": -0.134
+  },
+  "SLRF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 69.19,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "RMLN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8652587",
+    "coops_station_name": "Oregon Inlet Marina",
+    "distance_km": 16.53,
+    "offset_ft": -0.475722,
+    "offset_m": -0.145
+  },
+  "BLDM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8594900",
+    "coops_station_name": "Washington",
+    "distance_km": 10.07,
+    "offset_ft": -1.774934,
+    "offset_m": -0.541
+  },
+  "GTND2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8594900",
+    "coops_station_name": "Washington",
+    "distance_km": 4.81,
+    "offset_ft": -1.774934,
+    "offset_m": -0.541
+  },
+  "BLRL1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 80.81,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "MSVL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8761927",
+    "coops_station_name": "New Canal Station",
+    "distance_km": 42.13,
+    "offset_ft": -0.308399,
+    "offset_m": -0.094
+  },
+  "PTFL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8762075",
+    "coops_station_name": "Port Fourchon, Belle Pass",
+    "distance_km": 0.11,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "PHBP1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8545240",
+    "coops_station_name": "Philadelphia",
+    "distance_km": 2.02,
+    "offset_ft": -3.589239,
+    "offset_m": -1.094
+  },
+  "RRLL1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 149.53,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "FTMV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8638610",
+    "coops_station_name": "Sewells Point",
+    "distance_km": 6.68,
+    "offset_ft": -1.145013,
+    "offset_m": -0.349
+  },
+  "ASTF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 115.19,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CKYF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8727520",
+    "coops_station_name": "Cedar Key",
+    "distance_km": 0.0,
+    "offset_ft": -1.545276,
+    "offset_m": -0.471
+  },
+  "SNDN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8651370",
+    "coops_station_name": "Duck",
+    "distance_km": 22.66,
+    "offset_ft": -1.499344,
+    "offset_m": -0.457
+  },
+  "LRLL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8761927",
+    "coops_station_name": "New Canal Station",
+    "distance_km": 30.44,
+    "offset_ft": -0.308399,
+    "offset_m": -0.094
+  },
+  "AVLN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8536110",
+    "coops_station_name": "Cape May",
+    "distance_km": 25.13,
+    "offset_ft": -2.431102,
+    "offset_m": -0.741
+  },
+  "JMPN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8658163",
+    "coops_station_name": "Wrightsville Beach",
+    "distance_km": 0.85,
+    "offset_ft": -1.725722,
+    "offset_m": -0.526
+  },
+  "GCYG1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8670870",
+    "coops_station_name": "Fort Pulaski",
+    "distance_km": 23.11,
+    "offset_ft": -3.451444,
+    "offset_m": -1.052
+  },
+  "CHMF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 62.13,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "TKPN6": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8518962",
+    "coops_station_name": "Turkey Point Hudson River NERRS",
+    "distance_km": 0.02,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "BTBM1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 53.28,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SICN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8536110",
+    "coops_station_name": "Cape May",
+    "distance_km": 30.91,
+    "offset_ft": -2.431102,
+    "offset_m": -0.741
+  },
+  "OCAN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8654467",
+    "coops_station_name": "USCG Station Hatteras",
+    "distance_km": 27.75,
+    "offset_ft": -0.259186,
+    "offset_m": -0.079
+  },
+  "ORIN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8510560",
+    "coops_station_name": "Montauk",
+    "distance_km": 30.69,
+    "offset_ft": -0.958005,
+    "offset_m": -0.292
+  },
+  "CMAN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8536110",
+    "coops_station_name": "Cape May",
+    "distance_km": 0.61,
+    "offset_ft": -2.431102,
+    "offset_m": -0.741
+  },
+  "EPTT2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8771013",
+    "coops_station_name": "Eagle Point, Galveston Bay",
+    "distance_km": 0.04,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "EBEF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8726674",
+    "coops_station_name": "East Bay",
+    "distance_km": 0.0,
+    "offset_ft": -0.853018,
+    "offset_m": -0.26
+  },
+  "DUKN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8651370",
+    "coops_station_name": "Duck",
+    "distance_km": 1.0,
+    "offset_ft": -1.499344,
+    "offset_m": -0.457
+  },
+  "HCGN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8654467",
+    "coops_station_name": "USCG Station Hatteras",
+    "distance_km": 0.13,
+    "offset_ft": -0.259186,
+    "offset_m": -0.079
+  },
+  "SPUF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 55.04,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "NWKN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8518750",
+    "coops_station_name": "The Battery",
+    "distance_km": 12.68,
+    "offset_ft": -2.280184,
+    "offset_m": -0.695
+  },
+  "ELZV2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8639348",
+    "coops_station_name": "Money Point",
+    "distance_km": 9.18,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "EFRA1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8735523",
+    "coops_station_name": "East Fowl River Bridge",
+    "distance_km": 0.01,
+    "offset_ft": -0.82021,
+    "offset_m": -0.25
+  },
+  "RWYN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8531680",
+    "coops_station_name": "Sandy Hook",
+    "distance_km": 15.81,
+    "offset_ft": -2.411417,
+    "offset_m": -0.735
+  },
+  "DIBM6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8741533",
+    "coops_station_name": "Pascagoula NOAA Lab",
+    "distance_km": 33.9,
+    "offset_ft": -0.875984,
+    "offset_m": -0.267
+  },
+  "MRNF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 60.83,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "LONV2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8638901",
+    "coops_station_name": "CBBT, Chesapeake Channel",
+    "distance_km": 21.47,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CHBV2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8638901",
+    "coops_station_name": "CBBT, Chesapeake Channel",
+    "distance_km": 0.1,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SLIM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8577330",
+    "coops_station_name": "Solomons Island",
+    "distance_km": 0.48,
+    "offset_ft": -0.62336,
+    "offset_m": -0.19
+  },
+  "VCAT2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8773259",
+    "coops_station_name": "Port Lavaca",
+    "distance_km": 0.1,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "WPSL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8747437",
+    "coops_station_name": "Bay Waveland Yacht Club",
+    "distance_km": 34.61,
+    "offset_ft": -0.97769,
+    "offset_m": -0.298
+  },
+  "WLCL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8764044",
+    "coops_station_name": "Berwick, Atchafalaya River",
+    "distance_km": 13.49,
+    "offset_ft": -2.185039,
+    "offset_m": -0.666
+  },
+  "RDYD1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8551910",
+    "coops_station_name": "Reedy Point",
+    "distance_km": 0.04,
+    "offset_ft": -2.870735,
+    "offset_m": -0.875
+  },
+  "GLCM3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8443970",
+    "coops_station_name": "Boston",
+    "distance_km": 46.15,
+    "offset_ft": -4.767061,
+    "offset_m": -1.453
+  },
+  "PCBF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8729210",
+    "coops_station_name": "Panama City Beach",
+    "distance_km": 0.12,
+    "offset_ft": -0.862861,
+    "offset_m": -0.263
+  },
+  "SDHN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8531680",
+    "coops_station_name": "Sandy Hook",
+    "distance_km": 0.8,
+    "offset_ft": -2.411417,
+    "offset_m": -0.735
+  },
+  "TERN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8510560",
+    "coops_station_name": "Montauk",
+    "distance_km": 29.98,
+    "offset_ft": -0.958005,
+    "offset_m": -0.292
+  },
+  "SOCS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8661070",
+    "coops_station_name": "Springmaid Pier",
+    "distance_km": 8.77,
+    "offset_ft": -2.444226,
+    "offset_m": -0.745
+  },
+  "NWHC3": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8465705",
+    "coops_station_name": "New Haven",
+    "distance_km": 0.04,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "PNPF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8726724",
+    "coops_station_name": "Clearwater Beach",
+    "distance_km": 33.2,
+    "offset_ft": -0.951444,
+    "offset_m": -0.29
+  },
+  "POPM3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8447930",
+    "coops_station_name": "Woods Hole",
+    "distance_km": 19.06,
+    "offset_ft": -0.843176,
+    "offset_m": -0.257
+  },
+  "NWCL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8761927",
+    "coops_station_name": "New Canal Station",
+    "distance_km": 0.04,
+    "offset_ft": -0.308399,
+    "offset_m": -0.094
+  },
+  "ACYN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8534720",
+    "coops_station_name": "Atlantic City",
+    "distance_km": 0.19,
+    "offset_ft": -1.988189,
+    "offset_m": -0.606
+  },
+  "PRGF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8725114",
+    "coops_station_name": "NAPLES BAY, NORTH",
+    "distance_km": 33.39,
+    "offset_ft": -0.688976,
+    "offset_m": -0.21
+  },
+  "TXPT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770822",
+    "coops_station_name": "Texas Point, Sabine Pass",
+    "distance_km": 0.04,
+    "offset_ft": -0.816929,
+    "offset_m": -0.249
+  },
+  "BATN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8518750",
+    "coops_station_name": "The Battery",
+    "distance_km": 7.24,
+    "offset_ft": -2.280184,
+    "offset_m": -0.695
+  },
+  "SHBL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8761305",
+    "coops_station_name": "Shell Beach",
+    "distance_km": 0.03,
+    "offset_ft": -0.751312,
+    "offset_m": -0.229
+  },
+  "VCPL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8766072",
+    "coops_station_name": "Freshwater Canal Locks",
+    "distance_km": 44.73,
+    "offset_ft": -0.866142,
+    "offset_m": -0.264
+  },
+  "SABC3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8461490",
+    "coops_station_name": "New London",
+    "distance_km": 23.44,
+    "offset_ft": -1.21063,
+    "offset_m": -0.369
+  },
+  "PALF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 66.31,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "RKWN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8516945",
+    "coops_station_name": "Kings Point",
+    "distance_km": 24.27,
+    "offset_ft": -3.59252,
+    "offset_m": -1.095
+  },
+  "KRZL1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 112.17,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "LRBV2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8638901",
+    "coops_station_name": "CBBT, Chesapeake Channel",
+    "distance_km": 24.74,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "LHBT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770777",
+    "coops_station_name": "Manchester",
+    "distance_km": 6.2,
+    "offset_ft": -1.748688,
+    "offset_m": -0.533
+  },
+  "SWPV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8638610",
+    "coops_station_name": "Sewells Point",
+    "distance_km": 6.39,
+    "offset_ft": -1.145013,
+    "offset_m": -0.349
+  },
+  "PCNT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8773701",
+    "coops_station_name": "Port O'Connor",
+    "distance_km": 0.99,
+    "offset_ft": -1.102362,
+    "offset_m": -0.336
+  },
+  "WHLR1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8461490",
+    "coops_station_name": "New London",
+    "distance_km": 20.94,
+    "offset_ft": -1.21063,
+    "offset_m": -0.369
+  },
+  "PPTM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8635750",
+    "coops_station_name": "Lewisetta",
+    "distance_km": 16.36,
+    "offset_ft": -0.675853,
+    "offset_m": -0.206
+  },
+  "SHLT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770777",
+    "coops_station_name": "Manchester",
+    "distance_km": 23.53,
+    "offset_ft": -1.748688,
+    "offset_m": -0.533
+  },
+  "BRND1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8555889",
+    "coops_station_name": "Brandywine Shoal Light",
+    "distance_km": 0.05,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CPNT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8774513",
+    "coops_station_name": "Copano Bay",
+    "distance_km": 0.53,
+    "offset_ft": -1.01706,
+    "offset_m": -0.31
+  },
+  "DCDF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720219",
+    "coops_station_name": "Dames Point",
+    "distance_km": 9.04,
+    "offset_ft": -1.414042,
+    "offset_m": -0.431
+  },
+  "STUN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8652587",
+    "coops_station_name": "Oregon Inlet Marina",
+    "distance_km": 22.75,
+    "offset_ft": -0.475722,
+    "offset_m": -0.145
+  },
+  "LTQM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8573364",
+    "coops_station_name": "Tolchester Beach",
+    "distance_km": 26.52,
+    "offset_ft": -0.761155,
+    "offset_m": -0.232
+  },
+  "KLNG1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8679598",
+    "coops_station_name": "Kings Bay MSF Pier",
+    "distance_km": 16.03,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "MSNN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8531680",
+    "coops_station_name": "Sandy Hook",
+    "distance_km": 39.61,
+    "offset_ft": -2.411417,
+    "offset_m": -0.735
+  },
+  "EMWN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8651370",
+    "coops_station_name": "Duck",
+    "distance_km": 44.21,
+    "offset_ft": -1.499344,
+    "offset_m": -0.457
+  },
+  "IWDN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8516945",
+    "coops_station_name": "Kings Point",
+    "distance_km": 21.48,
+    "offset_ft": -3.59252,
+    "offset_m": -1.095
+  },
+  "MNPV2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8639348",
+    "coops_station_name": "Money Point",
+    "distance_km": 0.26,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "COLN7": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 54.37,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "BDSP1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8546252",
+    "coops_station_name": "Bridesburg",
+    "distance_km": 0.04,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CCHV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8632200",
+    "coops_station_name": "Kiptopeke",
+    "distance_km": 14.98,
+    "offset_ft": -1.036745,
+    "offset_m": -0.316
+  },
+  "NCHT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770777",
+    "coops_station_name": "Manchester",
+    "distance_km": 0.04,
+    "offset_ft": -1.748688,
+    "offset_m": -0.533
+  },
+  "WASD2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8594900",
+    "coops_station_name": "Washington",
+    "distance_km": 0.4,
+    "offset_ft": -1.774934,
+    "offset_m": -0.541
+  },
+  "WYBS1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 51.52,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "STDC3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8516945",
+    "coops_station_name": "Kings Point",
+    "distance_km": 31.79,
+    "offset_ft": -3.59252,
+    "offset_m": -1.095
+  },
+  "TAQT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8775296",
+    "coops_station_name": "USS Lexington, Corpus Christi Bay",
+    "distance_km": 0.02,
+    "offset_ft": -1.026903,
+    "offset_m": -0.313
+  },
+  "SBIF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 73.9,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "BGCV2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8639348",
+    "coops_station_name": "Money Point",
+    "distance_km": 30.37,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "NSNS1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 65.77,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "DONL1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 54.68,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "EINL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8764314",
+    "coops_station_name": "Eugene Island, North of, Atchafalaya Bay",
+    "distance_km": 0.61,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CHWF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 64.47,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "AMRL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8764227",
+    "coops_station_name": "LAWMA, Amerada Pass",
+    "distance_km": 0.05,
+    "offset_ft": -0.695538,
+    "offset_m": -0.212
+  },
+  "EZMV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8638610",
+    "coops_station_name": "Sewells Point",
+    "distance_km": 9.14,
+    "offset_ft": -1.145013,
+    "offset_m": -0.349
+  },
+  "NCDV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8635027",
+    "coops_station_name": "Dahlgren",
+    "distance_km": 0.04,
+    "offset_ft": -0.872703,
+    "offset_m": -0.266
+  },
+  "LKWF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8722670",
+    "coops_station_name": "Lake Worth Pier, Atlantic Ocean",
+    "distance_km": 0.03,
+    "offset_ft": -0.557743,
+    "offset_m": -0.17
+  },
+  "FMRF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8725520",
+    "coops_station_name": "Fort Myers",
+    "distance_km": 0.09,
+    "offset_ft": -0.27231,
+    "offset_m": -0.083
+  },
+  "CAPN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8536110",
+    "coops_station_name": "Cape May",
+    "distance_km": 12.25,
+    "offset_ft": -2.431102,
+    "offset_m": -0.741
+  },
+  "SAYN6": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 51.16,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "GNDL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8764044",
+    "coops_station_name": "Berwick, Atchafalaya River",
+    "distance_km": 32.08,
+    "offset_ft": -2.185039,
+    "offset_m": -0.666
+  },
+  "DICT2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8771013",
+    "coops_station_name": "Eagle Point, Galveston Bay",
+    "distance_km": 12.94,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "LSPV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8635027",
+    "coops_station_name": "Dahlgren",
+    "distance_km": 35.29,
+    "offset_ft": -0.872703,
+    "offset_m": -0.266
+  },
+  "GCEF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720357",
+    "coops_station_name": "I-295 Buckman Bridge",
+    "distance_km": 23.68,
+    "offset_ft": -0.39042,
+    "offset_m": -0.119
+  },
+  "HACN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8518750",
+    "coops_station_name": "The Battery",
+    "distance_km": 20.07,
+    "offset_ft": -2.280184,
+    "offset_m": -0.695
+  },
+  "STFL1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 115.57,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SADN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8516945",
+    "coops_station_name": "Kings Point",
+    "distance_km": 7.72,
+    "offset_ft": -3.59252,
+    "offset_m": -1.095
+  },
+  "MINN7": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8639348",
+    "coops_station_name": "Money Point",
+    "distance_km": 39.41,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "BKNV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8637689",
+    "coops_station_name": "Yorktown USCG Training Center",
+    "distance_km": 15.85,
+    "offset_ft": -1.043307,
+    "offset_m": -0.318
+  },
+  "LWTV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8635750",
+    "coops_station_name": "Lewisetta",
+    "distance_km": 0.58,
+    "offset_ft": -0.675853,
+    "offset_m": -0.206
+  },
+  "HPMN3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8419870",
+    "coops_station_name": "Seavey Island",
+    "distance_km": 20.92,
+    "offset_ft": -4.186352,
+    "offset_m": -1.276
+  },
+  "SHBN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8536110",
+    "coops_station_name": "Cape May",
+    "distance_km": 19.46,
+    "offset_ft": -2.431102,
+    "offset_m": -0.741
+  },
+  "FIRN6": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 56.28,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "FLXN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8467150",
+    "coops_station_name": "Bridgeport",
+    "distance_km": 23.95,
+    "offset_ft": -3.47769,
+    "offset_m": -1.06
+  },
+  "NIQS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8661070",
+    "coops_station_name": "Springmaid Pier",
+    "distance_km": 42.25,
+    "offset_ft": -2.444226,
+    "offset_m": -0.745
+  },
+  "HPGL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8760721",
+    "coops_station_name": "Pilottown",
+    "distance_km": 5.18,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "PHDP1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8545240",
+    "coops_station_name": "Philadelphia",
+    "distance_km": 4.17,
+    "offset_ft": -3.589239,
+    "offset_m": -1.094
+  },
+  "PSBM1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8410140",
+    "coops_station_name": "Eastport",
+    "distance_km": 0.04,
+    "offset_ft": -9.33399,
+    "offset_m": -2.845
+  },
+  "IRWF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 75.33,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SBTN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8534720",
+    "coops_station_name": "Atlantic City",
+    "distance_km": 38.58,
+    "offset_ft": -1.988189,
+    "offset_m": -0.606
+  },
+  "BTRL1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 84.74,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "JULF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720357",
+    "coops_station_name": "I-295 Buckman Bridge",
+    "distance_km": 13.91,
+    "offset_ft": -0.39042,
+    "offset_m": -0.119
+  },
+  "OBRT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8772471",
+    "coops_station_name": "Freeport Harbor",
+    "distance_km": 4.64,
+    "offset_ft": -1.023622,
+    "offset_m": -0.312
+  },
+  "WESN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8516945",
+    "coops_station_name": "Kings Point",
+    "distance_km": 13.77,
+    "offset_ft": -3.59252,
+    "offset_m": -1.095
+  },
+  "CZKF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 62.4,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "AXTV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8594900",
+    "coops_station_name": "Washington",
+    "distance_km": 7.7,
+    "offset_ft": -1.774934,
+    "offset_m": -0.541
+  },
+  "FHBT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770613",
+    "coops_station_name": "Morgans Point, Barbours Cut",
+    "distance_km": 3.99,
+    "offset_ft": -1.345144,
+    "offset_m": -0.41
+  },
+  "ALCN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8534720",
+    "coops_station_name": "Atlantic City",
+    "distance_km": 3.36,
+    "offset_ft": -1.988189,
+    "offset_m": -0.606
+  },
+  "CYTF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8727520",
+    "coops_station_name": "Cedar Key",
+    "distance_km": 45.65,
+    "offset_ft": -1.545276,
+    "offset_m": -0.471
+  },
+  "CRSM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8571421",
+    "coops_station_name": "Bishops Head",
+    "distance_km": 30.92,
+    "offset_ft": -0.849738,
+    "offset_m": -0.259
+  },
+  "FRWL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8766072",
+    "coops_station_name": "Freshwater Canal Locks",
+    "distance_km": 0.04,
+    "offset_ft": -0.866142,
+    "offset_m": -0.264
+  },
+  "HBKN7": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 59.1,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "MERG1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 75.95,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "KLNM6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8747437",
+    "coops_station_name": "Bay Waveland Yacht Club",
+    "distance_km": 12.99,
+    "offset_ft": -0.97769,
+    "offset_m": -0.298
+  },
+  "BUCS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8661070",
+    "coops_station_name": "Springmaid Pier",
+    "distance_km": 16.31,
+    "offset_ft": -2.444226,
+    "offset_m": -0.745
+  },
+  "SCPT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770613",
+    "coops_station_name": "Morgans Point, Barbours Cut",
+    "distance_km": 12.92,
+    "offset_ft": -1.345144,
+    "offset_m": -0.41
+  },
+  "PAMN7": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 98.41,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SCTM3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8443970",
+    "coops_station_name": "Boston",
+    "distance_km": 33.04,
+    "offset_ft": -4.767061,
+    "offset_m": -1.453
+  },
+  "VAKF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8723214",
+    "coops_station_name": "Virginia Key",
+    "distance_km": 0.05,
+    "offset_ft": -0.226378,
+    "offset_m": -0.069
+  },
+  "PORT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770475",
+    "coops_station_name": "Port Arthur",
+    "distance_km": 0.1,
+    "offset_ft": -0.669291,
+    "offset_m": -0.204
+  },
+  "IHDM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8594900",
+    "coops_station_name": "Washington",
+    "distance_km": 33.35,
+    "offset_ft": -1.774934,
+    "offset_m": -0.541
+  },
+  "ORLN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8656483",
+    "coops_station_name": "Beaufort, Duke Marine Lab",
+    "distance_km": 34.2,
+    "offset_ft": -1.459974,
+    "offset_m": -0.445
+  },
+  "SISF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8727520",
+    "coops_station_name": "Cedar Key",
+    "distance_km": 40.54,
+    "offset_ft": -1.545276,
+    "offset_m": -0.471
+  },
+  "SUWF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8727520",
+    "coops_station_name": "Cedar Key",
+    "distance_km": 23.75,
+    "offset_ft": -1.545276,
+    "offset_m": -0.471
+  },
+  "LHNV2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8638901",
+    "coops_station_name": "CBBT, Chesapeake Channel",
+    "distance_km": 14.08,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "OTWN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8656483",
+    "coops_station_name": "Beaufort, Duke Marine Lab",
+    "distance_km": 11.3,
+    "offset_ft": -1.459974,
+    "offset_m": -0.445
+  },
+  "EMPL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8761724",
+    "coops_station_name": "Grand Isle",
+    "distance_km": 37.63,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "PNLM6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8741533",
+    "coops_station_name": "Pascagoula NOAA Lab",
+    "distance_km": 0.03,
+    "offset_ft": -0.875984,
+    "offset_m": -0.267
+  },
+  "CHTS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8665530",
+    "coops_station_name": "Charleston",
+    "distance_km": 0.04,
+    "offset_ft": -2.624672,
+    "offset_m": -0.8
+  },
+  "PDGS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8661070",
+    "coops_station_name": "Springmaid Pier",
+    "distance_km": 45.13,
+    "offset_ft": -2.444226,
+    "offset_m": -0.745
+  },
+  "SAPF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8726520",
+    "coops_station_name": "St. Petersburg",
+    "distance_km": 0.05,
+    "offset_ft": -0.78084,
+    "offset_m": -0.238
+  },
+  "AVNN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8654467",
+    "coops_station_name": "USCG Station Hatteras",
+    "distance_km": 23.26,
+    "offset_ft": -0.259186,
+    "offset_m": -0.079
+  },
+  "EMDN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8656483",
+    "coops_station_name": "Beaufort, Duke Marine Lab",
+    "distance_km": 36.33,
+    "offset_ft": -1.459974,
+    "offset_m": -0.445
+  },
+  "BYSA1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8735391",
+    "coops_station_name": "Dog River Bridge",
+    "distance_km": 0.01,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "LNDN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8516945",
+    "coops_station_name": "Kings Point",
+    "distance_km": 37.85,
+    "offset_ft": -3.59252,
+    "offset_m": -1.095
+  },
+  "RIOT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770613",
+    "coops_station_name": "Morgans Point, Barbours Cut",
+    "distance_km": 23.61,
+    "offset_ft": -1.345144,
+    "offset_m": -0.41
+  },
+  "NBLP1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8548989",
+    "coops_station_name": "Newbold",
+    "distance_km": 0.35,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "NLRV2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8639348",
+    "coops_station_name": "Money Point",
+    "distance_km": 28.91,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "GRMN7": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 105.7,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "FPST2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8772471",
+    "coops_station_name": "Freeport Harbor",
+    "distance_km": 0.0,
+    "offset_ft": -1.023622,
+    "offset_m": -0.312
+  },
+  "ASCN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8534720",
+    "coops_station_name": "Atlantic City",
+    "distance_km": 10.15,
+    "offset_ft": -1.988189,
+    "offset_m": -0.606
+  },
+  "BKBF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720357",
+    "coops_station_name": "I-295 Buckman Bridge",
+    "distance_km": 0.95,
+    "offset_ft": -0.39042,
+    "offset_m": -0.119
+  },
+  "OPTF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8726607",
+    "coops_station_name": "Old Port Tampa",
+    "distance_km": 0.03,
+    "offset_ft": -0.784121,
+    "offset_m": -0.239
+  },
+  "LEPL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8764044",
+    "coops_station_name": "Berwick, Atchafalaya River",
+    "distance_km": 7.55,
+    "offset_ft": -2.185039,
+    "offset_m": -0.666
+  },
+  "HDGM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8573927",
+    "coops_station_name": "Chesapeake City",
+    "distance_km": 24.01,
+    "offset_ft": -1.627297,
+    "offset_m": -0.496
+  },
+  "ALBN6": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8518979",
+    "coops_station_name": "Coxsackie, Hudson River",
+    "distance_km": 33.09,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SKTF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 56.57,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "BOWD1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8555889",
+    "coops_station_name": "Brandywine Shoal Light",
+    "distance_km": 25.86,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "GRPL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8747437",
+    "coops_station_name": "Bay Waveland Yacht Club",
+    "distance_km": 23.77,
+    "offset_ft": -0.97769,
+    "offset_m": -0.298
+  },
+  "LVJT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770777",
+    "coops_station_name": "Manchester",
+    "distance_km": 6.66,
+    "offset_ft": -1.748688,
+    "offset_m": -0.533
+  },
+  "ASPS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8665530",
+    "coops_station_name": "Charleston",
+    "distance_km": 11.11,
+    "offset_ft": -2.624672,
+    "offset_m": -0.8
+  },
+  "RBDN7": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 57.64,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "TRJF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720226",
+    "coops_station_name": "Southbank Riverwalk, St Johns River",
+    "distance_km": 11.42,
+    "offset_ft": -0.649606,
+    "offset_m": -0.198
+  },
+  "WAHV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8631044",
+    "coops_station_name": "Wachapreague",
+    "distance_km": 1.42,
+    "offset_ft": -1.866798,
+    "offset_m": -0.569
+  },
+  "SEIM1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8419870",
+    "coops_station_name": "Seavey Island",
+    "distance_km": 0.08,
+    "offset_ft": -4.186352,
+    "offset_m": -1.276
+  },
+  "EMAT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8773146",
+    "coops_station_name": "Matagorda City",
+    "distance_km": 0.01,
+    "offset_ft": -1.01706,
+    "offset_m": -0.31
+  },
+  "CPCS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8665530",
+    "coops_station_name": "Charleston",
+    "distance_km": 2.6,
+    "offset_ft": -2.624672,
+    "offset_m": -0.8
+  },
+  "GTOT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8771450",
+    "coops_station_name": "Galveston Pier 21",
+    "distance_km": 0.17,
+    "offset_ft": -1.099081,
+    "offset_m": -0.335
+  },
+  "SBIN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8531680",
+    "coops_station_name": "Sandy Hook",
+    "distance_km": 11.63,
+    "offset_ft": -2.411417,
+    "offset_m": -0.735
+  },
+  "DPBF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720219",
+    "coops_station_name": "Dames Point",
+    "distance_km": 0.22,
+    "offset_ft": -1.414042,
+    "offset_m": -0.431
+  },
+  "TKTN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8534720",
+    "coops_station_name": "Atlantic City",
+    "distance_km": 18.69,
+    "offset_ft": -1.988189,
+    "offset_m": -0.606
+  },
+  "HLKN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8656483",
+    "coops_station_name": "Beaufort, Duke Marine Lab",
+    "distance_km": 30.06,
+    "offset_ft": -1.459974,
+    "offset_m": -0.445
+  },
+  "BLIN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8651370",
+    "coops_station_name": "Duck",
+    "distance_km": 33.04,
+    "offset_ft": -1.499344,
+    "offset_m": -0.457
+  },
+  "CPTR1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8452944",
+    "coops_station_name": "Conimicut Light",
+    "distance_km": 0.14,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "FPKG1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8670870",
+    "coops_station_name": "Fort Pulaski",
+    "distance_km": 0.03,
+    "offset_ft": -3.451444,
+    "offset_m": -1.052
+  },
+  "BIPN7": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 67.95,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SDRT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8773037",
+    "coops_station_name": "Seadrift",
+    "distance_km": 0.04,
+    "offset_ft": -1.338583,
+    "offset_m": -0.408
+  },
+  "SGSM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8635750",
+    "coops_station_name": "Lewisetta",
+    "distance_km": 16.11,
+    "offset_ft": -0.675853,
+    "offset_m": -0.206
+  },
+  "MYPF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720218",
+    "coops_station_name": "Mayport (Bar Pilots Dock)",
+    "distance_km": 0.89,
+    "offset_ft": -1.968504,
+    "offset_m": -0.6
+  },
+  "LXRF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8722670",
+    "coops_station_name": "Lake Worth Pier, Atlantic Ocean",
+    "distance_km": 43.22,
+    "offset_ft": -0.557743,
+    "offset_m": -0.17
+  },
+  "EPPL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8747437",
+    "coops_station_name": "Bay Waveland Yacht Club",
+    "distance_km": 29.4,
+    "offset_ft": -0.97769,
+    "offset_m": -0.298
+  },
+  "MACS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8670870",
+    "coops_station_name": "Fort Pulaski",
+    "distance_km": 24.09,
+    "offset_ft": -3.451444,
+    "offset_m": -1.052
+  },
+  "BRNG1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8679598",
+    "coops_station_name": "Kings Bay MSF Pier",
+    "distance_km": 40.49,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "GOOT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770613",
+    "coops_station_name": "Morgans Point, Barbours Cut",
+    "distance_km": 3.64,
+    "offset_ft": -1.345144,
+    "offset_m": -0.41
+  },
+  "PWNG1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8670870",
+    "coops_station_name": "Fort Pulaski",
+    "distance_km": 27.77,
+    "offset_ft": -3.451444,
+    "offset_m": -1.052
+  },
+  "WFRA1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8738043",
+    "coops_station_name": "West Fowl River Bridge",
+    "distance_km": 0.0,
+    "offset_ft": -0.905512,
+    "offset_m": -0.276
+  },
+  "GIRM1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 74.08,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SRWG1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8679598",
+    "coops_station_name": "Kings Bay MSF Pier",
+    "distance_km": 31.25,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CBRN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8651370",
+    "coops_station_name": "Duck",
+    "distance_km": 26.49,
+    "offset_ft": -1.499344,
+    "offset_m": -0.457
+  },
+  "HSIT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770777",
+    "coops_station_name": "Manchester",
+    "distance_km": 6.84,
+    "offset_ft": -1.748688,
+    "offset_m": -0.533
+  },
+  "EPCM6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8747437",
+    "coops_station_name": "Bay Waveland Yacht Club",
+    "distance_km": 24.8,
+    "offset_ft": -0.97769,
+    "offset_m": -0.298
+  },
+  "CTMF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 54.66,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "MRAL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8761955",
+    "coops_station_name": "Carrollton",
+    "distance_km": 31.91,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "NUTF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 105.63,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "INRD1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8557380",
+    "coops_station_name": "Lewes",
+    "distance_km": 19.76,
+    "offset_ft": -2.024278,
+    "offset_m": -0.617
+  },
+  "LYMC3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8461490",
+    "coops_station_name": "New London",
+    "distance_km": 21.94,
+    "offset_ft": -1.21063,
+    "offset_m": -0.369
+  },
+  "SGCF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 50.37,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "GULF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8727520",
+    "coops_station_name": "Cedar Key",
+    "distance_km": 26.61,
+    "offset_ft": -1.545276,
+    "offset_m": -0.471
+  },
+  "CPEM1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8418150",
+    "coops_station_name": "Portland",
+    "distance_km": 24.49,
+    "offset_ft": -4.652231,
+    "offset_m": -1.418
+  },
+  "HOGN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8516945",
+    "coops_station_name": "Kings Point",
+    "distance_km": 24.2,
+    "offset_ft": -3.59252,
+    "offset_m": -1.095
+  },
+  "EFSF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 111.07,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "GBSF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8726674",
+    "coops_station_name": "East Bay",
+    "distance_km": 7.96,
+    "offset_ft": -0.853018,
+    "offset_m": -0.26
+  },
+  "CPTT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770777",
+    "coops_station_name": "Manchester",
+    "distance_km": 12.72,
+    "offset_ft": -1.748688,
+    "offset_m": -0.533
+  },
+  "ATGM1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8413320",
+    "coops_station_name": "Bar Harbor",
+    "distance_km": 0.03,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "MRML1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 61.51,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CKBF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8727520",
+    "coops_station_name": "Cedar Key",
+    "distance_km": 49.39,
+    "offset_ft": -1.545276,
+    "offset_m": -0.471
+  },
+  "PMTN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8516945",
+    "coops_station_name": "Kings Point",
+    "distance_km": 28.16,
+    "offset_ft": -3.59252,
+    "offset_m": -1.095
+  },
+  "YKTV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8637689",
+    "coops_station_name": "Yorktown USCG Training Center",
+    "distance_km": 0.05,
+    "offset_ft": -1.043307,
+    "offset_m": -0.318
+  },
+  "BCSL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8762482",
+    "coops_station_name": "West Bank 1, Bayou Gauche",
+    "distance_km": 23.19,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CIKA1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8737138",
+    "coops_station_name": "Chickasaw Creek",
+    "distance_km": 0.01,
+    "offset_ft": -1.272966,
+    "offset_m": -0.388
+  },
+  "BZBM3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8447930",
+    "coops_station_name": "Woods Hole",
+    "distance_km": 0.04,
+    "offset_ft": -0.843176,
+    "offset_m": -0.257
+  },
+  "CCJF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720219",
+    "coops_station_name": "Dames Point",
+    "distance_km": 7.85,
+    "offset_ft": -1.414042,
+    "offset_m": -0.431
+  },
+  "BFTN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8656483",
+    "coops_station_name": "Beaufort, Duke Marine Lab",
+    "distance_km": 0.32,
+    "offset_ft": -1.459974,
+    "offset_m": -0.445
+  },
+  "ABSN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8534720",
+    "coops_station_name": "Atlantic City",
+    "distance_km": 14.57,
+    "offset_ft": -1.988189,
+    "offset_m": -0.606
+  },
+  "DACL1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 53.39,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "MCGA1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8736897",
+    "coops_station_name": "Coast Guard Sector Mobile",
+    "distance_km": 0.06,
+    "offset_ft": -1.164698,
+    "offset_m": -0.355
+  },
+  "TRDF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8721604",
+    "coops_station_name": "Trident Pier, Port Canaveral",
+    "distance_km": 0.02,
+    "offset_ft": -1.102362,
+    "offset_m": -0.336
+  },
+  "RLOT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770971",
+    "coops_station_name": "Rollover Pass",
+    "distance_km": 0.03,
+    "offset_ft": -0.610236,
+    "offset_m": -0.186
+  },
+  "NMCV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8638610",
+    "coops_station_name": "Sewells Point",
+    "distance_km": 11.89,
+    "offset_ft": -1.145013,
+    "offset_m": -0.349
+  },
+  "NWPR1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8452660",
+    "coops_station_name": "Newport",
+    "distance_km": 0.04,
+    "offset_ft": -1.811024,
+    "offset_m": -0.552
+  },
+  "ACFS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8665530",
+    "coops_station_name": "Charleston",
+    "distance_km": 44.39,
+    "offset_ft": -2.624672,
+    "offset_m": -0.8
+  },
+  "ORNT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770520",
+    "coops_station_name": "Rainbow Bridge",
+    "distance_km": 20.24,
+    "offset_ft": -0.554462,
+    "offset_m": -0.169
+  },
+  "LCLL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8767816",
+    "coops_station_name": "Lake Charles",
+    "distance_km": 0.05,
+    "offset_ft": -0.734908,
+    "offset_m": -0.224
+  },
+  "KILN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8531680",
+    "coops_station_name": "Sandy Hook",
+    "distance_km": 12.94,
+    "offset_ft": -2.411417,
+    "offset_m": -0.735
+  },
+  "SMML1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 155.81,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "GRRT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8771486",
+    "coops_station_name": "Galveston Railroad Bridge",
+    "distance_km": 1.45,
+    "offset_ft": -0.918635,
+    "offset_m": -0.28
+  },
+  "SAXV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8631044",
+    "coops_station_name": "Wachapreague",
+    "distance_km": 34.78,
+    "offset_ft": -1.866798,
+    "offset_m": -0.569
+  },
+  "LUIT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8771972",
+    "coops_station_name": "San Luis Pass",
+    "distance_km": 2.28,
+    "offset_ft": -0.915354,
+    "offset_m": -0.279
+  },
+  "PMAF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8726384",
+    "coops_station_name": "Port Manatee",
+    "distance_km": 0.08,
+    "offset_ft": -0.580709,
+    "offset_m": -0.177
+  },
+  "LKHL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8767816",
+    "coops_station_name": "Lake Charles",
+    "distance_km": 2.86,
+    "offset_ft": -0.734908,
+    "offset_m": -0.224
+  },
+  "FESN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8654467",
+    "coops_station_name": "USCG Station Hatteras",
+    "distance_km": 17.82,
+    "offset_ft": -0.259186,
+    "offset_m": -0.079
+  },
+  "PCUF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720226",
+    "coops_station_name": "Southbank Riverwalk, St Johns River",
+    "distance_km": 9.24,
+    "offset_ft": -0.649606,
+    "offset_m": -0.198
+  },
+  "SWBN7": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 57.06,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "VNCL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8760721",
+    "coops_station_name": "Pilottown",
+    "distance_km": 14.08,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "GJCT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770777",
+    "coops_station_name": "Manchester",
+    "distance_km": 8.68,
+    "offset_ft": -1.748688,
+    "offset_m": -0.533
+  },
+  "NSWV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8631044",
+    "coops_station_name": "Wachapreague",
+    "distance_km": 26.4,
+    "offset_ft": -1.866798,
+    "offset_m": -0.569
+  },
+  "MCGL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8764044",
+    "coops_station_name": "Berwick, Atchafalaya River",
+    "distance_km": 4.13,
+    "offset_ft": -2.185039,
+    "offset_m": -0.666
+  },
+  "CHTM3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8447435",
+    "coops_station_name": "Chatham",
+    "distance_km": 0.01,
+    "offset_ft": -2.683727,
+    "offset_m": -0.818
+  },
+  "WKQA1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8735523",
+    "coops_station_name": "East Fowl River Bridge",
+    "distance_km": 28.08,
+    "offset_ft": -0.82021,
+    "offset_m": -0.25
+  },
+  "LGCT2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8771013",
+    "coops_station_name": "Eagle Point, Galveston Bay",
+    "distance_km": 20.01,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "EGHN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8654467",
+    "coops_station_name": "USCG Station Hatteras",
+    "distance_km": 42.66,
+    "offset_ft": -0.259186,
+    "offset_m": -0.079
+  },
+  "LWSD1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8557380",
+    "coops_station_name": "Lewes",
+    "distance_km": 0.23,
+    "offset_ft": -2.024278,
+    "offset_m": -0.617
+  },
+  "PELF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 71.38,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "MBCL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8761955",
+    "coops_station_name": "Carrollton",
+    "distance_km": 17.58,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SSNS1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 67.4,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "HLNT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770613",
+    "coops_station_name": "Morgans Point, Barbours Cut",
+    "distance_km": 14.39,
+    "offset_ft": -1.345144,
+    "offset_m": -0.41
+  },
+  "PABN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8531680",
+    "coops_station_name": "Sandy Hook",
+    "distance_km": 21.77,
+    "offset_ft": -2.411417,
+    "offset_m": -0.735
+  },
+  "PILL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8760721",
+    "coops_station_name": "Pilottown",
+    "distance_km": 0.04,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CHCM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8573927",
+    "coops_station_name": "Chesapeake City",
+    "distance_km": 0.04,
+    "offset_ft": -1.627297,
+    "offset_m": -0.496
+  },
+  "TESL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8764044",
+    "coops_station_name": "Berwick, Atchafalaya River",
+    "distance_km": 0.08,
+    "offset_ft": -2.185039,
+    "offset_m": -0.666
+  },
+  "NAGN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8652587",
+    "coops_station_name": "Oregon Inlet Marina",
+    "distance_km": 16.73,
+    "offset_ft": -0.475722,
+    "offset_m": -0.145
+  },
+  "STIF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 68.09,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SHPF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 76.26,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "LTCV2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8638901",
+    "coops_station_name": "CBBT, Chesapeake Channel",
+    "distance_km": 21.22,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "OBLA1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8737048",
+    "coops_station_name": "Mobile State Docks",
+    "distance_km": 0.06,
+    "offset_ft": -1.158137,
+    "offset_m": -0.353
+  },
+  "MCSM1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8411060",
+    "coops_station_name": "Cutler Farris Wharf",
+    "distance_km": 20.42,
+    "offset_ft": -7.037402,
+    "offset_m": -2.145
+  },
+  "WLON7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8658120",
+    "coops_station_name": "Wilmington",
+    "distance_km": 0.16,
+    "offset_ft": -2.083333,
+    "offset_m": -0.635
+  },
+  "WNDV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8636580",
+    "coops_station_name": "Windmill Point",
+    "distance_km": 1.06,
+    "offset_ft": -0.213255,
+    "offset_m": -0.065
+  },
+  "BPAD2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8594900",
+    "coops_station_name": "Washington",
+    "distance_km": 1.35,
+    "offset_ft": -1.774934,
+    "offset_m": -0.541
+  },
+  "JRAF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8728690",
+    "coops_station_name": "Apalachicola",
+    "distance_km": 11.19,
+    "offset_ft": -0.853018,
+    "offset_m": -0.26
+  },
+  "HMNV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8638610",
+    "coops_station_name": "Sewells Point",
+    "distance_km": 9.98,
+    "offset_ft": -1.145013,
+    "offset_m": -0.349
+  },
+  "GRWN4": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8537121",
+    "coops_station_name": "Ship John Shoal",
+    "distance_km": 8.37,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CAPL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8768094",
+    "coops_station_name": "Calcasieu Pass",
+    "distance_km": 0.02,
+    "offset_ft": -0.400262,
+    "offset_m": -0.122
+  },
+  "WPHL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8761724",
+    "coops_station_name": "Grand Isle",
+    "distance_km": 34.08,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "JAKF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720226",
+    "coops_station_name": "Southbank Riverwalk, St Johns River",
+    "distance_km": 8.97,
+    "offset_ft": -0.649606,
+    "offset_m": -0.198
+  },
+  "FOXR1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8454000",
+    "coops_station_name": "Providence",
+    "distance_km": 0.68,
+    "offset_ft": -2.365486,
+    "offset_m": -0.721
+  },
+  "CWOL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8767816",
+    "coops_station_name": "Lake Charles",
+    "distance_km": 12.89,
+    "offset_ft": -0.734908,
+    "offset_m": -0.224
+  },
+  "LCSL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8767816",
+    "coops_station_name": "Lake Charles",
+    "distance_km": 49.12,
+    "offset_ft": -0.734908,
+    "offset_m": -0.224
+  },
+  "MTKN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8510560",
+    "coops_station_name": "Montauk",
+    "distance_km": 0.05,
+    "offset_ft": -0.958005,
+    "offset_m": -0.292
+  },
+  "RTAT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8775237",
+    "coops_station_name": "Port Aransas",
+    "distance_km": 0.06,
+    "offset_ft": -0.895669,
+    "offset_m": -0.273
+  },
+  "ATLN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8534720",
+    "coops_station_name": "Atlantic City",
+    "distance_km": 2.42,
+    "offset_ft": -1.988189,
+    "offset_m": -0.606
+  },
+  "BPPL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8762482",
+    "coops_station_name": "West Bank 1, Bayou Gauche",
+    "distance_km": 34.93,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "RCPT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8774770",
+    "coops_station_name": "Rockport",
+    "distance_km": 0.29,
+    "offset_ft": -1.299213,
+    "offset_m": -0.396
+  },
+  "CHIV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8631044",
+    "coops_station_name": "Wachapreague",
+    "distance_km": 40.87,
+    "offset_ft": -1.866798,
+    "offset_m": -0.569
+  },
+  "BISM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8571421",
+    "coops_station_name": "Bishops Head",
+    "distance_km": 0.03,
+    "offset_ft": -0.849738,
+    "offset_m": -0.259
+  },
+  "DELD1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8551762",
+    "coops_station_name": "Delaware City",
+    "distance_km": 0.08,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "DILA1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8735180",
+    "coops_station_name": "Dauphin Island",
+    "distance_km": 0.0,
+    "offset_ft": -0.698819,
+    "offset_m": -0.213
+  },
+  "APCF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8728690",
+    "coops_station_name": "Apalachicola",
+    "distance_km": 0.27,
+    "offset_ft": -0.853018,
+    "offset_m": -0.26
+  },
+  "PTIT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8779770",
+    "coops_station_name": "Port Isabel",
+    "distance_km": 0.06,
+    "offset_ft": -0.521654,
+    "offset_m": -0.159
+  },
+  "GSHA1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8735180",
+    "coops_station_name": "Dauphin Island",
+    "distance_km": 37.44,
+    "offset_ft": -0.698819,
+    "offset_m": -0.213
+  },
+  "BRBS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8670870",
+    "coops_station_name": "Fort Pulaski",
+    "distance_km": 48.86,
+    "offset_ft": -3.451444,
+    "offset_m": -1.052
+  },
+  "COVM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8577330",
+    "coops_station_name": "Solomons Island",
+    "distance_km": 14.01,
+    "offset_ft": -0.62336,
+    "offset_m": -0.19
+  },
+  "KIAS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8665530",
+    "coops_station_name": "Charleston",
+    "distance_km": 27.73,
+    "offset_ft": -2.624672,
+    "offset_m": -0.8
+  },
+  "NCLL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8767961",
+    "coops_station_name": "Bulk Terminal",
+    "distance_km": 17.61,
+    "offset_ft": -0.705381,
+    "offset_m": -0.215
+  },
+  "CFWM1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8411060",
+    "coops_station_name": "Cutler Farris Wharf",
+    "distance_km": 0.4,
+    "offset_ft": -7.037402,
+    "offset_m": -2.145
+  },
+  "CLCT2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8771013",
+    "coops_station_name": "Eagle Point, Galveston Bay",
+    "distance_km": 12.86,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "BRHC3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8467150",
+    "coops_station_name": "Bridgeport",
+    "distance_km": 0.32,
+    "offset_ft": -3.47769,
+    "offset_m": -1.06
+  },
+  "CSAG1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8679598",
+    "coops_station_name": "Kings Bay MSF Pier",
+    "distance_km": 2.44,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "BUCF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720357",
+    "coops_station_name": "I-295 Buckman Bridge",
+    "distance_km": 2.19,
+    "offset_ft": -0.39042,
+    "offset_m": -0.119
+  },
+  "AVON7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8654467",
+    "coops_station_name": "USCG Station Hatteras",
+    "distance_km": 21.78,
+    "offset_ft": -0.259186,
+    "offset_m": -0.079
+  },
+  "MROS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8661070",
+    "coops_station_name": "Springmaid Pier",
+    "distance_km": 0.0,
+    "offset_ft": -2.444226,
+    "offset_m": -0.745
+  },
+  "MIGM1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8413320",
+    "coops_station_name": "Bar Harbor",
+    "distance_km": 30.87,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CPFS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8665530",
+    "coops_station_name": "Charleston",
+    "distance_km": 12.72,
+    "offset_ft": -2.624672,
+    "offset_m": -0.8
+  },
+  "WRVV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8637689",
+    "coops_station_name": "Yorktown USCG Training Center",
+    "distance_km": 17.64,
+    "offset_ft": -1.043307,
+    "offset_m": -0.318
+  },
+  "BGLN4": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 52.32,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "DNSF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 68.64,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "RICV2": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 89.64,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "BASN4": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 58.64,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "PVHM3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8447435",
+    "coops_station_name": "Chatham",
+    "distance_km": 44.49,
+    "offset_ft": -2.683727,
+    "offset_m": -0.818
+  },
+  "SRPF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720357",
+    "coops_station_name": "I-295 Buckman Bridge",
+    "distance_km": 45.64,
+    "offset_ft": -0.39042,
+    "offset_m": -0.119
+  },
+  "JSFV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8637689",
+    "coops_station_name": "Yorktown USCG Training Center",
+    "distance_km": 27.69,
+    "offset_ft": -1.043307,
+    "offset_m": -0.318
+  },
+  "ROFN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8652587",
+    "coops_station_name": "Oregon Inlet Marina",
+    "distance_km": 23.35,
+    "offset_ft": -0.475722,
+    "offset_m": -0.145
+  },
+  "CLNM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8575512",
+    "coops_station_name": "Annapolis",
+    "distance_km": 23.77,
+    "offset_ft": -0.666011,
+    "offset_m": -0.203
+  },
+  "WPIS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8661070",
+    "coops_station_name": "Springmaid Pier",
+    "distance_km": 25.45,
+    "offset_ft": -2.444226,
+    "offset_m": -0.745
+  },
+  "CIBL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8767816",
+    "coops_station_name": "Lake Charles",
+    "distance_km": 13.28,
+    "offset_ft": -0.734908,
+    "offset_m": -0.224
+  },
+  "WESN7": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 92.72,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "AMEM3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8443970",
+    "coops_station_name": "Boston",
+    "distance_km": 5.08,
+    "offset_ft": -4.767061,
+    "offset_m": -1.453
+  },
+  "MSBF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720226",
+    "coops_station_name": "Southbank Riverwalk, St Johns River",
+    "distance_km": 0.0,
+    "offset_ft": -0.649606,
+    "offset_m": -0.198
+  },
+  "SCMS1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 61.65,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CWBF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8726724",
+    "coops_station_name": "Clearwater Beach",
+    "distance_km": 0.05,
+    "offset_ft": -0.951444,
+    "offset_m": -0.29
+  },
+  "BRJF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720219",
+    "coops_station_name": "Dames Point",
+    "distance_km": 12.29,
+    "offset_ft": -1.414042,
+    "offset_m": -0.431
+  },
+  "AWRT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8774230",
+    "coops_station_name": "Aransas Wildlife Refuge",
+    "distance_km": 0.17,
+    "offset_ft": -1.282808,
+    "offset_m": -0.391
+  },
+  "VCAF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8723970",
+    "coops_station_name": "Vaca Key, Florida Bay",
+    "distance_km": 0.05,
+    "offset_ft": 0.360892,
+    "offset_m": 0.11
+  },
+  "CASM1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8418150",
+    "coops_station_name": "Portland",
+    "distance_km": 0.27,
+    "offset_ft": -4.652231,
+    "offset_m": -1.418
+  },
+  "BERN7": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 54.32,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "BAHM1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8418150",
+    "coops_station_name": "Portland",
+    "distance_km": 45.78,
+    "offset_ft": -4.652231,
+    "offset_m": -1.418
+  },
+  "HVRM3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8419870",
+    "coops_station_name": "Seavey Island",
+    "distance_km": 44.11,
+    "offset_ft": -4.186352,
+    "offset_m": -1.276
+  },
+  "RLIT2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8779280",
+    "coops_station_name": "Realitos Peninsula",
+    "distance_km": 0.05,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "ALEV2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8594900",
+    "coops_station_name": "Washington",
+    "distance_km": 4.58,
+    "offset_ft": -1.774934,
+    "offset_m": -0.541
+  },
+  "MRCP1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8540433",
+    "coops_station_name": "Marcus Hook",
+    "distance_km": 0.05,
+    "offset_ft": -3.192257,
+    "offset_m": -0.973
+  },
+  "CLGN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8651370",
+    "coops_station_name": "Duck",
+    "distance_km": 18.48,
+    "offset_ft": -1.499344,
+    "offset_m": -0.457
+  },
+  "QPTR1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8452660",
+    "coops_station_name": "Newport",
+    "distance_km": 11.3,
+    "offset_ft": -1.811024,
+    "offset_m": -0.552
+  },
+  "NLHC3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8461490",
+    "coops_station_name": "New London",
+    "distance_km": 0.0,
+    "offset_ft": -1.21063,
+    "offset_m": -0.369
+  },
+  "KITN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8651370",
+    "coops_station_name": "Duck",
+    "distance_km": 13.75,
+    "offset_ft": -1.499344,
+    "offset_m": -0.457
+  },
+  "HAGS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8661070",
+    "coops_station_name": "Springmaid Pier",
+    "distance_km": 34.41,
+    "offset_ft": -2.444226,
+    "offset_m": -0.745
+  },
+  "NTKM3": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8449130",
+    "coops_station_name": "Nantucket Island",
+    "distance_km": 0.06,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "OCIM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8570283",
+    "coops_station_name": "Ocean City Inlet",
+    "distance_km": 0.05,
+    "offset_ft": -0.725066,
+    "offset_m": -0.221
+  },
+  "NMDV2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8639348",
+    "coops_station_name": "Money Point",
+    "distance_km": 25.39,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "NUET2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8775222",
+    "coops_station_name": "Viola Turning Basin",
+    "distance_km": 3.75,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SAQG1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 73.58,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CTIN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8656483",
+    "coops_station_name": "Beaufort, Duke Marine Lab",
+    "distance_km": 46.65,
+    "offset_ft": -1.459974,
+    "offset_m": -0.445
+  },
+  "BZST2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8779749",
+    "coops_station_name": "SPI Brazos Santiago",
+    "distance_km": 0.06,
+    "offset_ft": -0.242782,
+    "offset_m": -0.074
+  },
+  "JCKN7": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 67.6,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "PCLF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8729840",
+    "coops_station_name": "Pensacola",
+    "distance_km": 0.05,
+    "offset_ft": -0.935039,
+    "offset_m": -0.285
+  },
+  "JDWT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8770971",
+    "coops_station_name": "Rollover Pass",
+    "distance_km": 23.16,
+    "offset_ft": -0.610236,
+    "offset_m": -0.186
+  },
+  "APAM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8575512",
+    "coops_station_name": "Annapolis",
+    "distance_km": 0.13,
+    "offset_ft": -0.666011,
+    "offset_m": -0.203
+  },
+  "FRHF1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 120.28,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "FRPN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8516945",
+    "coops_station_name": "Kings Point",
+    "distance_km": 25.83,
+    "offset_ft": -3.59252,
+    "offset_m": -1.095
+  },
+  "KPTN6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8516945",
+    "coops_station_name": "Kings Point",
+    "distance_km": 0.08,
+    "offset_ft": -3.59252,
+    "offset_m": -1.095
+  },
+  "FRIN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8654467",
+    "coops_station_name": "USCG Station Hatteras",
+    "distance_km": 10.54,
+    "offset_ft": -0.259186,
+    "offset_m": -0.079
+  },
+  "NAPM6": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8747437",
+    "coops_station_name": "Bay Waveland Yacht Club",
+    "distance_km": 30.35,
+    "offset_ft": -0.97769,
+    "offset_m": -0.298
+  },
+  "SESM3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8447435",
+    "coops_station_name": "Chatham",
+    "distance_km": 18.25,
+    "offset_ft": -2.683727,
+    "offset_m": -0.818
+  },
+  "PSTL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8760922",
+    "coops_station_name": "Pilots Station East, S.W. Pass",
+    "distance_km": 0.05,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "DKBN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8651370",
+    "coops_station_name": "Duck",
+    "distance_km": 2.16,
+    "offset_ft": -1.499344,
+    "offset_m": -0.457
+  },
+  "CARL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8761955",
+    "coops_station_name": "Carrollton",
+    "distance_km": 0.05,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "GNJT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8771341",
+    "coops_station_name": "Galveston Bay Entrance, North Jetty",
+    "distance_km": 0.06,
+    "offset_ft": -1.108924,
+    "offset_m": -0.338
+  },
+  "FRDF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720030",
+    "coops_station_name": "Fernandina Beach",
+    "distance_km": 0.09,
+    "offset_ft": -2.736221,
+    "offset_m": -0.834
+  },
+  "NIXS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8661070",
+    "coops_station_name": "Springmaid Pier",
+    "distance_km": 32.63,
+    "offset_ft": -2.444226,
+    "offset_m": -0.745
+  },
+  "ESXC3": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8461490",
+    "coops_station_name": "New London",
+    "distance_km": 24.21,
+    "offset_ft": -1.21063,
+    "offset_m": -0.369
+  },
+  "CAMM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8571892",
+    "coops_station_name": "Cambridge",
+    "distance_km": 0.78,
+    "offset_ft": -0.935039,
+    "offset_m": -0.285
+  },
+  "NATF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720030",
+    "coops_station_name": "Fernandina Beach",
+    "distance_km": 17.94,
+    "offset_ft": -2.736221,
+    "offset_m": -0.834
+  },
+  "STHN7": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8658120",
+    "coops_station_name": "Wilmington",
+    "distance_km": 34.96,
+    "offset_ft": -2.083333,
+    "offset_m": -0.635
+  },
+  "MBET2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8773767",
+    "coops_station_name": "Matagorda Bay Entrance Channel",
+    "distance_km": 0.62,
+    "offset_ft": -0.862861,
+    "offset_m": -0.263
+  },
+  "MHBT2": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8775283",
+    "coops_station_name": "Enbridge, Ingleside",
+    "distance_km": 1.27,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "ANPT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8775241",
+    "coops_station_name": "Aransas, Aransas Pass",
+    "distance_km": 0.0,
+    "offset_ft": -0.721785,
+    "offset_m": -0.22
+  },
+  "GISL1": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8761724",
+    "coops_station_name": "Grand Isle",
+    "distance_km": 0.23,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "WRIS1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8665530",
+    "coops_station_name": "Charleston",
+    "distance_km": 9.05,
+    "offset_ft": -2.624672,
+    "offset_m": -0.8
+  },
+  "SJLF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8720226",
+    "coops_station_name": "Southbank Riverwalk, St Johns River",
+    "distance_km": 0.74,
+    "offset_ft": -0.649606,
+    "offset_m": -0.198
+  },
+  "WATN4": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 52.42,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "ONCN4": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8534720",
+    "coops_station_name": "Atlantic City",
+    "distance_km": 21.42,
+    "offset_ft": -1.988189,
+    "offset_m": -0.606
+  },
+  "BLHN7": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 90.95,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "BSRL1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 52.37,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "BLTM2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8574680",
+    "coops_station_name": "Baltimore",
+    "distance_km": 0.4,
+    "offset_ft": -0.826772,
+    "offset_m": -0.252
+  },
+  "LCHL1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8767816",
+    "coops_station_name": "Lake Charles",
+    "distance_km": 2.97,
+    "offset_ft": -0.734908,
+    "offset_m": -0.224
+  },
+  "SGNT2": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8772985",
+    "coops_station_name": "Sargent",
+    "distance_km": 0.07,
+    "offset_ft": -1.049869,
+    "offset_m": -0.32
+  },
+  "PACF1": {
+    "status": "OK",
+    "method": "coops_fallback",
+    "coops_station_id": "8729108",
+    "coops_station_name": "Panama City",
+    "distance_km": 0.35,
+    "offset_ft": -0.784121,
+    "offset_m": -0.239
+  },
+  "PRIN6": {
+    "status": "DATUM_UNAVAILABLE",
+    "method": null,
+    "coops_station_id": "8465705",
+    "coops_station_name": "New Haven",
+    "distance_km": 46.47,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "WYSS1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "nearest_distance_km": 51.52,
+    "offset_ft": null,
+    "offset_m": null
+  }
+}
