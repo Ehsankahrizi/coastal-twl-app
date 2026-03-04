@@ -26,6 +26,13 @@ from google.cloud import storage
 import requests
 from io import StringIO
 
+# Ensure sibling modules in pipeline/ are importable when run from repo root
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+if _SCRIPT_DIR not in sys.path:
+    sys.path.insert(0, _SCRIPT_DIR)
+
+from datum_converter import convert_twl_to_mhhw
+
 # ── Configuration ──────────────────────────────────────────────────────────
 REGIONS = ["atlgulf"]  # Add "pacific" later if needed
 CYCLES = ["00", "06", "12", "18"]
@@ -259,12 +266,43 @@ def main():
         json.dump(twl_data, f, indent=2)
     print(f"Wrote {len(twl_data)} station time-series → {twl_path}")
 
+    # ── MHHW Datum Conversion ─────────────────────────────────────────
+    # Convert TWL values from NAVD88 to MHHW using NOAA VDatum API.
+    # Falls back to CO-OPS station datums if VDatum is unavailable.
+    # Offsets are cached in data/datum_offsets.json (only fetched once per station).
+    datum_cache_path = os.path.join(DATA_DIR, "datum_offsets.json")
+    twl_data_mhhw, station_datums = convert_twl_to_mhhw(
+        stations_list=stations,
+        twl_data=twl_data,
+        cache_path=datum_cache_path,
+        max_distance_km=50,
+        input_units="feet",  # NWM SHEF TWL values are in feet
+    )
+
+    # Write MHHW-converted TWL data
+    mhhw_path = os.path.join(DATA_DIR, "twl_data_mhhw.json")
+    with open(mhhw_path, "w") as f:
+        json.dump(twl_data_mhhw, f, indent=2)
+    print(f"Wrote {len(twl_data_mhhw)} station time-series (MHHW) → {mhhw_path}")
+
+    # Write station datum info (for reference / debugging)
+    datums_info_path = os.path.join(DATA_DIR, "station_datums.json")
+    with open(datums_info_path, "w") as f:
+        json.dump(station_datums, f, indent=2)
+    print(f"Wrote datum info for {len(station_datums)} stations → {datums_info_path}")
+
+    # Count successful MHHW conversions
+    mhhw_ok = sum(1 for v in station_datums.values() if v.get("status") == "OK")
+    # ──────────────────────────────────────────────────────────────────
+
     # Write metadata
     run_metadata = {
         "lastUpdated": dt.datetime.utcnow().isoformat() + "Z",
         "stationsCount": len(stations),
         "stationsWithData": len(twl_data),
         "totalReadings": len(combined_df),
+        "mhhwConvertedStations": mhhw_ok,
+        "mhhwTotalStations": len(station_datums),
         "downloads": successful_downloads,
         "regions": REGIONS,
     }
