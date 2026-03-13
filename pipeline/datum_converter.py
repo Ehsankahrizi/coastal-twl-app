@@ -134,11 +134,17 @@ def _vdatum_get_offset(lat, lon, input_units="feet"):
             t_z = data.get("t_z")
             if t_z is not None:
                 try:
-                    return round(float(t_z), 6)
+                    val = round(float(t_z), 6)
+                    # VDatum returns -999999.0 for "no data" when a point is out of coverage
+                    # but technically inside the bounding box of the valid region.
+                    if abs(val) < 1000:
+                        return val
+                    else:
+                        break # "No data" flag found, no point trying other regions
                 except (ValueError, TypeError):
                     pass
             
-            # If we get here, the response was valid JSON but no t_z. Try next region.
+            # If we get here, the response was valid JSON but no valid t_z. Try next region.
             break
 
     # If all regions fail or return no valid offset
