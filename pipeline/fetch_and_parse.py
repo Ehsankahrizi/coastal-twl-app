@@ -275,7 +275,6 @@ def main():
         stations_list=stations,
         twl_data=twl_data,
         cache_path=datum_cache_path,
-        max_distance_km=50,
         input_units="feet",  # NWM SHEF TWL values are in feet
     )
 
