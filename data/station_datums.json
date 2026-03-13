@@ -6,21 +6,21 @@
     "offset_m": null
   },
   "ACFS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.194,
     "offset_m": null
   },
   "ACYN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.988,
     "offset_m": null
   },
   "ALBN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.808,
     "offset_m": null
   },
   "ALCN4": {
@@ -36,15 +36,15 @@
     "offset_m": null
   },
   "ALIN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "AMEM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -4.786,
     "offset_m": null
   },
   "AMRL1": {
@@ -72,9 +72,9 @@
     "offset_m": null
   },
   "APCF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.86,
     "offset_m": null
   },
   "AQCV2": {
@@ -96,21 +96,21 @@
     "offset_m": null
   },
   "ASPS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.814,
     "offset_m": null
   },
   "ASTF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "ATGM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -5.427,
     "offset_m": null
   },
   "ATLN4": {
@@ -126,15 +126,15 @@
     "offset_m": null
   },
   "AVNN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.259,
     "offset_m": null
   },
   "AVON7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.241,
     "offset_m": null
   },
   "AWRT2": {
@@ -156,33 +156,33 @@
     "offset_m": null
   },
   "BAHM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -5.404,
     "offset_m": null
   },
   "BASN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.116,
     "offset_m": null
   },
   "BATN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.684,
     "offset_m": null
   },
   "BCSL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "BDAL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "BDHV2": {
@@ -210,15 +210,15 @@
     "offset_m": null
   },
   "BEIS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "BERN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.275,
     "offset_m": null
   },
   "BFBT2": {
@@ -228,27 +228,27 @@
     "offset_m": null
   },
   "BFCS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.311,
     "offset_m": null
   },
   "BFTN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.503,
     "offset_m": null
   },
   "BGCV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "BGLN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.346,
     "offset_m": null
   },
   "BGNN6": {
@@ -264,9 +264,9 @@
     "offset_m": null
   },
   "BHBM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -4.763,
     "offset_m": null
   },
   "BIDM1": {
@@ -276,9 +276,9 @@
     "offset_m": null
   },
   "BIPN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.122,
     "offset_m": null
   },
   "BISM2": {
@@ -288,9 +288,9 @@
     "offset_m": null
   },
   "BKBF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.498,
     "offset_m": null
   },
   "BKNV2": {
@@ -312,21 +312,21 @@
     "offset_m": null
   },
   "BLHN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.155,
     "offset_m": null
   },
   "BLIN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.158,
     "offset_m": null
   },
   "BLRL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "BLTM2": {
@@ -354,9 +354,9 @@
     "offset_m": null
   },
   "BPPL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.686,
     "offset_m": null
   },
   "BQTM2": {
@@ -366,21 +366,21 @@
     "offset_m": null
   },
   "BRBS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.573,
     "offset_m": null
   },
   "BRHC3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.495,
     "offset_m": null
   },
   "BRJF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "BRND1": {
@@ -390,9 +390,9 @@
     "offset_m": null
   },
   "BRNG1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.986,
     "offset_m": null
   },
   "BRZT2": {
@@ -402,9 +402,9 @@
     "offset_m": null
   },
   "BSRL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "BSRN4": {
@@ -414,27 +414,27 @@
     "offset_m": null
   },
   "BTBM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -4.531,
     "offset_m": null
   },
   "BTRL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "BUCF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.484,
     "offset_m": null
   },
   "BUCS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.932,
     "offset_m": null
   },
   "BVVN4": {
@@ -444,15 +444,15 @@
     "offset_m": null
   },
   "BYSA1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.259,
     "offset_m": null
   },
   "BZBM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.848,
     "offset_m": null
   },
   "BZST2": {
@@ -462,9 +462,9 @@
     "offset_m": null
   },
   "CALM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "CAMM1": {
@@ -492,15 +492,15 @@
     "offset_m": null
   },
   "CARL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "CASM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -4.65,
     "offset_m": null
   },
   "CBBV2": {
@@ -510,9 +510,9 @@
     "offset_m": null
   },
   "CBRN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.135,
     "offset_m": null
   },
   "CCHV2": {
@@ -522,9 +522,9 @@
     "offset_m": null
   },
   "CCJF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "CDDM1": {
@@ -534,9 +534,9 @@
     "offset_m": null
   },
   "CFWM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -7.078,
     "offset_m": null
   },
   "CHBM2": {
@@ -564,21 +564,21 @@
     "offset_m": null
   },
   "CHMF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.328,
     "offset_m": null
   },
   "CHTM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.108,
     "offset_m": null
   },
   "CHTS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.623,
     "offset_m": null
   },
   "CHTT2": {
@@ -588,33 +588,33 @@
     "offset_m": null
   },
   "CHWF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "CIBL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "CIKA1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "CKBF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.151,
     "offset_m": null
   },
   "CKYF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.548,
     "offset_m": null
   },
   "CLCT2": {
@@ -624,9 +624,9 @@
     "offset_m": null
   },
   "CLGN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.062,
     "offset_m": null
   },
   "CLIC3": {
@@ -648,15 +648,15 @@
     "offset_m": null
   },
   "CNMF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.488,
     "offset_m": null
   },
   "COLN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "COVM2": {
@@ -666,21 +666,21 @@
     "offset_m": null
   },
   "CPCS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.691,
     "offset_m": null
   },
   "CPEM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -4.685,
     "offset_m": null
   },
   "CPFS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.876,
     "offset_m": null
   },
   "CPMV2": {
@@ -702,15 +702,15 @@
     "offset_m": null
   },
   "CPTR1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.197,
     "offset_m": null
   },
   "CPTT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "CRSM2": {
@@ -720,51 +720,51 @@
     "offset_m": null
   },
   "CSAG1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.845,
     "offset_m": null
   },
   "CTIN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.027,
     "offset_m": null
   },
   "CTMF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "CWBF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.948,
     "offset_m": null
   },
   "CWOL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "CYTF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.105,
     "offset_m": null
   },
   "CZKF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.395,
     "offset_m": null
   },
   "DACL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "DAMM1": {
@@ -774,9 +774,9 @@
     "offset_m": null
   },
   "DCDF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "DCWM1": {
@@ -792,69 +792,69 @@
     "offset_m": null
   },
   "DGIF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.295,
     "offset_m": null
   },
   "DIBM6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "DICT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "DILA1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.974,
     "offset_m": null
   },
   "DKBN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.06,
     "offset_m": null
   },
   "DMSF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.39,
     "offset_m": null
   },
   "DNSF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.524,
     "offset_m": null
   },
   "DONL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "DPBF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.402,
     "offset_m": null
   },
   "DUCF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "DUKN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.508,
     "offset_m": null
   },
   "DYTT2": {
@@ -864,27 +864,27 @@
     "offset_m": null
   },
   "EBEF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.182,
     "offset_m": null
   },
   "EFRA1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "EFSF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "EGHN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "EINL1": {
@@ -906,33 +906,33 @@
     "offset_m": null
   },
   "EMDN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.616,
     "offset_m": null
   },
   "EMPL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "EMWN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.019,
     "offset_m": null
   },
   "EPCM6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "EPPL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "EPTT2": {
@@ -942,15 +942,15 @@
     "offset_m": null
   },
   "ESXC3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.76,
     "offset_m": null
   },
   "EWPN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.115,
     "offset_m": null
   },
   "EZMV2": {
@@ -972,9 +972,9 @@
     "offset_m": null
   },
   "FESN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.225,
     "offset_m": null
   },
   "FHBT2": {
@@ -984,33 +984,33 @@
     "offset_m": null
   },
   "FIRN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.759,
     "offset_m": null
   },
   "FLXN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.492,
     "offset_m": null
   },
   "FMRF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.272,
     "offset_m": null
   },
   "FOXR1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.361,
     "offset_m": null
   },
   "FPKG1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.461,
     "offset_m": null
   },
   "FPST2": {
@@ -1020,33 +1020,33 @@
     "offset_m": null
   },
   "FRDF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.737,
     "offset_m": null
   },
   "FRHF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.846,
     "offset_m": null
   },
   "FRIN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.186,
     "offset_m": null
   },
   "FRPN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.952,
     "offset_m": null
   },
   "FRVM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.35,
     "offset_m": null
   },
   "FRWL1": {
@@ -1080,33 +1080,33 @@
     "offset_m": null
   },
   "GBSF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.991,
     "offset_m": null
   },
   "GCEF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.457,
     "offset_m": null
   },
   "GCYG1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -4.113,
     "offset_m": null
   },
   "GIRM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "GISL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.709,
     "offset_m": null
   },
   "GIST2": {
@@ -1116,21 +1116,21 @@
     "offset_m": null
   },
   "GJCT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "GLCM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -4.464,
     "offset_m": null
   },
   "GNDL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "GNJT2": {
@@ -1152,15 +1152,15 @@
     "offset_m": null
   },
   "GRMN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "GRPL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.218,
     "offset_m": null
   },
   "GRRT2": {
@@ -1176,9 +1176,9 @@
     "offset_m": null
   },
   "GSHA1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.9,
     "offset_m": null
   },
   "GTND2": {
@@ -1194,27 +1194,27 @@
     "offset_m": null
   },
   "GULF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "HACN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.046,
     "offset_m": null
   },
   "HAGS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.126,
     "offset_m": null
   },
   "HBKN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.244,
     "offset_m": null
   },
   "HBVT2": {
@@ -1224,9 +1224,9 @@
     "offset_m": null
   },
   "HCGN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.091,
     "offset_m": null
   },
   "HDGM2": {
@@ -1236,9 +1236,9 @@
     "offset_m": null
   },
   "HLKN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "HLNT2": {
@@ -1260,9 +1260,9 @@
     "offset_m": null
   },
   "HOGN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.242,
     "offset_m": null
   },
   "HOPT2": {
@@ -1272,27 +1272,27 @@
     "offset_m": null
   },
   "HPGL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.319,
     "offset_m": null
   },
   "HPLF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.053,
     "offset_m": null
   },
   "HPMN3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -4.369,
     "offset_m": null
   },
   "HSIT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "HUNM1": {
@@ -1302,9 +1302,9 @@
     "offset_m": null
   },
   "HVRM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "IHDM2": {
@@ -1326,27 +1326,27 @@
     "offset_m": null
   },
   "IRWF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.657,
     "offset_m": null
   },
   "IWDN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.787,
     "offset_m": null
   },
   "JAKF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "JCKN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.23,
     "offset_m": null
   },
   "JDWT2": {
@@ -1356,15 +1356,15 @@
     "offset_m": null
   },
   "JMPN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.996,
     "offset_m": null
   },
   "JRAF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.698,
     "offset_m": null
   },
   "JSFV2": {
@@ -1374,9 +1374,9 @@
     "offset_m": null
   },
   "JULF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "KBTM1": {
@@ -1386,9 +1386,9 @@
     "offset_m": null
   },
   "KIAS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.882,
     "offset_m": null
   },
   "KILL1": {
@@ -1398,33 +1398,33 @@
     "offset_m": null
   },
   "KILN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.363,
     "offset_m": null
   },
   "KITN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.533,
     "offset_m": null
   },
   "KLNG1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.383,
     "offset_m": null
   },
   "KLNM6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "KPTN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.681,
     "offset_m": null
   },
   "KPTV2": {
@@ -1434,21 +1434,21 @@
     "offset_m": null
   },
   "KRZL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "KSBN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.514,
     "offset_m": null
   },
   "KYWF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.042,
     "offset_m": null
   },
   "LABL1": {
@@ -1458,9 +1458,9 @@
     "offset_m": null
   },
   "LCHL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "LCLL1": {
@@ -1488,15 +1488,15 @@
     "offset_m": null
   },
   "LGCT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "LHBT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "LHNV2": {
@@ -1512,15 +1512,15 @@
     "offset_m": null
   },
   "LKWF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.554,
     "offset_m": null
   },
   "LNDN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.783,
     "offset_m": null
   },
   "LONV2": {
@@ -1536,9 +1536,9 @@
     "offset_m": null
   },
   "LRLL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.564,
     "offset_m": null
   },
   "LSPV2": {
@@ -1566,9 +1566,9 @@
     "offset_m": null
   },
   "LVJT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "LWSD1": {
@@ -1584,9 +1584,9 @@
     "offset_m": null
   },
   "LXRF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "LYBT2": {
@@ -1596,15 +1596,15 @@
     "offset_m": null
   },
   "LYMC3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.71,
     "offset_m": null
   },
   "MACS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.539,
     "offset_m": null
   },
   "MAIN6": {
@@ -1614,15 +1614,15 @@
     "offset_m": null
   },
   "MAUL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "MBCL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "MBET2": {
@@ -1632,9 +1632,9 @@
     "offset_m": null
   },
   "MCGA1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.289,
     "offset_m": null
   },
   "MCGL1": {
@@ -1644,15 +1644,15 @@
     "offset_m": null
   },
   "MCSM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "MERG1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "MGPT2": {
@@ -1674,15 +1674,15 @@
     "offset_m": null
   },
   "MIGM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -5.866,
     "offset_m": null
   },
   "MINN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.18,
     "offset_m": null
   },
   "MJBV2": {
@@ -1692,9 +1692,9 @@
     "offset_m": null
   },
   "MLVL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "MMAM1": {
@@ -1710,9 +1710,9 @@
     "offset_m": null
   },
   "MOBN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.128,
     "offset_m": null
   },
   "MQTT2": {
@@ -1722,9 +1722,9 @@
     "offset_m": null
   },
   "MRAL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "MRCP1": {
@@ -1740,75 +1740,75 @@
     "offset_m": null
   },
   "MRNF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "MROS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.445,
     "offset_m": null
   },
   "MSBF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.621,
     "offset_m": null
   },
   "MSNN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.046,
     "offset_m": null
   },
   "MSVL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "MTKN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.959,
     "offset_m": null
   },
   "MTLN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.334,
     "offset_m": null
   },
   "MYPF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.866,
     "offset_m": null
   },
   "NAGN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.116,
     "offset_m": null
   },
   "NAPM6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "NATF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.025,
     "offset_m": null
   },
   "NBDM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.986,
     "offset_m": null
   },
   "NBLP1": {
@@ -1836,9 +1836,9 @@
     "offset_m": null
   },
   "NIQS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.406,
     "offset_m": null
   },
   "NITS1": {
@@ -1848,21 +1848,21 @@
     "offset_m": null
   },
   "NIXS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.393,
     "offset_m": null
   },
   "NLHC3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.245,
     "offset_m": null
   },
   "NLRV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "NLVL1": {
@@ -1890,15 +1890,15 @@
     "offset_m": null
   },
   "NSBT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "NSNS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.219,
     "offset_m": null
   },
   "NSWV2": {
@@ -1908,9 +1908,9 @@
     "offset_m": null
   },
   "NTKM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.535,
     "offset_m": null
   },
   "NTSN7": {
@@ -1926,45 +1926,45 @@
     "offset_m": null
   },
   "NUTF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "NWCL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.479,
     "offset_m": null
   },
   "NWHC3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.107,
     "offset_m": null
   },
   "NWKN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.902,
     "offset_m": null
   },
   "NWPR1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.806,
     "offset_m": null
   },
   "OBCN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.125,
     "offset_m": null
   },
   "OBLA1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.295,
     "offset_m": null
   },
   "OBRT2": {
@@ -1974,9 +1974,9 @@
     "offset_m": null
   },
   "OCAN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.419,
     "offset_m": null
   },
   "OCIM2": {
@@ -1992,27 +1992,27 @@
     "offset_m": null
   },
   "OPTF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.911,
     "offset_m": null
   },
   "ORIN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.243,
     "offset_m": null
   },
   "ORIN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.476,
     "offset_m": null
   },
   "ORLN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.294,
     "offset_m": null
   },
   "ORNT2": {
@@ -2022,21 +2022,21 @@
     "offset_m": null
   },
   "OTWN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.723,
     "offset_m": null
   },
   "PABN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.649,
     "offset_m": null
   },
   "PACF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.784,
     "offset_m": null
   },
   "PACT2": {
@@ -2046,21 +2046,21 @@
     "offset_m": null
   },
   "PALF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.578,
     "offset_m": null
   },
   "PAMN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.123,
     "offset_m": null
   },
   "PCBF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.818,
     "offset_m": null
   },
   "PCGT2": {
@@ -2070,9 +2070,9 @@
     "offset_m": null
   },
   "PCLF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.934,
     "offset_m": null
   },
   "PCML1": {
@@ -2094,21 +2094,21 @@
     "offset_m": null
   },
   "PCUF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "PDGS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.111,
     "offset_m": null
   },
   "PELF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "PHBP1": {
@@ -2124,15 +2124,15 @@
     "offset_m": null
   },
   "PILL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.283,
     "offset_m": null
   },
   "PKMN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.196,
     "offset_m": null
   },
   "PLKM2": {
@@ -2142,9 +2142,9 @@
     "offset_m": null
   },
   "PMAF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.641,
     "offset_m": null
   },
   "PMGT2": {
@@ -2154,27 +2154,27 @@
     "offset_m": null
   },
   "PMTN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.129,
     "offset_m": null
   },
   "PNLM6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "PNPF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "POPM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.309,
     "offset_m": null
   },
   "PORT2": {
@@ -2196,33 +2196,33 @@
     "offset_m": null
   },
   "PRGF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "PRIN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.304,
     "offset_m": null
   },
   "PSBM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -9.332,
     "offset_m": null
   },
   "PSTL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.64,
     "offset_m": null
   },
   "PTFL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "PTHM1": {
@@ -2244,21 +2244,21 @@
     "offset_m": null
   },
   "PVHM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -4.616,
     "offset_m": null
   },
   "PWNG1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -4.362,
     "offset_m": null
   },
   "QPTR1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.857,
     "offset_m": null
   },
   "QTGV2": {
@@ -2274,9 +2274,9 @@
     "offset_m": null
   },
   "RBDN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "RCPT2": {
@@ -2298,9 +2298,9 @@
     "offset_m": null
   },
   "REYN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.979,
     "offset_m": null
   },
   "RGGT2": {
@@ -2316,9 +2316,9 @@
     "offset_m": null
   },
   "RIOT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "RKLM1": {
@@ -2328,9 +2328,9 @@
     "offset_m": null
   },
   "RKWN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.036,
     "offset_m": null
   },
   "RLIT2": {
@@ -2346,15 +2346,15 @@
     "offset_m": null
   },
   "RMLN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.123,
     "offset_m": null
   },
   "ROFN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.517,
     "offset_m": null
   },
   "ROQM1": {
@@ -2370,15 +2370,15 @@
     "offset_m": null
   },
   "RRLL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "RRVL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "RTAT2": {
@@ -2388,9 +2388,9 @@
     "offset_m": null
   },
   "RWYN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.455,
     "offset_m": null
   },
   "RYBN6": {
@@ -2400,27 +2400,27 @@
     "offset_m": null
   },
   "SABC3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.658,
     "offset_m": null
   },
   "SADN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.698,
     "offset_m": null
   },
   "SAPF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.749,
     "offset_m": null
   },
   "SAQG1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "SAXV2": {
@@ -2430,21 +2430,21 @@
     "offset_m": null
   },
   "SAYN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.749,
     "offset_m": null
   },
   "SBIF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.64,
     "offset_m": null
   },
   "SBIN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.784,
     "offset_m": null
   },
   "SBPT2": {
@@ -2454,9 +2454,9 @@
     "offset_m": null
   },
   "SBTN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.999,
     "offset_m": null
   },
   "SBYT2": {
@@ -2466,9 +2466,9 @@
     "offset_m": null
   },
   "SCMS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.37,
     "offset_m": null
   },
   "SCPT2": {
@@ -2478,15 +2478,15 @@
     "offset_m": null
   },
   "SCTM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -4.367,
     "offset_m": null
   },
   "SDHN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "SDRT2": {
@@ -2496,21 +2496,21 @@
     "offset_m": null
   },
   "SEIM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -4.213,
     "offset_m": null
   },
   "SESM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -4.693,
     "offset_m": null
   },
   "SGCF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.155,
     "offset_m": null
   },
   "SGNT2": {
@@ -2526,9 +2526,9 @@
     "offset_m": null
   },
   "SHBL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.424,
     "offset_m": null
   },
   "SHBN4": {
@@ -2538,21 +2538,21 @@
     "offset_m": null
   },
   "SHIN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.409,
     "offset_m": null
   },
   "SHLT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "SHPF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.628,
     "offset_m": null
   },
   "SHPT2": {
@@ -2568,9 +2568,9 @@
     "offset_m": null
   },
   "SISF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.349,
     "offset_m": null
   },
   "SJAN6": {
@@ -2580,9 +2580,9 @@
     "offset_m": null
   },
   "SJLF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.646,
     "offset_m": null
   },
   "SJSN4": {
@@ -2592,9 +2592,9 @@
     "offset_m": null
   },
   "SKTF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "SLIM2": {
@@ -2604,21 +2604,21 @@
     "offset_m": null
   },
   "SLRF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.293,
     "offset_m": null
   },
   "SMML1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "SNDN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.125,
     "offset_m": null
   },
   "SNSN7": {
@@ -2628,63 +2628,63 @@
     "offset_m": null
   },
   "SOCS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.644,
     "offset_m": null
   },
   "SPTF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.506,
     "offset_m": null
   },
   "SPUF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "SRPF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.631,
     "offset_m": null
   },
   "SRWG1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "SSNS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.434,
     "offset_m": null
   },
   "STDC3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.754,
     "offset_m": null
   },
   "STFL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "STHN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.952,
     "offset_m": null
   },
   "STIF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.624,
     "offset_m": null
   },
   "STKM1": {
@@ -2694,27 +2694,27 @@
     "offset_m": null
   },
   "STUN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.246,
     "offset_m": null
   },
   "SUWF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "SVDG1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -4.022,
     "offset_m": null
   },
   "SWBN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "SWCL1": {
@@ -2748,9 +2748,9 @@
     "offset_m": null
   },
   "TERN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.174,
     "offset_m": null
   },
   "TESL1": {
@@ -2772,15 +2772,15 @@
     "offset_m": null
   },
   "TKPN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.945,
     "offset_m": null
   },
   "TKTN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.579,
     "offset_m": null
   },
   "TPBN4": {
@@ -2790,15 +2790,15 @@
     "offset_m": null
   },
   "TRDF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.052,
     "offset_m": null
   },
   "TRJF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.185,
     "offset_m": null
   },
   "TWDL1": {
@@ -2826,15 +2826,15 @@
     "offset_m": null
   },
   "VAKF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.213,
     "offset_m": null
   },
   "VCAF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": 0.382,
     "offset_m": null
   },
   "VCAT2": {
@@ -2850,9 +2850,9 @@
     "offset_m": null
   },
   "VNCL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "WAHV2": {
@@ -2868,9 +2868,9 @@
     "offset_m": null
   },
   "WATN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -0.437,
     "offset_m": null
   },
   "WCHN7": {
@@ -2880,9 +2880,9 @@
     "offset_m": null
   },
   "WCIF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.467,
     "offset_m": null
   },
   "WELM1": {
@@ -2892,27 +2892,27 @@
     "offset_m": null
   },
   "WESN6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.725,
     "offset_m": null
   },
   "WESN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "WFRA1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "WHLR1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.197,
     "offset_m": null
   },
   "WIMD1": {
@@ -2928,21 +2928,21 @@
     "offset_m": null
   },
   "WKQA1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "WLCL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "WLON7": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.343,
     "offset_m": null
   },
   "WNDV2": {
@@ -2952,39 +2952,39 @@
     "offset_m": null
   },
   "WNGM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.017,
     "offset_m": null
   },
   "WPHL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "WPIS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.711,
     "offset_m": null
   },
   "WPSL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -999999.0,
     "offset_m": null
   },
   "WRCS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -3.006,
     "offset_m": null
   },
   "WRIS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -2.87,
     "offset_m": null
   },
   "WRVV2": {
@@ -2994,21 +2994,21 @@
     "offset_m": null
   },
   "WYBS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.952,
     "offset_m": null
   },
   "WYCM6": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.406,
     "offset_m": null
   },
   "WYSS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
-    "offset_ft": null,
+    "status": "OK",
+    "method": "vdatum",
+    "offset_ft": -1.952,
     "offset_m": null
   },
   "YKTV2": {
