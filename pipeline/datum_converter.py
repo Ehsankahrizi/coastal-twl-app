@@ -88,7 +88,7 @@ def _vdatum_get_offset(lat, lon, input_units="feet"):
     """
     v_unit = "us_ft" if input_units == "feet" else "m"
 
-    params = {
+    base_params = {
         "s_x": lon,
         "s_y": lat,
         "s_z": 0.0,               # zero height in NAVD88
@@ -97,41 +97,51 @@ def _vdatum_get_offset(lat, lon, input_units="feet"):
         "s_v_unit": v_unit,
         "t_v_frame": "MHHW",
         "t_v_unit": v_unit,
-        "region": "auto",          # let VDatum auto-detect region
     }
 
-    for attempt in range(1, VDATUM_MAX_RETRIES + 1):
-        try:
-            resp = requests.get(VDATUM_URL, params=params, timeout=30)
-            resp.raise_for_status()
-            data = resp.json()
-        except (requests.RequestException, ValueError) as e:
-            print(f"    [VDatum] Attempt {attempt}/{VDATUM_MAX_RETRIES} error: {e}")
-            if attempt < VDATUM_MAX_RETRIES:
-                time.sleep(VDATUM_RETRY_DELAY)
-                continue
-            return None
+    # "auto" region is failing on the NOAA API. Try regions sequentially.
+    # contiguous: Lower 48, ak: Alaska, hi: Hawaii, prvi: Puerto Rico/Virgin Islands
+    regions_to_try = ["contiguous", "ak", "hi", "prvi", "as", "gcnmi"]
 
-        # Check for errors in response
-        message = data.get("message", "")
-        if message and "error" in message.lower():
-            print(f"    [VDatum] Error: {message}")
-            return None
+    for region in regions_to_try:
+        params = base_params.copy()
+        params["region"] = region
+        
+        for attempt in range(1, VDATUM_MAX_RETRIES + 1):
+            try:
+                resp = requests.get(VDATUM_URL, params=params, timeout=30)
+                resp.raise_for_status()
+                data = resp.json()
+            except (requests.RequestException, ValueError) as e:
+                # Network error or timeout - retry
+                if attempt < VDATUM_MAX_RETRIES:
+                    time.sleep(VDATUM_RETRY_DELAY)
+                    continue
+                # If we max out retries, give up on this region
+                break
+                
+            # If the region is invalid for this coordinate, VDatum returns 200 OK
+            # but includes an 'errorCode' (e.g., 412) in the JSON
+            if "errorCode" in data:
+                break # Try the next region
+                
+            # Check for other errors in response
+            message = data.get("message", "")
+            if message and "error" in message.lower():
+                break # Try the next region
 
-        # Extract converted height
-        t_z = data.get("t_z")
-        if t_z is None:
-            print(f"    [VDatum] No t_z in response: {data}")
-            return None
+            # Extract converted height
+            t_z = data.get("t_z")
+            if t_z is not None:
+                try:
+                    return round(float(t_z), 6)
+                except (ValueError, TypeError):
+                    pass
+            
+            # If we get here, the response was valid JSON but no t_z. Try next region.
+            break
 
-        try:
-            offset = float(t_z)
-        except (ValueError, TypeError):
-            print(f"    [VDatum] Invalid t_z value: {t_z}")
-            return None
-
-        return round(offset, 6)
-
+    # If all regions fail or return no valid offset
     return None
 
 
