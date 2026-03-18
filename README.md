@@ -31,6 +31,8 @@ The NWM outputs Total Water Level referenced to NAVD88. For many coastal applica
 | `data/metadata.json` | Pipeline run metadata (timestamp, counts, conversion stats) |
 | `data/datum_offsets.json` | Cached VDatum/CO-OPS datum offsets per station (auto-generated) |
 | `data/station_datums.json` | Datum lookup details per station (method used, offset, status) |
+| `data/htf_threshold.json` | HTF threshold details per station |
+
 
 ## Data URLs (GitHub Pages)
 
