@@ -6,9 +6,12 @@ For each HTF threshold point, finds NWM stations within a 5 km radius,
 computes the mean TWL forecast from those neighbors, and outputs a JSON
 file (nwm_htf.json) that the iOS app can display.
 
+Uses MHHW-converted TWL data (twl_data_mhhw.json) so that the forecast
+values are in the same datum as the HTF thresholds.
+
 The output pairs each HTF point with:
-  - The averaged NWM time series (mean of neighbors)
-  - The HTF MidThreshold value (horizontal threshold line)
+  - The averaged NWM time series (mean of neighbors) in MHHW
+  - The HTF MidThreshold value (horizontal threshold line) in MHHW
   - List of matched NWM station IDs and distances
 
 Runs after the main fetch_and_parse.py pipeline.
@@ -52,10 +55,10 @@ def main():
     print("HTF Threshold Processor")
     print("=" * 60)
 
-    # Load inputs
+    # Load inputs — use MHHW-converted TWL data for consistency with HTF thresholds
     htf_thresholds = load_json("htf_threshold.json")
     stations = load_json("stations.json")
-    twl_data = load_json("twl_data.json")
+    twl_data = load_json("twl_data_mhhw.json")
 
     if not all([htf_thresholds, stations, twl_data]):
         print("ERROR: Missing required input files")
@@ -63,7 +66,7 @@ def main():
 
     print(f"  HTF threshold points: {len(htf_thresholds)}")
     print(f"  NWM stations: {len(stations)}")
-    print(f"  Stations with TWL data: {len(twl_data)}")
+    print(f"  Stations with TWL data (MHHW): {len(twl_data)}")
 
     # Build station lookup: id -> {lat, lon}
     station_coords = {}
@@ -136,6 +139,7 @@ def main():
             "lon": htf_lon,
             "htfMidThreshold": round(threshold, 6),
             "htfRange": htf.get("HTF Range", ""),
+            "datum": "MHHW",
             "radiusKm": RADIUS_KM,
             "matchedStations": sorted(neighbors, key=lambda x: x["distance_km"]),
             "meanForecast": mean_series,
