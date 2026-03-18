@@ -38,6 +38,9 @@ jobs:
       - name: Run TWL pipeline
         run: python pipeline/fetch_and_parse.py
 
+      - name: Run HTF threshold processor
+        run: python pipeline/htf_processor.py
+
       - name: Check if data changed
         id: check_changes
         run: |

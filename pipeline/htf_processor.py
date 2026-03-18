@@ -1,0 +1,158 @@
+#!/usr/bin/env python3
+"""
+HTF Threshold Processor
+========================
+For each HTF threshold point, finds NWM stations within a 5 km radius,
+computes the mean TWL forecast from those neighbors, and outputs a JSON
+file (nwm_htf.json) that the iOS app can display.
+
+The output pairs each HTF point with:
+  - The averaged NWM time series (mean of neighbors)
+  - The HTF MidThreshold value (horizontal threshold line)
+  - List of matched NWM station IDs and distances
+
+Runs after the main fetch_and_parse.py pipeline.
+"""
+
+import os
+import sys
+import json
+import math
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.dirname(SCRIPT_DIR)
+DATA_DIR = os.path.join(REPO_ROOT, "data")
+
+# Fixed search radius in kilometers
+RADIUS_KM = 5.0
+
+
+def haversine_km(lat1, lon1, lat2, lon2):
+    """Compute great-circle distance between two points in km."""
+    R = 6371.0  # Earth radius in km
+    dlat = math.radians(lat2 - lat1)
+    dlon = math.radians(lon2 - lon1)
+    a = (math.sin(dlat / 2) ** 2 +
+         math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) *
+         math.sin(dlon / 2) ** 2)
+    return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+
+def load_json(filename):
+    path = os.path.join(DATA_DIR, filename)
+    if not os.path.exists(path):
+        print(f"ERROR: {path} not found")
+        return None
+    with open(path) as f:
+        return json.load(f)
+
+
+def main():
+    print("=" * 60)
+    print("HTF Threshold Processor")
+    print("=" * 60)
+
+    # Load inputs
+    htf_thresholds = load_json("htf_threshold.json")
+    stations = load_json("stations.json")
+    twl_data = load_json("twl_data.json")
+
+    if not all([htf_thresholds, stations, twl_data]):
+        print("ERROR: Missing required input files")
+        sys.exit(1)
+
+    print(f"  HTF threshold points: {len(htf_thresholds)}")
+    print(f"  NWM stations: {len(stations)}")
+    print(f"  Stations with TWL data: {len(twl_data)}")
+
+    # Build station lookup: id -> {lat, lon}
+    station_coords = {}
+    for s in stations:
+        if s["id"] in twl_data:
+            station_coords[s["id"]] = {
+                "lat": s["latitude"],
+                "lon": s["longitude"],
+            }
+
+    print(f"  Stations with coords + data: {len(station_coords)}")
+
+    # Process each HTF point
+    nwm_htf = {}
+    matched_count = 0
+    no_match_count = 0
+
+    for htf in htf_thresholds:
+        htf_id = str(htf["name"])
+        htf_lat = htf["lat"]
+        htf_lon = htf["lon"]
+        threshold = htf["HTF MidThreshold"]
+
+        # Find NWM stations within radius
+        neighbors = []
+        for sid, coords in station_coords.items():
+            dist = haversine_km(htf_lat, htf_lon, coords["lat"], coords["lon"])
+            if dist <= RADIUS_KM:
+                neighbors.append({"id": sid, "distance_km": round(dist, 3)})
+
+        if not neighbors:
+            no_match_count += 1
+            continue
+
+        matched_count += 1
+
+        # Collect all time series from neighbors
+        # Build a time -> [values] mapping
+        time_values = {}
+        for nb in neighbors:
+            readings = twl_data.get(nb["id"], [])
+            for r in readings:
+                t = r["validTime"]
+                if t not in time_values:
+                    time_values[t] = []
+                time_values[t].append(r["value"])
+
+        # Compute mean at each timestep
+        mean_series = []
+        for t in sorted(time_values.keys()):
+            vals = time_values[t]
+            mean_val = sum(vals) / len(vals)
+            mean_series.append({
+                "validTime": t,
+                "value": round(mean_val, 4),
+                "stationCount": len(vals),
+            })
+
+        # Get creation time from first neighbor's first reading
+        creation_time = None
+        for nb in neighbors:
+            readings = twl_data.get(nb["id"], [])
+            if readings and "creationTime" in readings[0]:
+                creation_time = readings[0]["creationTime"]
+                break
+
+        nwm_htf[htf_id] = {
+            "htfId": int(htf_id),
+            "lat": htf_lat,
+            "lon": htf_lon,
+            "htfMidThreshold": round(threshold, 6),
+            "htfRange": htf.get("HTF Range", ""),
+            "radiusKm": RADIUS_KM,
+            "matchedStations": sorted(neighbors, key=lambda x: x["distance_km"]),
+            "meanForecast": mean_series,
+            "creationTime": creation_time,
+        }
+
+    print(f"\n  HTF points with NWM neighbors: {matched_count}")
+    print(f"  HTF points with no match: {no_match_count}")
+
+    # Write output
+    output_path = os.path.join(DATA_DIR, "nwm_htf.json")
+    with open(output_path, "w") as f:
+        json.dump(nwm_htf, f, indent=2)
+    print(f"\n  Wrote {len(nwm_htf)} entries → {output_path}")
+
+    print("\n✅ HTF processing completed!")
+
+
+if __name__ == "__main__":
+    main()
