@@ -7,7 +7,7 @@ radius, computes the mean TWL forecast from those neighbors, and outputs
 JSON files that the iOS app can display.
 
 Generates TWO output files per run:
-  - data/nwm_htf.json       → results using the 5 km search radius (default)
+  - data/nwm_htf_5km.json   → results using the 5 km search radius
   - data/nwm_htf_10km.json  → results using the 10 km search radius
 
 Uses MHHW-converted TWL data (twl_data_mhhw.json) so that the forecast
@@ -173,13 +173,8 @@ def main():
         print(f"  HTF points with NWM neighbors: {matched_count}")
         print(f"  HTF points with no match:      {no_match_count}")
 
-        # Determine output filename:
-        #   5 km  → nwm_htf.json        (original, iOS app default)
-        #   10 km → nwm_htf_10km.json   (new)
-        if radius_km == 5.0:
-            output_filename = "nwm_htf.json"
-        else:
-            output_filename = f"nwm_htf_{int(radius_km)}km.json"
+        # Output filename: nwm_htf_5km.json, nwm_htf_10km.json
+        output_filename = f"nwm_htf_{int(radius_km)}km.json"
 
         output_path = os.path.join(DATA_DIR, output_filename)
         with open(output_path, "w") as f:
