@@ -2,9 +2,13 @@
 """
 HTF Threshold Processor
 ========================
-For each HTF threshold point, finds NWM stations within a 5 km radius,
-computes the mean TWL forecast from those neighbors, and outputs a JSON
-file (nwm_htf.json) that the iOS app can display.
+For each HTF threshold point, finds NWM stations within a configurable
+radius, computes the mean TWL forecast from those neighbors, and outputs
+JSON files that the iOS app can display.
+
+Generates TWO output files per run:
+  - data/nwm_htf.json       → results using the 5 km search radius (default)
+  - data/nwm_htf_10km.json  → results using the 10 km search radius
 
 Uses MHHW-converted TWL data (twl_data_mhhw.json) so that the forecast
 values are in the same datum as the HTF thresholds.
@@ -26,8 +30,8 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
 DATA_DIR = os.path.join(REPO_ROOT, "data")
 
-# Fixed search radius in kilometers
-RADIUS_KM = 5.0
+# Both search radii to generate output for
+RADII_KM = [5.0, 10.0]
 
 
 def haversine_km(lat1, lon1, lat2, lon2):
@@ -50,36 +54,15 @@ def load_json(filename):
         return json.load(f)
 
 
-def main():
-    print("=" * 60)
-    print("HTF Threshold Processor")
-    print("=" * 60)
+def process_htf_for_radius(radius_km, htf_thresholds, station_coords, twl_data):
+    """
+    Process all HTF threshold points for a given search radius.
 
-    # Load inputs — use MHHW-converted TWL data for consistency with HTF thresholds
-    htf_thresholds = load_json("htf_threshold.json")
-    stations = load_json("stations.json")
-    twl_data = load_json("twl_data_mhhw.json")
-
-    if not all([htf_thresholds, stations, twl_data]):
-        print("ERROR: Missing required input files")
-        sys.exit(1)
-
-    print(f"  HTF threshold points: {len(htf_thresholds)}")
-    print(f"  NWM stations: {len(stations)}")
-    print(f"  Stations with TWL data (MHHW): {len(twl_data)}")
-
-    # Build station lookup: id -> {lat, lon}
-    station_coords = {}
-    for s in stations:
-        if s["id"] in twl_data:
-            station_coords[s["id"]] = {
-                "lat": s["latitude"],
-                "lon": s["longitude"],
-            }
-
-    print(f"  Stations with coords + data: {len(station_coords)}")
-
-    # Process each HTF point
+    Returns:
+        nwm_htf (dict): keyed by HTF point ID string
+        matched_count (int): number of HTF points that found NWM neighbors
+        no_match_count (int): number of HTF points with no nearby stations
+    """
     nwm_htf = {}
     matched_count = 0
     no_match_count = 0
@@ -94,7 +77,7 @@ def main():
         neighbors = []
         for sid, coords in station_coords.items():
             dist = haversine_km(htf_lat, htf_lon, coords["lat"], coords["lon"])
-            if dist <= RADIUS_KM:
+            if dist <= radius_km:
                 neighbors.append({"id": sid, "distance_km": round(dist, 3)})
 
         if not neighbors:
@@ -140,20 +123,68 @@ def main():
             "htfMidThreshold": round(threshold, 6),
             "htfRange": htf.get("HTF Range", ""),
             "datum": "MHHW",
-            "radiusKm": RADIUS_KM,
+            "radiusKm": radius_km,
             "matchedStations": sorted(neighbors, key=lambda x: x["distance_km"]),
             "meanForecast": mean_series,
             "creationTime": creation_time,
         }
 
-    print(f"\n  HTF points with NWM neighbors: {matched_count}")
-    print(f"  HTF points with no match: {no_match_count}")
+    return nwm_htf, matched_count, no_match_count
 
-    # Write output
-    output_path = os.path.join(DATA_DIR, "nwm_htf.json")
-    with open(output_path, "w") as f:
-        json.dump(nwm_htf, f, indent=2)
-    print(f"\n  Wrote {len(nwm_htf)} entries → {output_path}")
+
+def main():
+    print("=" * 60)
+    print("HTF Threshold Processor")
+    print("=" * 60)
+
+    # Load inputs — use MHHW-converted TWL data for consistency with HTF thresholds
+    htf_thresholds = load_json("htf_threshold.json")
+    stations = load_json("stations.json")
+    twl_data = load_json("twl_data_mhhw.json")
+
+    if not all([htf_thresholds, stations, twl_data]):
+        print("ERROR: Missing required input files")
+        sys.exit(1)
+
+    print(f"  HTF threshold points: {len(htf_thresholds)}")
+    print(f"  NWM stations: {len(stations)}")
+    print(f"  Stations with TWL data (MHHW): {len(twl_data)}")
+
+    # Build station lookup: id -> {lat, lon}
+    station_coords = {}
+    for s in stations:
+        if s["id"] in twl_data:
+            station_coords[s["id"]] = {
+                "lat": s["latitude"],
+                "lon": s["longitude"],
+            }
+
+    print(f"  Stations with coords + data: {len(station_coords)}")
+
+    # Process each radius and write its output file
+    for radius_km in RADII_KM:
+        print(f"\n{'─' * 40}")
+        print(f"  Processing radius: {radius_km} km")
+
+        nwm_htf, matched_count, no_match_count = process_htf_for_radius(
+            radius_km, htf_thresholds, station_coords, twl_data
+        )
+
+        print(f"  HTF points with NWM neighbors: {matched_count}")
+        print(f"  HTF points with no match:      {no_match_count}")
+
+        # Determine output filename:
+        #   5 km  → nwm_htf.json        (original, iOS app default)
+        #   10 km → nwm_htf_10km.json   (new)
+        if radius_km == 5.0:
+            output_filename = "nwm_htf.json"
+        else:
+            output_filename = f"nwm_htf_{int(radius_km)}km.json"
+
+        output_path = os.path.join(DATA_DIR, output_filename)
+        with open(output_path, "w") as f:
+            json.dump(nwm_htf, f, indent=2)
+        print(f"  Wrote {len(nwm_htf)} entries → {output_path}")
 
     print("\n✅ HTF processing completed!")
 
