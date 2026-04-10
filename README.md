@@ -1,6 +1,6 @@
 # Coastal TWL Forecast
 
-Automated pipeline that fetches, parses, and serves **NOAA National Water Model (NWM)** short-range coastal **Total Water Level (TWL)** forecast data for an iOS app. Includes automatic datum conversion from **NAVD88** to **MHHW (Mean Higher High Water)**.
+Automated pipeline that fetches, parses, and serves NOAA National Water Model (NWM) short-range coastal Total Water Level (TWL) forecast data for an iOS app. Includes automatic datum conversion from NAVD88 to MHHW (Mean Higher High Water).
 
 ## How It Works
 
