@@ -648,11 +648,11 @@
     "network": "SC_DCP"
   },
   {
-    "id": "CZKF1",
+    "id": "CHMF1",
     "name": "CHASSAHOWITZKA",
-    "latitude": 28.715,
-    "longitude": -82.6064,
-    "elevation": 0.05,
+    "latitude": 28.6944,
+    "longitude": -82.6392,
+    "elevation": 0.0,
     "network": "FL_DCP"
   },
   {
@@ -664,11 +664,11 @@
     "network": "FL_DCP"
   },
   {
-    "id": "CHMF1",
+    "id": "CZKF1",
     "name": "CHASSAHOWITZKA",
-    "latitude": 28.6944,
-    "longitude": -82.6392,
-    "elevation": 0.0,
+    "latitude": 28.715,
+    "longitude": -82.6064,
+    "elevation": 0.05,
     "network": "FL_DCP"
   },
   {
