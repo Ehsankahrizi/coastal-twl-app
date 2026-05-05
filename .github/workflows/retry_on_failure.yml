@@ -1,0 +1,45 @@
+name: Retry TWL Workflow on Failure
+
+# Watches the main workflow. When it fails (e.g., GitHub Actions outage,
+# runner allocation issues, transient network errors), this workflow waits
+# 1 hour and then re-runs the failed run.
+#
+# Re-runs are limited to 2 attempts per original run to avoid loops.
+
+on:
+  workflow_run:
+    workflows: ["Update TWL Forecast Data"]
+    types:
+      - completed
+
+permissions:
+  actions: write   # needed to re-run the failed workflow
+  contents: read
+
+jobs:
+  retry:
+    # Only run if the upstream workflow actually failed (skip success/cancelled)
+    # and we haven't already retried this run twice.
+    if: >
+      github.event.workflow_run.conclusion == 'failure' &&
+      github.event.workflow_run.run_attempt < 3
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Log context
+        run: |
+          echo "Failed run: ${{ github.event.workflow_run.id }}"
+          echo "Attempt:    ${{ github.event.workflow_run.run_attempt }}"
+          echo "URL:        ${{ github.event.workflow_run.html_url }}"
+
+      - name: Wait 1 hour before retrying
+        run: sleep 3600
+
+      - name: Re-run failed jobs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO:  ${{ github.repository }}
+          RUN_ID:   ${{ github.event.workflow_run.id }}
+        run: |
+          echo "Re-running failed jobs for run $RUN_ID"
+          gh run rerun "$RUN_ID" --failed
