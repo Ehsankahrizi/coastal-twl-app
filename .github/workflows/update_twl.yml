@@ -13,7 +13,7 @@ permissions:
 jobs:
   update-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repo
@@ -33,13 +33,28 @@ jobs:
             ${{ runner.os }}-pip-
 
       - name: Install dependencies
-        run: pip install -r pipeline/requirements.txt
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 5
+          max_attempts: 3
+          retry_wait_seconds: 30
+          command: pip install -r pipeline/requirements.txt
 
       - name: Run TWL pipeline
-        run: python pipeline/fetch_and_parse.py
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          max_attempts: 3
+          retry_wait_seconds: 60
+          command: python pipeline/fetch_and_parse.py
 
       - name: Run HTF threshold processor
-        run: python pipeline/htf_processor.py
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 5
+          max_attempts: 2
+          retry_wait_seconds: 30
+          command: python pipeline/htf_processor.py
 
       - name: Check if data changed
         id: check_changes
@@ -59,4 +74,10 @@ jobs:
           git config user.name "TWL Pipeline Bot"
           git config user.email "actions@github.com"
           git commit -m "Update TWL forecast data $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          # retry the push in case of transient git server issues
+          for i in 1 2 3; do
+            git push && break
+            echo "Push failed (attempt $i). Retrying in 30s..."
+            sleep 30
+            git pull --rebase
+          done
