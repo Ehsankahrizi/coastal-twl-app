@@ -648,6 +648,14 @@
     "network": "SC_DCP"
   },
   {
+    "id": "DGIF1",
+    "name": "CHASSAHOWITZKA",
+    "latitude": 28.7025,
+    "longitude": -82.6275,
+    "elevation": 7.0,
+    "network": "FL_DCP"
+  },
+  {
     "id": "CHMF1",
     "name": "CHASSAHOWITZKA",
     "latitude": 28.6944,
@@ -661,14 +669,6 @@
     "latitude": 28.715,
     "longitude": -82.6064,
     "elevation": 0.05,
-    "network": "FL_DCP"
-  },
-  {
-    "id": "DGIF1",
-    "name": "CHASSAHOWITZKA",
-    "latitude": 28.7025,
-    "longitude": -82.6275,
-    "elevation": 7.0,
     "network": "FL_DCP"
   },
   {
