@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T06:40:05.091941Z",
+  "lastUpdated": "2026-06-15T13:28:44.455737Z",
   "stationsCount": 423,
   "stationsWithData": 503,
   "totalReadings": 13662,
@@ -9,7 +9,7 @@
     {
       "date": "2026-06-15",
       "region": "atlgulf",
-      "cycle": "00",
+      "cycle": "06",
       "records": 13662,
       "stations": 503
     }
