@@ -34,7 +34,7 @@ if _SCRIPT_DIR not in sys.path:
 from datum_converter import convert_twl_to_mhhw
 
 # ── Configuration ──────────────────────────────────────────────────────────
-REGIONS = ["atlgulf"]  # Add "pacific" later if needed
+REGIONS = ["atlgulf", "pacific"]  # NWM coastal domains (also available: "hawaii")
 CYCLES = ["00", "06", "12", "18"]
 BUCKET_NAME = "national-water-model"
 IEM_URL = "https://mesonet.agron.iastate.edu/sites/networks.php?format=csv&nohtml=&special=alldcp"
