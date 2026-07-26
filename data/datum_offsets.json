@@ -3390,5 +3390,325 @@
     "longitude": -71.407,
     "offset_ft": -1.857,
     "offset_m": null
+  },
+  "PSLC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 35.169,
+    "longitude": -120.754,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "LAPW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 47.913,
+    "longitude": -124.637,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CECC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 41.7958,
+    "longitude": -124.2147,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "PRYC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 37.996,
+    "longitude": -122.977,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "NEAW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 48.3683,
+    "longitude": -124.6167,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "TLBO3": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 45.555,
+    "longitude": -123.919,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "MZXC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 38.035,
+    "longitude": -122.125,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "LJAC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 32.867,
+    "longitude": -117.257,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "PTWW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 48.111,
+    "longitude": -122.76,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "TCNW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 47.267,
+    "longitude": -122.413,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SBEO3": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 44.625,
+    "longitude": -124.045,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SKAW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 46.27,
+    "longitude": -123.4564,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "PORO3": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 42.739,
+    "longitude": -124.498,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SNAW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 47.9131,
+    "longitude": -122.1089,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "WAUO3": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 46.1564,
+    "longitude": -123.4022,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "NTBC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 34.405,
+    "longitude": -119.692,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "MEYC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 36.605,
+    "longitude": -121.889,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CHYW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 48.863,
+    "longitude": -122.759,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "PCOC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 38.056,
+    "longitude": -122.039,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CPTW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 46.2811,
+    "longitude": -124.0461,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "TOKW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 46.707,
+    "longitude": -123.967,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "RTYC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 37.50683,
+    "longitude": -122.21189,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SDBC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 32.714,
+    "longitude": -117.174,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "BMTW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 47.562,
+    "longitude": -122.62,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "LOPW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 46.1083,
+    "longitude": -122.9567,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "VAPW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 45.6317,
+    "longitude": -122.6967,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "ANVC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 38.915,
+    "longitude": -123.711,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "RYAC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 37.4639,
+    "longitude": -122.0241,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "ASTO3": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 46.207,
+    "longitude": -123.768,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "FTPC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 37.806,
+    "longitude": -122.466,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "AAMC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 37.77167,
+    "longitude": -122.29833,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "HBYC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 40.767,
+    "longitude": -124.217,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "EBSW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 47.602,
+    "longitude": -122.338,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "OHBC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 33.72,
+    "longitude": -118.273,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "FRDW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 48.54635,
+    "longitude": -123.00755,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SHNO3": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 45.8636,
+    "longitude": -122.7961,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "PTAW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 48.125,
+    "longitude": -123.441,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "ICAC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 34.008,
+    "longitude": -118.5,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "CHAO3": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 43.351,
+    "longitude": -124.337,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "WPTW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 46.904,
+    "longitude": -124.105,
+    "offset_ft": null,
+    "offset_m": null
   }
 }
