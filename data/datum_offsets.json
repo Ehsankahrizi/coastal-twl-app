@@ -3710,5 +3710,13 @@
     "longitude": -124.105,
     "offset_ft": null,
     "offset_m": null
+  },
+  "BDZC1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 38.31389,
+    "longitude": -123.06028,
+    "offset_ft": null,
+    "offset_m": null
   }
 }
