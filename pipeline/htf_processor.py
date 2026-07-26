@@ -173,13 +173,30 @@ def main():
         print(f"  HTF points with NWM neighbors: {matched_count}")
         print(f"  HTF points with no match:      {no_match_count}")
 
-        # Output filename: nwm_htf_5km.json, nwm_htf_10km.json
+        # Full time-series output: nwm_htf_5km.json, nwm_htf_10km.json
+        # Minified (no indent) — these are large and served to the app.
         output_filename = f"nwm_htf_{int(radius_km)}km.json"
-
         output_path = os.path.join(DATA_DIR, output_filename)
         with open(output_path, "w") as f:
-            json.dump(nwm_htf, f, indent=2)
+            json.dump(nwm_htf, f, separators=(",", ":"))
         print(f"  Wrote {len(nwm_htf)} entries → {output_path}")
+
+        # Compact marker-status output: htf_status_5km.json, htf_status_10km.json
+        # Maps HTF id → "exceeds" | "below" for points that have a forecast.
+        # Points with no nearby NWM station are simply absent (app treats
+        # absence as "no data"). A few KB vs. the ~1 MB full file, so the map
+        # can color markers without downloading any time series.
+        status = {}
+        for htf_id, entry in nwm_htf.items():
+            threshold = entry["htfMidThreshold"]
+            exceeds = any(p["value"] >= threshold for p in entry["meanForecast"])
+            status[htf_id] = "exceeds" if exceeds else "below"
+
+        status_filename = f"htf_status_{int(radius_km)}km.json"
+        status_path = os.path.join(DATA_DIR, status_filename)
+        with open(status_path, "w") as f:
+            json.dump(status, f, separators=(",", ":"))
+        print(f"  Wrote {len(status)} statuses → {status_path}")
 
     print("\n✅ HTF processing completed!")
 

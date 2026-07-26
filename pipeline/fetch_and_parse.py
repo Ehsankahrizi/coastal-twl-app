@@ -256,14 +256,15 @@ def main():
     stations, twl_data = build_json(combined_df, meta)
 
     # Write output files
+    # Served JSON is minified (no indent) to cut payload size and device parse time.
     stations_path = os.path.join(DATA_DIR, "stations.json")
     with open(stations_path, "w") as f:
-        json.dump(stations, f, indent=2)
+        json.dump(stations, f, separators=(",", ":"))
     print(f"\nWrote {len(stations)} stations → {stations_path}")
 
     twl_path = os.path.join(DATA_DIR, "twl_data.json")
     with open(twl_path, "w") as f:
-        json.dump(twl_data, f, indent=2)
+        json.dump(twl_data, f, separators=(",", ":"))
     print(f"Wrote {len(twl_data)} station time-series → {twl_path}")
 
     # ── MHHW Datum Conversion ─────────────────────────────────────────
@@ -281,13 +282,13 @@ def main():
     # Write MHHW-converted TWL data
     mhhw_path = os.path.join(DATA_DIR, "twl_data_mhhw.json")
     with open(mhhw_path, "w") as f:
-        json.dump(twl_data_mhhw, f, indent=2)
+        json.dump(twl_data_mhhw, f, separators=(",", ":"))
     print(f"Wrote {len(twl_data_mhhw)} station time-series (MHHW) → {mhhw_path}")
 
     # Write station datum info (for reference / debugging)
     datums_info_path = os.path.join(DATA_DIR, "station_datums.json")
     with open(datums_info_path, "w") as f:
-        json.dump(station_datums, f, indent=2)
+        json.dump(station_datums, f, separators=(",", ":"))
     print(f"Wrote datum info for {len(station_datums)} stations → {datums_info_path}")
 
     # Count successful MHHW conversions
