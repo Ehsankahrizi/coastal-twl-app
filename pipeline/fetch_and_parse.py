@@ -32,6 +32,7 @@ if _SCRIPT_DIR not in sys.path:
     sys.path.insert(0, _SCRIPT_DIR)
 
 from datum_converter import convert_twl_to_mhhw
+from timezones import timezone_for
 
 # ── Configuration ──────────────────────────────────────────────────────────
 REGIONS = ["atlgulf", "pacific"]  # NWM coastal domains (also available: "hawaii")
@@ -121,6 +122,19 @@ def load_and_process_shef(txt_path):
         "qualifier", "revision", "product_id", "source"
     ]
 
+    # NWM publishes these products with the SHEF time-zone code "Z" (UTC) on
+    # every record, which is what makes the plain "…Z" suffix below correct.
+    # That is an assumption about someone else's feed, so check it rather than
+    # trust it: a silent switch to a local-time code would shift every
+    # timestamp by hours with nothing in the output looking wrong.
+    zones = set(df["tz"].dropna().astype(str).str.strip().unique())
+    if zones - {"Z"}:
+        raise ValueError(
+            f"SHEF records carry non-UTC time-zone code(s) {sorted(zones)} in "
+            f"{txt_path}. Timestamps are parsed as UTC, so this must be handled "
+            f"before the data can be trusted."
+        )
+
     df["valid_time_utc"] = pd.to_datetime(
         df["valid_date"] + "T" + df["valid_time"] + "Z",
         utc=True, errors="coerce"
@@ -164,15 +178,26 @@ def build_json(df, meta):
 
     # stations.json
     stations = []
+    missing_tz = 0
     for _, row in matched.iterrows():
+        lat = round(float(row["lat"]), 6)
+        lon = round(float(row["lon"]), 6)
+        # Shipped so the app can show each station's own local time. Omitted
+        # when unresolvable, which the app reads as "label this UTC".
+        tz = timezone_for(lat, lon)
+        if tz is None:
+            missing_tz += 1
         stations.append({
             "id": row["stid"],
             "name": str(row["station_name"]) if pd.notna(row.get("station_name")) else row["stid"],
-            "latitude": round(float(row["lat"]), 6),
-            "longitude": round(float(row["lon"]), 6),
+            "latitude": lat,
+            "longitude": lon,
             "elevation": round(float(row["elev"]), 2) if pd.notna(row.get("elev")) else None,
             "network": str(row["iem_network"]) if pd.notna(row.get("iem_network")) else None,
+            "timeZone": tz,
         })
+    if missing_tz:
+        print(f"  NOTE: {missing_tz} of {len(stations)} stations had no resolvable time zone")
 
     # twl_data.json (grouped by station)
     twl_data = {}

@@ -27,6 +27,11 @@ import json
 import math
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+if SCRIPT_DIR not in sys.path:
+    sys.path.insert(0, SCRIPT_DIR)
+
+from timezones import timezone_for  # noqa: E402 - needs sys.path set first
+
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
 DATA_DIR = os.path.join(REPO_ROOT, "data")
 
@@ -127,6 +132,9 @@ def process_htf_for_radius(radius_km, htf_thresholds, station_coords, twl_data):
             "matchedStations": sorted(neighbors, key=lambda x: x["distance_km"]),
             "meanForecast": mean_series,
             "creationTime": creation_time,
+            # Lets the detail chart label times in the point's own local zone
+            # instead of UTC. Omitted when unresolvable.
+            "timeZone": timezone_for(htf_lat, htf_lon),
         }
 
     return nwm_htf, matched_count, no_match_count
