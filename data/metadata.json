@@ -1,24 +1,24 @@
 {
-  "lastUpdated": "2026-08-18T14:02:04.315882Z",
-  "stationsCount": 464,
-  "stationsWithData": 590,
-  "totalReadings": 16452,
-  "mhhwConvertedStations": 204,
-  "mhhwTotalStations": 590,
+  "lastUpdated": "2026-08-18T19:46:43.418302Z",
+  "stationsCount": 478,
+  "stationsWithData": 604,
+  "totalReadings": 17046,
+  "mhhwConvertedStations": 208,
+  "mhhwTotalStations": 604,
   "downloads": [
     {
       "date": "2026-08-18",
       "region": "atlgulf",
-      "cycle": "06",
-      "records": 13662,
-      "stations": 503
+      "cycle": "12",
+      "records": 14220,
+      "stations": 516
     },
     {
       "date": "2026-08-18",
       "region": "pacific",
-      "cycle": "06",
-      "records": 2790,
-      "stations": 87
+      "cycle": "12",
+      "records": 2826,
+      "stations": 88
     }
   ],
   "regions": [

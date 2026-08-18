@@ -3718,5 +3718,117 @@
     "longitude": -123.06028,
     "offset_ft": null,
     "offset_m": null
+  },
+  "PRTV2": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 37.834,
+    "longitude": -75.9787,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "KBMG1": {
+    "status": "OK",
+    "method": "vdatum",
+    "latitude": 30.76861,
+    "longitude": -81.48472,
+    "offset_ft": -2.855,
+    "offset_m": null
+  },
+  "IWBM2": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 38.38972,
+    "longitude": -75.10056,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "KLMW1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 45.983,
+    "longitude": -122.835,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "HBRV2": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 37.6665,
+    "longitude": -75.8301,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "BPRM1": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 44.7965,
+    "longitude": -68.7678,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "WTIN7": {
+    "status": "OK",
+    "method": "vdatum",
+    "latitude": 36.2455,
+    "longitude": -75.8663,
+    "offset_ft": 0.061,
+    "offset_m": null
+  },
+  "PEGF1": {
+    "status": "OK",
+    "method": "vdatum",
+    "latitude": 26.086,
+    "longitude": -80.116,
+    "offset_ft": -0.527,
+    "offset_m": null
+  },
+  "BROS1": {
+    "status": "OK",
+    "method": "vdatum",
+    "latitude": 32.38722,
+    "longitude": -80.77944,
+    "offset_ft": -3.538,
+    "offset_m": null
+  },
+  "RAPV2": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 37.9312,
+    "longitude": -76.8556,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "WONN7": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 36.4025,
+    "longitude": -76.9344,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "SMSV2": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 36.9823,
+    "longitude": -76.6212,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "WCKV2": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 37.4925,
+    "longitude": -76.3099,
+    "offset_ft": null,
+    "offset_m": null
+  },
+  "NRSV2": {
+    "status": "UNAVAILABLE",
+    "method": null,
+    "latitude": 36.8424,
+    "longitude": -76.5224,
+    "offset_ft": null,
+    "offset_m": null
   }
 }
