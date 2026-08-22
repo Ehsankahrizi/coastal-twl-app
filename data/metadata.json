@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T02:30:49.380502Z",
+  "lastUpdated": "2026-08-22T07:51:55.578283Z",
   "stationsCount": 478,
   "stationsWithData": 604,
   "totalReadings": 17046,
@@ -16,7 +16,7 @@
     {
       "date": "2026-08-22",
       "region": "pacific",
-      "cycle": "00",
+      "cycle": "06",
       "records": 2826,
       "stations": 88
     }
