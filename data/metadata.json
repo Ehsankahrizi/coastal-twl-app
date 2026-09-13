@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T21:30:47.469509Z",
+  "lastUpdated": "2026-09-13T06:23:17.349930Z",
   "stationsCount": 478,
   "stationsWithData": 604,
   "totalReadings": 17046,
@@ -7,16 +7,16 @@
   "mhhwTotalStations": 604,
   "downloads": [
     {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "region": "atlgulf",
-      "cycle": "18",
+      "cycle": "00",
       "records": 14220,
       "stations": 516
     },
     {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "region": "pacific",
-      "cycle": "18",
+      "cycle": "00",
       "records": 2826,
       "stations": 88
     }
