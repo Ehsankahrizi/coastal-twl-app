@@ -14,12 +14,33 @@ Automated pipeline that fetches, parses, and serves NOAA National Water Model (N
 
 ## NAVD88 → MHHW Datum Conversion
 
-The NWM outputs Total Water Level referenced to NAVD88. For many coastal applications, MHHW is the preferred datum. The pipeline handles this conversion automatically using the [NOAA VDatum API](https://vdatum.noaa.gov/docs/services.html):
+The NWM outputs Total Water Level referenced to NAVD88, while the HTF thresholds are heights above MHHW. Every station therefore needs a NAVD88 → MHHW offset (`value_MHHW = value_NAVD88 + offset`).
 
-- For each NWM station, the VDatum API is called with the station's lat/lon to compute the spatially-interpolated NAVD88→MHHW offset at that exact location
-- VDatum performs the vertical datum transformation directly — no need to find a nearby tide gauge
-- If VDatum is unavailable for a location (e.g., outside tidal grid coverage), the converter falls back to the [CO-OPS Metadata API](https://api.tidesandcurrents.noaa.gov/mdapi/prod/) to find the nearest tide station and compute the offset from its published datums
-- Offsets are cached in `data/datum_offsets.json` so the API is only called once per station (persists across pipeline runs)
+**Offset table, computed once.** Offsets live in `data/datum_offsets.json`. They are computed once by hand with:
+
+```bash
+python pipeline/build_datum_offsets.py          # fill in missing / failed stations
+python pipeline/build_datum_offsets.py --all    # recompute every station
+```
+
+The 6-hour pipeline only *reads* this table. It looks up a station only when the station is brand new, and it never retries failures.
+
+**How an offset is found:**
+
+1. **[NOAA VDatum API](https://vdatum.noaa.gov/docs/services.html).** VDatum covers the lower 48 with a general `contiguous` grid plus three regional tidal grids: `westcoast`, `chesapeak_delaware` and `wgom` (western Gulf). The regional grids only answer when the target horizontal frame is `IGS14`, so each region is tried with the frame it accepts. The table records which region produced each offset.
+2. **Fallback: nearest NOAA CO-OPS tide station** within 10 km that publishes both NAVD88 and MHHW ([CO-OPS Metadata API](https://api.tidesandcurrents.noaa.gov/mdapi/prod/)). The offset is `NAVD88 − MHHW`, and the station ID and distance are recorded.
+3. **Otherwise the station is marked `UNAVAILABLE`.** These are typically gauges far up rivers or in non-tidal marshes, where MHHW is not defined.
+
+**Unconverted stations are never compared with HTF thresholds.** `htf_processor.py` averages only stations whose TWL was converted to MHHW. Stations within the radius that could not be converted are listed under `excludedStations`.
+
+## Units
+
+- NWM TWL values are in **feet**.
+- The HTF thresholds (`data/htf_threshold.json`, from [Mahmoudi et al., 2024, *Nature Communications*](https://doi.org/10.1038/s41467-024-48545-1)) are in **meters above MHHW**.
+- `htf_processor.py` converts the thresholds to feet before comparing. In `nwm_htf_*km.json`:
+  - `htfMidThreshold` and `htfRangeFt` are in feet, the same unit as `meanForecast`.
+  - `htfMidThresholdM` and `htfRange` keep the original meters.
+  - `units` is `"ft"`.
 
 ## Output Files
 
@@ -30,8 +51,10 @@ The NWM outputs Total Water Level referenced to NAVD88. For many coastal applica
 | `data/twl_data_mhhw.json` | TWL time-series with both `value` (NAVD88) and `valueMHHW` (MHHW) — **feet** |
 | `data/metadata.json` | Pipeline run metadata (timestamp, counts, conversion stats) |
 | `data/datum_offsets.json` | Cached VDatum/CO-OPS datum offsets per station (auto-generated) |
-| `data/station_datums.json` | Datum lookup details per station (method used, offset, status) |
-| `data/htf_threshold.json` | HTF threshold details per station |
+| `data/station_datums.json` | Datum lookup details per station (status, method, VDatum region or CO-OPS station, offset) |
+| `data/htf_threshold.json` | HTF threshold points (meters above MHHW) |
+| `data/nwm_htf_5km.json`, `data/nwm_htf_10km.json` | Per HTF point: mean MHHW forecast of converted NWM stations within 5 / 10 km, threshold in feet, matched and excluded stations |
+| `data/htf_status_5km.json`, `data/htf_status_10km.json` | Per HTF point: `"exceeds"` or `"below"` (points without converted stations nearby are absent) |
 
 
 ## Data URLs (GitHub Pages)
@@ -46,6 +69,7 @@ Once GitHub Pages is enabled:
 
 - **TWL Forecasts**: NOAA NWM via `gs://national-water-model/`
 - **Station Metadata**: [Iowa Environmental Mesonet (IEM)](https://mesonet.agron.iastate.edu/sites/networks.php)
-- **Datum Offsets**: [NOAA VDatum API](https://vdatum.noaa.gov/docs/services.html) (primary), [CO-OPS Metadata API](https://api.tidesandcurrents.noaa.gov/mdapi/prod/) (fallback)
-- **Units**: feet
+- **Datum Offsets**: [NOAA VDatum API](https://vdatum.noaa.gov/docs/services.html) (primary, regional grids), [CO-OPS Metadata API](https://api.tidesandcurrents.noaa.gov/mdapi/prod/) (fallback, ≤ 10 km)
+- **HTF Thresholds**: [Mahmoudi et al., 2024](https://doi.org/10.1038/s41467-024-48545-1), meters above MHHW
+- **Units**: feet (forecasts and output thresholds); HTF source thresholds in meters
 - **Datums**: NAVD88 (original) and MHHW (converted)
