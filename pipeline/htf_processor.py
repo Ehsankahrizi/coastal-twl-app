@@ -14,9 +14,18 @@ Uses MHHW-converted TWL data (twl_data_mhhw.json) so that the forecast
 values are in the same datum as the HTF thresholds.
 
 The output pairs each HTF point with:
-  - The averaged NWM time series (mean of neighbors) in MHHW
-  - The HTF MidThreshold value (horizontal threshold line) in MHHW
+  - The averaged NWM time series (mean of neighbors) in feet above MHHW
+  - The HTF MidThreshold value (horizontal threshold line) in feet above MHHW
   - List of matched NWM station IDs and distances
+
+Units: the HTF thresholds (htf_threshold.json, from Mahmoudi et al. 2024,
+Nat. Commun. 15:4251) are in METERS above MHHW, while the NWM forecasts are in
+FEET. Thresholds are converted to feet before any comparison.
+
+Datum: only NWM stations whose TWL was actually converted to MHHW
+(datumStatus "OK" in twl_data_mhhw.json) are averaged. Unconverted stations
+still carry NAVD88 values and would make the comparison meaningless, so they
+are left out and listed under "excludedStations".
 
 Runs after the main fetch_and_parse.py pipeline.
 """
@@ -37,6 +46,8 @@ DATA_DIR = os.path.join(REPO_ROOT, "data")
 
 # Both search radii to generate output for
 RADII_KM = [5.0, 10.0]
+
+FT_PER_M = 3.280839895  # HTF thresholds are in meters; forecasts are in feet
 
 
 def haversine_km(lat1, lon1, lat2, lon2):
@@ -59,7 +70,16 @@ def load_json(filename):
         return json.load(f)
 
 
-def process_htf_for_radius(radius_km, htf_thresholds, station_coords, twl_data):
+def parse_range_m(text):
+    """'(0.49, 0.52)' → (0.49, 0.52); None if it can't be parsed."""
+    try:
+        lo, hi = (float(x) for x in str(text).strip("() ").split(","))
+        return lo, hi
+    except (TypeError, ValueError):
+        return None
+
+
+def process_htf_for_radius(radius_km, htf_thresholds, station_coords, twl_data, excluded_coords):
     """
     Process all HTF threshold points for a given search radius.
 
@@ -76,7 +96,9 @@ def process_htf_for_radius(radius_km, htf_thresholds, station_coords, twl_data):
         htf_id = str(htf["name"])
         htf_lat = htf["lat"]
         htf_lon = htf["lon"]
-        threshold = htf["HTF MidThreshold"]
+        threshold_m = htf["HTF MidThreshold"]
+        threshold_ft = threshold_m * FT_PER_M
+        range_m = parse_range_m(htf.get("HTF Range"))
 
         # Find NWM stations within radius
         neighbors = []
@@ -84,6 +106,13 @@ def process_htf_for_radius(radius_km, htf_thresholds, station_coords, twl_data):
             dist = haversine_km(htf_lat, htf_lon, coords["lat"], coords["lon"])
             if dist <= radius_km:
                 neighbors.append({"id": sid, "distance_km": round(dist, 3)})
+
+        # Stations in range that could not be converted to MHHW (reported only)
+        excluded = [
+            {"id": sid, "distance_km": round(d, 3)}
+            for sid, coords in excluded_coords.items()
+            if (d := haversine_km(htf_lat, htf_lon, coords["lat"], coords["lon"])) <= radius_km
+        ]
 
         if not neighbors:
             no_match_count += 1
@@ -125,11 +154,15 @@ def process_htf_for_radius(radius_km, htf_thresholds, station_coords, twl_data):
             "htfId": int(htf_id),
             "lat": htf_lat,
             "lon": htf_lon,
-            "htfMidThreshold": round(threshold, 6),
-            "htfRange": htf.get("HTF Range", ""),
+            "htfMidThreshold": round(threshold_ft, 4),      # feet above MHHW, same unit as meanForecast
+            "htfMidThresholdM": round(threshold_m, 6),     # original value, meters above MHHW
+            "htfRange": htf.get("HTF Range", ""),          # original text, meters
+            "htfRangeFt": [round(v * FT_PER_M, 4) for v in range_m] if range_m else None,
+            "units": "ft",
             "datum": "MHHW",
             "radiusKm": radius_km,
             "matchedStations": sorted(neighbors, key=lambda x: x["distance_km"]),
+            "excludedStations": sorted(excluded, key=lambda x: x["distance_km"]),
             "meanForecast": mean_series,
             "creationTime": creation_time,
             # Lets the detail chart label times in the point's own local zone
@@ -158,16 +191,21 @@ def main():
     print(f"  NWM stations: {len(stations)}")
     print(f"  Stations with TWL data (MHHW): {len(twl_data)}")
 
-    # Build station lookup: id -> {lat, lon}
-    station_coords = {}
+    # Build station lookup: id -> {lat, lon}, split by whether the TWL was
+    # converted to MHHW. Only converted stations are averaged.
+    station_coords, excluded_coords = {}, {}
     for s in stations:
-        if s["id"] in twl_data:
-            station_coords[s["id"]] = {
-                "lat": s["latitude"],
-                "lon": s["longitude"],
-            }
+        readings = twl_data.get(s["id"])
+        if not readings:
+            continue
+        coords = {"lat": s["latitude"], "lon": s["longitude"]}
+        if all(r.get("datumStatus") == "OK" for r in readings):
+            station_coords[s["id"]] = coords
+        else:
+            excluded_coords[s["id"]] = coords
 
-    print(f"  Stations with coords + data: {len(station_coords)}")
+    print(f"  Stations with coords + MHHW data: {len(station_coords)}")
+    print(f"  Stations left out (no MHHW conversion): {len(excluded_coords)}")
 
     # Process each radius and write its output file
     for radius_km in RADII_KM:
@@ -175,7 +213,7 @@ def main():
         print(f"  Processing radius: {radius_km} km")
 
         nwm_htf, matched_count, no_match_count = process_htf_for_radius(
-            radius_km, htf_thresholds, station_coords, twl_data
+            radius_km, htf_thresholds, station_coords, twl_data, excluded_coords
         )
 
         print(f"  HTF points with NWM neighbors: {matched_count}")

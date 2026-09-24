@@ -8,20 +8,23 @@
     "offset_m": null
   },
   "BCSL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.9971,
     "longitude": -90.4246,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "PCNT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 28.4467,
     "longitude": -96.3967,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.033,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "SESM3": {
     "status": "OK",
@@ -72,36 +75,46 @@
     "offset_m": null
   },
   "PCUF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.28694,
     "longitude": -81.57,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.65,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8720226",
+    "coopsDistanceKm": 9.24
   },
   "LVJT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.7083,
     "longitude": -95.2,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.75,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8770777",
+    "coopsDistanceKm": 6.662
   },
   "BRND1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.987,
     "longitude": -75.113,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -2.493,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "TXPT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.689,
     "longitude": -93.842,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.807,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "EWPN7": {
     "status": "OK",
@@ -112,12 +125,13 @@
     "offset_m": null
   },
   "CIBL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.3397,
     "longitude": -93.2543,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "JMPN7": {
     "status": "OK",
@@ -144,12 +158,14 @@
     "offset_m": null
   },
   "MGTN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.3375,
     "longitude": -74.5133,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.982,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "PABN4": {
     "status": "OK",
@@ -168,12 +184,14 @@
     "offset_m": null
   },
   "LUIT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.076,
     "longitude": -95.122,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.155,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "ASPS1": {
     "status": "OK",
@@ -184,20 +202,23 @@
     "offset_m": null
   },
   "BLDM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.9381,
     "longitude": -76.9403,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -2.051,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "PNPF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 28.2606,
     "longitude": -82.7214,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "BKBF1": {
     "status": "OK",
@@ -216,12 +237,14 @@
     "offset_m": null
   },
   "AMRL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.45,
     "longitude": -91.338,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.735,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "WRCS1": {
     "status": "OK",
@@ -232,12 +255,15 @@
     "offset_m": null
   },
   "ALEV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.8403,
     "longitude": -77.0533,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.77,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8594900",
+    "coopsDistanceKm": 4.582
   },
   "DPBF1": {
     "status": "OK",
@@ -248,12 +274,15 @@
     "offset_m": null
   },
   "PNLM6": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.368,
     "longitude": -88.563,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.87,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8741533",
+    "coopsDistanceKm": 0.025
   },
   "BLHN7": {
     "status": "OK",
@@ -280,12 +309,13 @@
     "offset_m": null
   },
   "MLVL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.6906,
     "longitude": -91.7361,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "SBIF1": {
     "status": "OK",
@@ -320,28 +350,35 @@
     "offset_m": null
   },
   "HMNV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.0323,
     "longitude": -76.3367,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.135,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "JSFV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.2201,
     "longitude": -76.7914,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.912,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "TCBM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.2167,
     "longitude": -76.2333,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.76,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8573364",
+    "coopsDistanceKm": 1.035
   },
   "BRBS1": {
     "status": "OK",
@@ -352,20 +389,24 @@
     "offset_m": null
   },
   "RDYD1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.558,
     "longitude": -75.572,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -2.69,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "GTOT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.311,
     "longitude": -94.792,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.138,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "KILN6": {
     "status": "OK",
@@ -376,20 +417,24 @@
     "offset_m": null
   },
   "NBLP1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 40.1342,
     "longitude": -74.7517,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -4.682,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "RLOT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.515,
     "longitude": -94.513,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.614,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "KYWF1": {
     "status": "OK",
@@ -400,12 +445,14 @@
     "offset_m": null
   },
   "BPAD2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.865,
     "longitude": -77.01028,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.857,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "HACN4": {
     "status": "OK",
@@ -440,20 +487,22 @@
     "offset_m": null
   },
   "WLCL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.6978,
     "longitude": -91.3728,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "PRGF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 25.9314,
     "longitude": -81.5444,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "PILL1": {
     "status": "OK",
@@ -480,20 +529,23 @@
     "offset_m": null
   },
   "SDRT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 28.407,
     "longitude": -96.712,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.112,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "ASTF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.1667,
     "longitude": -81.5222,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "CWBF1": {
     "status": "OK",
@@ -512,36 +564,44 @@
     "offset_m": null
   },
   "WRVV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.3793,
     "longitude": -76.4254,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.925,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "LCHL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.25,
     "longitude": -93.2167,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.73,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8767816",
+    "coopsDistanceKm": 2.973
   },
   "RTAT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 27.84,
     "longitude": -97.072,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.978,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "LXRF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 26.985,
     "longitude": -80.1597,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "SISF1": {
     "status": "OK",
@@ -552,68 +612,82 @@
     "offset_m": null
   },
   "LEPL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.7194,
     "longitude": -91.1872,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -2.18,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8764044",
+    "coopsDistanceKm": 7.551
   },
   "JDWT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.6752,
     "longitude": -94.6664,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "AWRT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 28.227,
     "longitude": -96.796,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.148,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "IRRD1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.5917,
     "longitude": -75.2117,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.906,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "GULF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.2039,
     "longitude": -82.7692,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "EPCM6": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.1947,
     "longitude": -89.5342,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "FRWL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.552,
     "longitude": -92.305,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.61,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "WASD2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.87,
     "longitude": -77.02,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.841,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "CYTF1": {
     "status": "OK",
@@ -632,12 +706,13 @@
     "offset_m": null
   },
   "SRWG1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.9744,
     "longitude": -81.7258,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "SVDG1": {
     "status": "OK",
@@ -648,12 +723,14 @@
     "offset_m": null
   },
   "BOWD1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.0578,
     "longitude": -75.3983,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -2.897,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "IWDN6": {
     "status": "OK",
@@ -672,12 +749,13 @@
     "offset_m": null
   },
   "BEIS1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 32.50389,
     "longitude": -80.32472,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "BERN7": {
     "status": "OK",
@@ -696,12 +774,14 @@
     "offset_m": null
   },
   "VCPL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.7139,
     "longitude": -91.8817,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.659,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "DNSF1": {
     "status": "OK",
@@ -712,28 +792,35 @@
     "offset_m": null
   },
   "GJCT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.7667,
     "longitude": -95.1889,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.75,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8770777",
+    "coopsDistanceKm": 8.677
   },
   "SWPV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.95,
     "longitude": -76.4,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.237,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "ATLN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.3781,
     "longitude": -74.4228,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.965,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "OTWN7": {
     "status": "OK",
@@ -768,36 +855,42 @@
     "offset_m": null
   },
   "KRZL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.5688,
     "longitude": -91.7615,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "PELF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.6692,
     "longitude": -81.2597,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "RRVL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.0556,
     "longitude": -90.5686,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "WFRA1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.3766,
     "longitude": -88.1586,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.91,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8738043",
+    "coopsDistanceKm": 0.0
   },
   "FRIN7": {
     "status": "OK",
@@ -832,12 +925,15 @@
     "offset_m": null
   },
   "CAMM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.5667,
     "longitude": -76.0667,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.93,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8571892",
+    "coopsDistanceKm": 0.779
   },
   "STIF1": {
     "status": "OK",
@@ -872,20 +968,24 @@
     "offset_m": null
   },
   "GRRT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.29541,
     "longitude": -94.88467,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.07,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "BKTL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.19,
     "longitude": -93.301,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.715,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "FMRF1": {
     "status": "OK",
@@ -904,12 +1004,14 @@
     "offset_m": null
   },
   "SJSN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.305,
     "longitude": -75.375,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -3.081,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "SGCF1": {
     "status": "OK",
@@ -928,20 +1030,23 @@
     "offset_m": null
   },
   "MRNF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 27.0447,
     "longitude": -82.2931,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "ORNT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.0977,
     "longitude": -93.7213,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.259,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "STUN7": {
     "status": "OK",
@@ -952,12 +1057,14 @@
     "offset_m": null
   },
   "RCPT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 28.024,
     "longitude": -97.048,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.719,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "NATF1": {
     "status": "OK",
@@ -968,44 +1075,53 @@
     "offset_m": null
   },
   "GTND2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.9022,
     "longitude": -77.0631,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.886,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "OBRT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 28.9508,
     "longitude": -95.3386,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.48,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "PTFL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.115,
     "longitude": -90.2,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "PTIT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 26.061,
     "longitude": -97.215,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.591,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "ANPT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 27.8366,
     "longitude": -97.0391,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.02,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "BHBM3": {
     "status": "OK",
@@ -1016,28 +1132,33 @@
     "offset_m": null
   },
   "SAXV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.9188,
     "longitude": -75.7275,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.873,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "SGSM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.1382,
     "longitude": -76.5,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.607,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "DICT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.4565,
     "longitude": -95.0478,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "DMSF1": {
     "status": "OK",
@@ -1048,52 +1169,63 @@
     "offset_m": null
   },
   "PHBP1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.95,
     "longitude": -75.1333,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -3.688,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "DELD1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.5817,
     "longitude": -75.5883,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -3.018,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "MHBT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 27.8275,
     "longitude": -97.2008,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.78,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8775132",
+    "coopsDistanceKm": 9.257
   },
   "BDSP1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.98,
     "longitude": -75.079,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -3.688,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "SPUF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.7294,
     "longitude": -81.4869,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "VNCL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.2758,
     "longitude": -89.3528,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "LYMC3": {
     "status": "OK",
@@ -1104,20 +1236,23 @@
     "offset_m": null
   },
   "EPPL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.2391,
     "longitude": -89.6148,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "EINL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.373,
     "longitude": -91.384,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.676,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "KSBN4": {
     "status": "OK",
@@ -1128,28 +1263,33 @@
     "offset_m": null
   },
   "SLIM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.321,
     "longitude": -76.452,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.463,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "RBDN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 35.0693,
     "longitude": -77.1346,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "KPTV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.17,
     "longitude": -75.99,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.089,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "REYN6": {
     "status": "OK",
@@ -1160,12 +1300,13 @@
     "offset_m": null
   },
   "CPTT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.7708,
     "longitude": -95.1444,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "SPTF1": {
     "status": "OK",
@@ -1176,20 +1317,23 @@
     "offset_m": null
   },
   "FHBT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.7136,
     "longitude": -95.0039,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.417,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "ALIN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 35.7215,
     "longitude": -76.1934,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "WCIF1": {
     "status": "OK",
@@ -1200,12 +1344,14 @@
     "offset_m": null
   },
   "NCHT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.726,
     "longitude": -95.266,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.864,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "SLRF1": {
     "status": "OK",
@@ -1232,12 +1378,14 @@
     "offset_m": null
   },
   "CLNM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.83694,
     "longitude": -76.28056,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.597,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "FIRN6": {
     "status": "OK",
@@ -1248,12 +1396,14 @@
     "offset_m": null
   },
   "GNJT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.357,
     "longitude": -94.725,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.165,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "CHTM3": {
     "status": "OK",
@@ -1288,12 +1438,14 @@
     "offset_m": null
   },
   "LTQM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.45083,
     "longitude": -76.27472,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.965,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "NTKM3": {
     "status": "OK",
@@ -1312,28 +1464,32 @@
     "offset_m": null
   },
   "CMAN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.9667,
     "longitude": -74.9667,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -2.398,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "SKTF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 27.1436,
     "longitude": -82.4303,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "GNDL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.8925,
     "longitude": -91.4456,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "HOGN6": {
     "status": "OK",
@@ -1344,28 +1500,33 @@
     "offset_m": null
   },
   "ALCN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.3533,
     "longitude": -74.4569,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.982,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "BSRL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.1327,
     "longitude": -91.3227,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "CAPN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.9486,
     "longitude": -74.8206,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -2.149,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "NIXS1": {
     "status": "OK",
@@ -1376,12 +1537,14 @@
     "offset_m": null
   },
   "WAHV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.61,
     "longitude": -75.67,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.614,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "CLGN7": {
     "status": "OK",
@@ -1408,12 +1571,14 @@
     "offset_m": null
   },
   "IHDM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.60083,
     "longitude": -77.18222,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.555,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "GISL1": {
     "status": "OK",
@@ -1424,28 +1589,32 @@
     "offset_m": null
   },
   "COLN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 35.9175,
     "longitude": -76.2543,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "LGCT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.5114,
     "longitude": -95.1211,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "ONCN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.2542,
     "longitude": -74.6289,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -2.06,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "STHN7": {
     "status": "OK",
@@ -1464,36 +1633,43 @@
     "offset_m": null
   },
   "THAV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.8431,
     "longitude": -76.1244,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "LHBT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.7717,
     "longitude": -95.2286,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.75,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8770777",
+    "coopsDistanceKm": 6.195
   },
   "LWTV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.0,
     "longitude": -76.46,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.453,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "BTRL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.4291,
     "longitude": -91.2069,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "GRPL1": {
     "status": "OK",
@@ -1512,20 +1688,24 @@
     "offset_m": null
   },
   "TESL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.668,
     "longitude": -91.237,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -2.106,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "CHIV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.9023,
     "longitude": -75.4078,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.968,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "SCMS1": {
     "status": "OK",
@@ -1536,20 +1716,23 @@
     "offset_m": null
   },
   "CPNT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 28.114,
     "longitude": -97.024,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.001,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "SUWF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.3469,
     "longitude": -83.0628,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "BATN6": {
     "status": "OK",
@@ -1584,20 +1767,23 @@
     "offset_m": null
   },
   "LSPV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.5912,
     "longitude": -77.2466,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.539,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "NLRV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.6181,
     "longitude": -76.0463,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "CBRN7": {
     "status": "OK",
@@ -1608,12 +1794,14 @@
     "offset_m": null
   },
   "TAQT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 27.815,
     "longitude": -97.389,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.05,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "PALF1": {
     "status": "OK",
@@ -1624,28 +1812,33 @@
     "offset_m": null
   },
   "SMML1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.9825,
     "longitude": -91.7983,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "SHBN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.0569,
     "longitude": -74.7658,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -2.031,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "WNDV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.61,
     "longitude": -76.28,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.171,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "SABC3": {
     "status": "OK",
@@ -1656,28 +1849,32 @@
     "offset_m": null
   },
   "CHBV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.032,
     "longitude": -76.083,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.02,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "HLKN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 34.891,
     "longitude": -76.923,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "JULF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.14333,
     "longitude": -81.55583,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "NIQS1": {
     "status": "OK",
@@ -1688,20 +1885,25 @@
     "offset_m": null
   },
   "BZST2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 26.067,
     "longitude": -97.155,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.315,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "PHDP1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.95639,
     "longitude": -75.18028,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -3.59,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8545240",
+    "coopsDistanceKm": 4.17
   },
   "EMWN7": {
     "status": "OK",
@@ -1712,28 +1914,34 @@
     "offset_m": null
   },
   "ABSN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.2548,
     "longitude": -74.3115,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.926,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "BLTM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.27,
     "longitude": -76.58,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.771,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "FPST2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 28.9357,
     "longitude": -95.2942,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.306,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "MCGA1": {
     "status": "OK",
@@ -1752,28 +1960,33 @@
     "offset_m": null
   },
   "LCLL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.224,
     "longitude": -93.222,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.732,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "WESN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 35.9147,
     "longitude": -76.7231,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "NCLL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.0319,
     "longitude": -93.2994,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.433,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "AVON7": {
     "status": "OK",
@@ -1784,12 +1997,14 @@
     "offset_m": null
   },
   "MBET2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 28.422,
     "longitude": -96.327,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.079,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "BIPN7": {
     "status": "OK",
@@ -1824,12 +2039,13 @@
     "offset_m": null
   },
   "EMPL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.3892,
     "longitude": -89.5964,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "BFTN7": {
     "status": "OK",
@@ -1840,28 +2056,33 @@
     "offset_m": null
   },
   "SWBN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 34.6875,
     "longitude": -77.54889,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "YKTV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.2267,
     "longitude": -76.4783,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.017,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "RLIT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 26.262,
     "longitude": -97.285,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.18,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "BRNG1": {
     "status": "OK",
@@ -1888,28 +2109,32 @@
     "offset_m": null
   },
   "NCDV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.32,
     "longitude": -77.037,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.719,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "BDAL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.8239,
     "longitude": -90.4767,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "NSBT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.1567,
     "longitude": -94.1142,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "WATN4": {
     "status": "OK",
@@ -1952,20 +2177,22 @@
     "offset_m": null
   },
   "EGHN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 35.5089,
     "longitude": -75.9969,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "GRMN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 35.5736,
     "longitude": -77.1756,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "MSBF1": {
     "status": "OK",
@@ -1992,12 +2219,14 @@
     "offset_m": null
   },
   "LWSD1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.7833,
     "longitude": -75.1167,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.906,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "DGIF1": {
     "status": "OK",
@@ -2008,28 +2237,33 @@
     "offset_m": null
   },
   "GIRM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 44.2306,
     "longitude": -69.7711,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "MRCP1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.812,
     "longitude": -75.41,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -3.12,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "PPTM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.133,
     "longitude": -76.533,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.604,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "BLIN7": {
     "status": "OK",
@@ -2048,12 +2282,14 @@
     "offset_m": null
   },
   "AXTV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.8053,
     "longitude": -77.0383,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.795,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "STDC3": {
     "status": "OK",
@@ -2064,12 +2300,13 @@
     "offset_m": null
   },
   "MSVL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.4045,
     "longitude": -90.1542,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "WESN6": {
     "status": "OK",
@@ -2088,36 +2325,41 @@
     "offset_m": null
   },
   "CCHV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.2908,
     "longitude": -75.9272,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "EFSF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.06806,
     "longitude": -83.89861,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "AVLN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.1106,
     "longitude": -74.7339,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.965,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "ASCN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.4226,
     "longitude": -74.4997,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "KITN7": {
     "status": "OK",
@@ -2128,20 +2370,24 @@
     "offset_m": null
   },
   "EFRA1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.4436,
     "longitude": -88.1139,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.82,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8735523",
+    "coopsDistanceKm": 0.011
   },
   "CARL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.933,
     "longitude": -90.135,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "BGLN4": {
     "status": "OK",
@@ -2176,28 +2422,33 @@
     "offset_m": null
   },
   "LTCV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.8592,
     "longitude": -75.9844,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.623,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "DONL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.1089,
     "longitude": -90.9875,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "LHNV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.9063,
     "longitude": -76.0868,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.892,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "CHMF1": {
     "status": "OK",
@@ -2208,28 +2459,35 @@
     "offset_m": null
   },
   "CCJF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.44833,
     "longitude": -81.51833,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.42,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8720219",
+    "coopsDistanceKm": 7.852
   },
   "BVVN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.2316,
     "longitude": -75.033,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -2.828,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "WIMD1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.7167,
     "longitude": -75.5175,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -2.986,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "WYCM6": {
     "status": "OK",
@@ -2240,20 +2498,23 @@
     "offset_m": null
   },
   "INRD1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.6097,
     "longitude": -75.068,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.988,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "BRJF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.44333,
     "longitude": -81.66833,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "MROS1": {
     "status": "OK",
@@ -2264,20 +2525,24 @@
     "offset_m": null
   },
   "BISM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.22,
     "longitude": -76.038,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.853,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "RICV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.525,
     "longitude": -77.4211,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -2.09,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "SHBL1": {
     "status": "OK",
@@ -2296,12 +2561,14 @@
     "offset_m": null
   },
   "SGNT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 28.771,
     "longitude": -95.617,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.102,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "BUCF1": {
     "status": "OK",
@@ -2312,12 +2579,14 @@
     "offset_m": null
   },
   "LRBV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.8247,
     "longitude": -75.9852,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.601,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "NLHC3": {
     "status": "OK",
@@ -2344,20 +2613,25 @@
     "offset_m": null
   },
   "MCGL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.6964,
     "longitude": -91.2108,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.932,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "DCDF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.46083,
     "longitude": -81.59694,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.42,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8720219",
+    "coopsDistanceKm": 9.037
   },
   "APCF1": {
     "status": "OK",
@@ -2368,12 +2642,14 @@
     "offset_m": null
   },
   "GOOT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.7139,
     "longitude": -94.9917,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.398,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "ORIN6": {
     "status": "OK",
@@ -2384,12 +2660,15 @@
     "offset_m": null
   },
   "CIKA1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.7818,
     "longitude": -88.0736,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.27,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8737138",
+    "coopsDistanceKm": 0.011
   },
   "CKYF1": {
     "status": "OK",
@@ -2400,20 +2679,24 @@
     "offset_m": null
   },
   "LONV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.841,
     "longitude": -76.057,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.961,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "APAM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.983,
     "longitude": -76.479,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.463,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "BUCS1": {
     "status": "OK",
@@ -2440,28 +2723,33 @@
     "offset_m": null
   },
   "PCGT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 26.072,
     "longitude": -97.167,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.489,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "MAUL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.3092,
     "longitude": -90.6103,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "CHCM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.527,
     "longitude": -75.81,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.591,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "GCEF1": {
     "status": "OK",
@@ -2488,12 +2776,13 @@
     "offset_m": null
   },
   "NUTF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.1122,
     "longitude": -83.98,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "TRDF1": {
     "status": "OK",
@@ -2504,12 +2793,14 @@
     "offset_m": null
   },
   "PACT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 27.634,
     "longitude": -97.237,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.817,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "BAHM1": {
     "status": "OK",
@@ -2528,12 +2819,13 @@
     "offset_m": null
   },
   "SHLT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.8761,
     "longitude": -95.0936,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "SJLF1": {
     "status": "OK",
@@ -2552,12 +2844,14 @@
     "offset_m": null
   },
   "CRSM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.9783,
     "longitude": -75.8636,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.653,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "WRIS1": {
     "status": "OK",
@@ -2568,20 +2862,24 @@
     "offset_m": null
   },
   "RBBT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.98,
     "longitude": -93.8817,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.696,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "NSWV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.4763,
     "longitude": -75.9352,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.627,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "OBCN7": {
     "status": "OK",
@@ -2600,12 +2898,13 @@
     "offset_m": null
   },
   "LCSL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.0002,
     "longitude": -92.7811,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "PWNG1": {
     "status": "OK",
@@ -2632,12 +2931,13 @@
     "offset_m": null
   },
   "NMDV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.7391,
     "longitude": -76.5827,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "DUKN7": {
     "status": "OK",
@@ -2648,12 +2948,15 @@
     "offset_m": null
   },
   "JAKF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.2819,
     "longitude": -81.7406,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.65,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8720226",
+    "coopsDistanceKm": 8.965
   },
   "NWCL1": {
     "status": "OK",
@@ -2680,12 +2983,15 @@
     "offset_m": null
   },
   "SDHN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 40.4667,
     "longitude": -74.0,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -2.41,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8531680",
+    "coopsDistanceKm": 0.796
   },
   "GSHA1": {
     "status": "OK",
@@ -2696,20 +3002,23 @@
     "offset_m": null
   },
   "HDGM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.5379,
     "longitude": -76.0896,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.329,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "BKNV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.1049,
     "longitude": -76.3854,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "FESN7": {
     "status": "OK",
@@ -2720,20 +3029,24 @@
     "offset_m": null
   },
   "PORT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.867,
     "longitude": -93.931,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.696,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "CAPL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.768,
     "longitude": -93.343,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.436,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "CSAG1": {
     "status": "OK",
@@ -2760,28 +3073,33 @@
     "offset_m": null
   },
   "EZMV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.862,
     "longitude": -76.3095,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.26,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "WPSL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.231,
     "longitude": -89.6689,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "MNPV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.78,
     "longitude": -76.3,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.316,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "JCKN7": {
     "status": "OK",
@@ -2792,12 +3110,14 @@
     "offset_m": null
   },
   "VCAT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 28.64,
     "longitude": -96.609,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.856,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "DKBN7": {
     "status": "OK",
@@ -2808,28 +3128,33 @@
     "offset_m": null
   },
   "FTMV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.0019,
     "longitude": -76.315,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.142,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "HLNT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.7928,
     "longitude": -95.0614,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.631,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "WKQA1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.4161,
     "longitude": -87.8228,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "SCTM3": {
     "status": "OK",
@@ -2848,12 +3173,13 @@
     "offset_m": null
   },
   "DIBM6": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.4762,
     "longitude": -88.8935,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "TKPN6": {
     "status": "OK",
@@ -2872,12 +3198,14 @@
     "offset_m": null
   },
   "MGPT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.682,
     "longitude": -94.985,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.385,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "DILA1": {
     "status": "OK",
@@ -2888,20 +3216,22 @@
     "offset_m": null
   },
   "CALM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 45.19167,
     "longitude": -67.28361,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "BLRL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.2814,
     "longitude": -91.6867,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "BRHC3": {
     "status": "OK",
@@ -2912,20 +3242,23 @@
     "offset_m": null
   },
   "CLCT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.5503,
     "longitude": -95.0239,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.102,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "STFL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.70278,
     "longitude": -91.34417,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "CPEM1": {
     "status": "OK",
@@ -2944,28 +3277,33 @@
     "offset_m": null
   },
   "EPTT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.481,
     "longitude": -94.917,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.912,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "EMAT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 28.71,
     "longitude": -95.9138,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.027,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "HVRM3": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 42.7719,
     "longitude": -71.0829,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "LKWF1": {
     "status": "OK",
@@ -2976,12 +3314,15 @@
     "offset_m": null
   },
   "HSIT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.6667,
     "longitude": -95.2833,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.75,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "8770777",
+    "coopsDistanceKm": 6.839
   },
   "CASM1": {
     "status": "OK",
@@ -3000,52 +3341,62 @@
     "offset_m": null
   },
   "BDRN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 40.082,
     "longitude": -74.87,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -4.291,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "NMCV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.045,
     "longitude": -76.3678,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.971,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "LKHL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.2369,
     "longitude": -93.2472,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.741,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "MERG1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 31.4533,
     "longitude": -81.3706,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "RIOT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.8761,
     "longitude": -95.0833,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "SCPT2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.7619,
     "longitude": -95.0818,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.558,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "wgom"
   },
   "SRPF1": {
     "status": "OK",
@@ -3056,12 +3407,13 @@
     "offset_m": null
   },
   "MRAL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.6845,
     "longitude": -89.9699,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "ACFS1": {
     "status": "OK",
@@ -3096,12 +3448,13 @@
     "offset_m": null
   },
   "MCSM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 44.7185,
     "longitude": -67.4532,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "CPCS1": {
     "status": "OK",
@@ -3112,60 +3465,67 @@
     "offset_m": null
   },
   "RRLL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.9608,
     "longitude": -91.6644,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "SAQG1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 31.4178,
     "longitude": -81.2936,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "NAPM6": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.3472,
     "longitude": -89.6411,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "CWOL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.2969,
     "longitude": -93.1177,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "KLNM6": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.3872,
     "longitude": -89.4414,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "MRML1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.1833,
     "longitude": -92.5833,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "DACL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.3828,
     "longitude": -90.7153,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "CFWM1": {
     "status": "OK",
@@ -3176,12 +3536,13 @@
     "offset_m": null
   },
   "GRWN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.3789,
     "longitude": -75.3558,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "CNMF1": {
     "status": "OK",
@@ -3208,12 +3569,14 @@
     "offset_m": null
   },
   "ELZV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.8436,
     "longitude": -76.3647,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.24,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "ATGM1": {
     "status": "OK",
@@ -3232,12 +3595,14 @@
     "offset_m": null
   },
   "OCIM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.328,
     "longitude": -75.092,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.791,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "WYSS1": {
     "status": "OK",
@@ -3248,28 +3613,32 @@
     "offset_m": null
   },
   "MBCL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.8464,
     "longitude": -89.9828,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "BGCV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.6797,
     "longitude": -75.984,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "COVM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.432,
     "longitude": -76.387,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.436,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "CTIN7": {
     "status": "OK",
@@ -3304,12 +3673,13 @@
     "offset_m": null
   },
   "WPHL1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.5367,
     "longitude": -89.7975,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "SBIN4": {
     "status": "OK",
@@ -3320,28 +3690,32 @@
     "offset_m": null
   },
   "DUCF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 30.09917,
     "longitude": -81.52611,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "SICN4": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 39.1578,
     "longitude": -74.6981,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.883,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "CTMF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 29.9883,
     "longitude": -84.5023,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "FPKG1": {
     "status": "OK",
@@ -3376,12 +3750,13 @@
     "offset_m": null
   },
   "CHWF1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 28.715,
     "longitude": -82.575,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "QPTR1": {
     "status": "OK",
@@ -3392,340 +3767,424 @@
     "offset_m": null
   },
   "PSLC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 35.169,
     "longitude": -120.754,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -5.118,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "LAPW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 47.913,
     "longitude": -124.637,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -7.329,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "CECC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 41.7958,
     "longitude": -124.2147,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -6.49,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "coops",
+    "coopsStation": "9419750",
+    "coopsDistanceKm": 6.121
   },
   "PRYC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.996,
     "longitude": -122.977,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -5.653,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "NEAW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 48.3683,
     "longitude": -124.6167,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -7.119,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "TLBO3": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 45.555,
     "longitude": -123.919,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -7.953,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "MZXC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.035,
     "longitude": -122.125,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -5.883,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "LJAC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 32.867,
     "longitude": -117.257,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -5.056,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "PTWW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 48.111,
     "longitude": -122.76,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -7.447,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "TCNW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 47.267,
     "longitude": -122.413,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -9.209,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "SBEO3": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 44.625,
     "longitude": -124.045,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -7.493,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "SKAW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 46.27,
     "longitude": -123.4564,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -9.193,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "PORO3": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 42.739,
     "longitude": -124.498,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -6.854,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "SNAW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 47.9131,
     "longitude": -122.1089,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "WAUO3": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 46.1564,
     "longitude": -123.4022,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -9.229,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "NTBC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 34.405,
     "longitude": -119.692,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -5.18,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "MEYC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.605,
     "longitude": -121.889,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -5.371,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "CHYW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 48.863,
     "longitude": -122.759,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -8.114,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "PCOC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.056,
     "longitude": -122.039,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -5.988,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "CPTW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 46.2811,
     "longitude": -124.0461,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -7.799,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "TOKW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 46.707,
     "longitude": -123.967,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -8.136,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "RTYC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.50683,
     "longitude": -122.21189,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -6.975,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "SDBC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 32.714,
     "longitude": -117.174,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -5.151,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "BMTW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 47.562,
     "longitude": -122.62,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -8.96,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "LOPW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 46.1083,
     "longitude": -122.9567,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -9.272,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "VAPW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 45.6317,
     "longitude": -122.6967,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -10.151,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "ANVC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.915,
     "longitude": -123.711,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -5.692,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "RYAC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.4639,
     "longitude": -122.0241,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -7.11,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "ASTO3": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 46.207,
     "longitude": -123.768,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -8.845,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "FTPC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.806,
     "longitude": -122.466,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -5.771,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "AAMC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.77167,
     "longitude": -122.29833,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -6.348,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "HBYC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 40.767,
     "longitude": -124.217,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -6.266,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "EBSW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 47.602,
     "longitude": -122.338,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -8.914,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "OHBC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 33.72,
     "longitude": -118.273,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -5.367,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "FRDW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 48.54635,
     "longitude": -123.00755,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -7.165,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "SHNO3": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 45.8636,
     "longitude": -122.7961,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -9.482,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "PTAW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 48.125,
     "longitude": -123.441,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -6.588,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "ICAC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 34.008,
     "longitude": -118.5,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -5.213,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "CHAO3": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 43.351,
     "longitude": -124.337,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -7.172,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "WPTW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 46.904,
     "longitude": -124.105,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -7.917,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "BDZC1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.31389,
     "longitude": -123.06028,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -5.374,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "PRTV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.834,
     "longitude": -75.9787,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.531,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "KBMG1": {
     "status": "OK",
@@ -3736,36 +4195,43 @@
     "offset_m": null
   },
   "IWBM2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 38.38972,
     "longitude": -75.10056,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.171,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "KLMW1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 45.983,
     "longitude": -122.835,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -9.278,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "westcoast"
   },
   "HBRV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.6665,
     "longitude": -75.8301,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.627,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "BPRM1": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 44.7965,
     "longitude": -68.7678,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "WTIN7": {
     "status": "OK",
@@ -3792,43 +4258,51 @@
     "offset_m": null
   },
   "RAPV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.9312,
     "longitude": -76.8556,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.037,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "WONN7": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.4025,
     "longitude": -76.9344,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "SMSV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.9823,
     "longitude": -76.6212,
     "offset_ft": null,
-    "offset_m": null
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "UNAVAILABLE",
+    "method": null
   },
   "WCKV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 37.4925,
     "longitude": -76.3099,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -0.167,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   },
   "NRSV2": {
-    "status": "UNAVAILABLE",
-    "method": null,
     "latitude": 36.8424,
     "longitude": -76.5224,
-    "offset_ft": null,
-    "offset_m": null
+    "offset_ft": -1.283,
+    "offset_m": null,
+    "checked": "2026-09-24",
+    "status": "OK",
+    "method": "vdatum",
+    "region": "chesapeak_delaware"
   }
 }

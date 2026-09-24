@@ -20,7 +20,21 @@ Strategy:
     as t_z. For any other z: t_z_new = z + offset. So value_MHHW = value + offset.)
 
 Offsets are cached in data/datum_offsets.json so the API is only called
-once per station across all pipeline runs.
+once per station across all pipeline runs. Stations that failed are retried
+only by pipeline/build_datum_offsets.py (run by hand), never by the 6-hour run.
+
+Regional grids:
+    VDatum splits the lower 48 into a general "contiguous" grid plus three
+    regional tidal grids — "westcoast", "chesapeak_delaware" and "wgom"
+    (western Gulf of Mexico). The regional grids only answer when the target
+    horizontal frame is IGS14; asking them (or "contiguous") with NAD83_2011
+    fails with errorCode 412. Each region is therefore tried with the frame it
+    accepts.
+
+Fallback:
+    If no VDatum grid covers the point, the offset is taken from the nearest
+    NOAA CO-OPS tide station within COOPS_MAX_KM that publishes both NAVD88
+    and MHHW:  offset = NAVD88 - MHHW  (both relative to station datum).
 
 VDatum API Reference:
     Endpoint:  https://vdatum.noaa.gov/vdatumweb/api/convert
@@ -59,6 +73,26 @@ VDATUM_DELAY = 0.3       # seconds between API calls (be polite)
 VDATUM_MAX_RETRIES = 3   # retry on transient failures before giving up
 VDATUM_RETRY_DELAY = 2   # seconds to wait between retries
 
+# (region, target horizontal frame) in the order they are tried.
+# Points in the lower 48 only try the first four; the rest are for AK, HI and territories.
+VDATUM_REGIONS = [
+    ("contiguous", "NAD83_2011"),
+    ("westcoast", "IGS14"),
+    ("chesapeak_delaware", "IGS14"),
+    ("wgom", "IGS14"),
+    ("seak", "IGS14"),
+    ("ak", "NAD83_2011"),
+    ("hi", "NAD83_2011"),
+    ("prvi", "NAD83_2011"),
+    ("as", "NAD83_2011"),
+    ("gcnmi", "NAD83_2011"),
+]
+
+COOPS_STATIONS_URL = "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=waterlevels"
+COOPS_DATUMS_URL = "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/{sid}/datums.json?units={units}"
+COOPS_MAX_KM = 10.0      # only borrow a tide station's datums from this close
+COOPS_MAX_CANDIDATES = 5 # nearest stations to check for published NAVD88 + MHHW
+
 
 # ══════════════════════════════════════════════════════════════════════════
 # VDatum API
@@ -71,84 +105,136 @@ def _vdatum_get_offset(lat, lon, input_units="feet"):
     Sends s_z=0 in NAVD88 and reads back t_z in MHHW. The returned t_z IS
     the offset to add to any NAVD88 value to get the MHHW equivalent.
 
-    Parameters
-    ----------
-    lat : float
-        Latitude (decimal degrees, positive north)
-    lon : float
-        Longitude (decimal degrees, negative west)
-    input_units : str
-        "feet" or "meters" — determines VDatum unit parameters.
-
     Returns
     -------
-    offset : float or None
-        The offset in the requested units. value_MHHW = value_NAVD88 + offset.
-        Returns None if VDatum cannot compute the conversion.
+    (offset, region) : (float, str) or (None, None)
+        offset in the requested units (value_MHHW = value_NAVD88 + offset)
+        and the VDatum region that produced it.
     """
     v_unit = "us_ft" if input_units == "feet" else "m"
 
-    base_params = {
-        "s_x": lon,
-        "s_y": lat,
-        "s_z": 0.0,               # zero height in NAVD88
-        "s_h_frame": "NAD83_2011",
-        "s_v_frame": "NAVD88",
-        "s_v_unit": v_unit,
-        "t_v_frame": "MHHW",
-        "t_v_unit": v_unit,
-    }
+    lower48 = 24 <= lat <= 50 and -125.5 <= lon <= -66
+    regions = VDATUM_REGIONS[:4] if lower48 else VDATUM_REGIONS
+    for region, t_h_frame in regions:
+        params = {
+            "s_x": lon,
+            "s_y": lat,
+            "s_z": 0.0,               # zero height in NAVD88
+            "s_h_frame": "NAD83_2011",
+            "t_h_frame": t_h_frame,
+            "s_v_frame": "NAVD88",
+            "s_v_unit": v_unit,
+            "t_v_frame": "MHHW",
+            "t_v_unit": v_unit,
+            "region": region,
+        }
 
-    # "auto" region is failing on the NOAA API. Try regions sequentially.
-    # contiguous: Lower 48, ak: Alaska, hi: Hawaii, prvi: Puerto Rico/Virgin Islands
-    regions_to_try = ["contiguous", "ak", "hi", "prvi", "as", "gcnmi"]
-
-    for region in regions_to_try:
-        params = base_params.copy()
-        params["region"] = region
-        
+        data = None
         for attempt in range(1, VDATUM_MAX_RETRIES + 1):
             try:
                 resp = requests.get(VDATUM_URL, params=params, timeout=30)
                 resp.raise_for_status()
                 data = resp.json()
-            except (requests.RequestException, ValueError) as e:
-                # Network error or timeout - retry
+                break
+            except (requests.RequestException, ValueError):
                 if attempt < VDATUM_MAX_RETRIES:
                     time.sleep(VDATUM_RETRY_DELAY)
-                    continue
-                # If we max out retries, give up on this region
-                break
-                
-            # If the region is invalid for this coordinate, VDatum returns 200 OK
-            # but includes an 'errorCode' (e.g., 412) in the JSON
-            if "errorCode" in data:
-                break # Try the next region
-                
-            # Check for other errors in response
-            message = data.get("message", "")
-            if message and "error" in message.lower():
-                break # Try the next region
+        time.sleep(VDATUM_DELAY)
+        if data is None:
+            continue  # network trouble for this region; try the next one
 
-            # Extract converted height
-            t_z = data.get("t_z")
-            if t_z is not None:
-                try:
-                    val = round(float(t_z), 6)
-                    # VDatum returns -999999.0 for "no data" when a point is out of coverage
-                    # but technically inside the bounding box of the valid region.
-                    if abs(val) < 1000:
-                        return val
-                    else:
-                        break # "No data" flag found, no point trying other regions
-                except (ValueError, TypeError):
-                    pass
-            
-            # If we get here, the response was valid JSON but no valid t_z. Try next region.
-            break
+        # A region that does not cover the point answers 200 OK with an
+        # 'errorCode' (e.g. 412) in the JSON.
+        if "errorCode" in data:
+            continue
 
-    # If all regions fail or return no valid offset
-    return None
+        t_z = data.get("t_z")
+        try:
+            val = round(float(t_z), 6)
+        except (TypeError, ValueError):
+            continue
+        # VDatum returns -999999 for "no data" inside a region's bounding box.
+        if abs(val) < 1000:
+            return val, region
+
+    return None, None
+
+
+_coops_stations = None
+
+
+def _coops_get_offset(lat, lon, input_units="feet"):
+    """
+    Offset from the nearest CO-OPS tide station (within COOPS_MAX_KM) that
+    publishes both NAVD88 and MHHW. Returns (offset, station_id, distance_km)
+    or (None, None, None).
+    """
+    global _coops_stations
+    units = "english" if input_units == "feet" else "metric"
+    try:
+        if _coops_stations is None:
+            resp = requests.get(COOPS_STATIONS_URL, timeout=60)
+            resp.raise_for_status()
+            _coops_stations = [
+                (s["id"], float(s["lat"]), float(s["lng"]))
+                for s in resp.json().get("stations", [])
+                if s.get("lat") is not None and s.get("lng") is not None
+            ]
+    except (requests.RequestException, ValueError, KeyError) as e:
+        print(f"    CO-OPS station list unavailable: {e}")
+        return None, None, None
+
+    nearby = sorted(
+        (d, sid) for sid, slat, slon in _coops_stations
+        if (d := _haversine_km(lat, lon, slat, slon)) <= COOPS_MAX_KM
+    )[:COOPS_MAX_CANDIDATES]
+
+    for dist, sid in nearby:
+        try:
+            resp = requests.get(COOPS_DATUMS_URL.format(sid=sid, units=units), timeout=30)
+            resp.raise_for_status()
+            datums = {d["name"]: d["value"] for d in resp.json().get("datums") or []}
+        except (requests.RequestException, ValueError, KeyError):
+            continue
+        finally:
+            time.sleep(VDATUM_DELAY)
+        navd, mhhw = datums.get("NAVD88"), datums.get("MHHW")
+        if navd is not None and mhhw is not None:
+            return round(float(navd) - float(mhhw), 6), sid, round(dist, 3)
+
+    return None, None, None
+
+
+def _haversine_km(lat1, lon1, lat2, lon2):
+    import math
+    p = math.pi / 180
+    a = (math.sin((lat2 - lat1) * p / 2) ** 2
+         + math.cos(lat1 * p) * math.cos(lat2 * p) * math.sin((lon2 - lon1) * p / 2) ** 2)
+    return 12742 * math.asin(math.sqrt(a))
+
+
+def lookup_offset(lat, lon, input_units="feet"):
+    """
+    Full lookup for one location: VDatum (all regions), then CO-OPS.
+    Returns a cache entry dict.
+    """
+    unit_key = "offset_ft" if input_units == "feet" else "offset_m"
+    entry = {"latitude": lat, "longitude": lon, "offset_ft": None, "offset_m": None,
+             "checked": time.strftime("%Y-%m-%d", time.gmtime())}
+
+    offset, region = _vdatum_get_offset(lat, lon, input_units=input_units)
+    if offset is not None:
+        entry.update({"status": "OK", "method": "vdatum", "region": region, unit_key: offset})
+        return entry
+
+    offset, sid, dist = _coops_get_offset(lat, lon, input_units=input_units)
+    if offset is not None:
+        entry.update({"status": "OK", "method": "coops", "coopsStation": sid,
+                      "coopsDistanceKm": dist, unit_key: offset})
+        return entry
+
+    entry.update({"status": "UNAVAILABLE", "method": None})
+    return entry
 
 
 # ══════════════════════════════════════════════════════════════════════════
@@ -202,7 +288,7 @@ def convert_twl_to_mhhw(stations_list, twl_data, cache_path,
     station_datums : dict
         Datum info per station: method used, offset, status.
     """
-    print("\n── NAVD88 → MHHW Datum Conversion (VDatum API) ──")
+    print("\n── NAVD88 → MHHW Datum Conversion (VDatum API, CO-OPS fallback) ──")
 
     # Build lat/lon lookup from stations_list
     station_coords = {}
@@ -229,31 +315,14 @@ def convert_twl_to_mhhw(stations_list, twl_data, cache_path,
             continue
 
         lat, lon = station_coords[sid]
-        print(f"  [{i+1}/{len(uncached)}] VDatum lookup: {sid} ({lat:.4f}, {lon:.4f})")
-
-        time.sleep(VDATUM_DELAY)
-        offset = _vdatum_get_offset(lat, lon, input_units=input_units)
-
-        if offset is not None:
-            print(f"    ✓ VDatum offset = {offset:.4f} {'ft' if input_units == 'feet' else 'm'}")
-            cache[sid] = {
-                "status": "OK",
-                "method": "vdatum",
-                "latitude": lat,
-                "longitude": lon,
-                "offset_ft": round(offset, 6) if input_units == "feet" else None,
-                "offset_m": round(offset, 6) if input_units == "meters" else None,
-            }
+        print(f"  [{i+1}/{len(uncached)}] Datum lookup: {sid} ({lat:.4f}, {lon:.4f})")
+        cache[sid] = lookup_offset(lat, lon, input_units=input_units)
+        e = cache[sid]
+        if e["status"] == "OK":
+            src = e.get("region") or f"CO-OPS {e.get('coopsStation')}"
+            print(f"    ✓ {e['method']} ({src}) offset = {e.get('offset_ft') if input_units == 'feet' else e.get('offset_m')}")
         else:
-            print(f"    ✗ VDatum failed for {sid} — no conversion available")
-            cache[sid] = {
-                "status": "UNAVAILABLE",
-                "method": None,
-                "latitude": lat,
-                "longitude": lon,
-                "offset_ft": None,
-                "offset_m": None,
-            }
+            print(f"    ✗ no datum conversion available for {sid}")
 
     # Save updated cache
     save_offset_cache(cache, cache_path)
@@ -305,6 +374,8 @@ def convert_twl_to_mhhw(stations_list, twl_data, cache_path,
         station_datums[sid] = {
             "status": entry.get("status", "UNKNOWN"),
             "method": entry.get("method"),
+            "region": entry.get("region"),
+            "coopsStation": entry.get("coopsStation"),
             "offset_ft": entry.get("offset_ft"),
             "offset_m": entry.get("offset_m"),
         }
